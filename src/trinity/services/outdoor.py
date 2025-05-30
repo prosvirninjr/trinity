@@ -1,3 +1,5 @@
+"""Бизнес-логика для наружной рекламы."""
+
 import calendar
 from datetime import datetime
 from functools import cache
