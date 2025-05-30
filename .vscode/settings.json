@@ -3,4 +3,13 @@
         120
     ],
     "workbench.editor.enablePreview": false,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+    },
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "normal"
 }
