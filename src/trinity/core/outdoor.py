@@ -8,7 +8,7 @@ from trinity.services.exceptions import TemplateDataError, TemplateStructureErro
 from trinity.utils.xlsx.xlsx_loader import load_st
 
 
-class MetroTemplate:
+class MetroController:
     def __init__(self):
         self.df: pl.DataFrame = pl.DataFrame()
 
@@ -67,8 +67,3 @@ class MetroTemplate:
             raise ValueError('DataFrame пуст. Загрузите шаблон перед получением данных.')
 
         return self.df
-
-
-class MetroAnalyzer:
-    def __init__(self, template: MetroTemplate):
-        self.template = template
