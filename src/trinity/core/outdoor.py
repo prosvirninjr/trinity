@@ -67,3 +67,9 @@ class MetroController:
             raise ValueError('DataFrame пуст. Загрузите шаблон перед получением данных.')
 
         return self.df
+
+    # TODO: Добавить документацию.
+    def run_analysis(self) -> None:
+        """Запуск анализа данных."""
+        if self.df.is_empty():
+            raise ValueError('DataFrame пуст. Загрузите шаблон перед запуском анализа.')
