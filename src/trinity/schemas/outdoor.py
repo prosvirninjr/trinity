@@ -25,18 +25,18 @@ class Indoor(BaseModel):
 class Metro(BaseModel):
     """Шаблон метро."""
 
-    index: Annotated[int, Field(ge=0)]
+    index: Annotated[int, Field()]
     advertiser: Annotated[str, Field()]
     campaign: Annotated[str, Field()]
     city: Annotated[str, Field()]
     line: Annotated[str, Field()]
     station: Annotated[str, Field()]
     location: Annotated[str, Field()]
-    traffic: Annotated[int, Field(ge=0)]
+    traffic: Annotated[int, Field()]
     type_: Annotated[str, Field()]
     size: Annotated[str, Field()]
-    cars_count: Annotated[int, Field(ge=0)]
-    constructions_count: Annotated[int, Field(ge=0)]
+    cars_count: Annotated[int, Field()]
+    constructions_count: Annotated[int, Field()]
 
     # Период размещения.
     month: Annotated[str, Field()]
@@ -55,30 +55,30 @@ class Metro(BaseModel):
     client_id: Annotated[str, Field()]
 
     # Размещение.
-    placement_price: Annotated[float, Field(ge=0)]
-    placement_discount: Annotated[float, Field(ge=0, le=100)]
-    placement_price_net: Annotated[float, Field(ge=0)]
-    placement_vat: Annotated[float, Field(ge=0, le=100)]
-    placement_final_price: Annotated[float, Field(ge=0)]
+    placement_price: Annotated[float, Field()]
+    placement_discount: Annotated[float, Field()]
+    placement_price_net: Annotated[float, Field()]
+    placement_vat: Annotated[float, Field()]
+    placement_final_price: Annotated[float, Field()]
 
     # Основной монтаж.
-    installation_price: Annotated[float, Field(ge=0)]
-    installation_vat: Annotated[float, Field(ge=0, le=100)]
-    installation_final_price: Annotated[float, Field(ge=0)]
+    installation_price: Annotated[float, Field()]
+    installation_vat: Annotated[float, Field()]
+    installation_final_price: Annotated[float, Field()]
 
     # Дополнительный монтаж.
-    extra_installation_price: Annotated[float, Field(ge=0)]
-    extra_installation_vat: Annotated[float, Field(ge=0, le=100)]
-    extra_installation_final_price: Annotated[float, Field(ge=0)]
+    extra_installation_price: Annotated[float, Field()]
+    extra_installation_vat: Annotated[float, Field()]
+    extra_installation_final_price: Annotated[float, Field()]
 
     # Печать.
-    print_price: Annotated[float, Field(ge=0)]
-    print_vat: Annotated[float, Field(ge=0, le=100)]
-    print_final_price: Annotated[float, Field(ge=0)]
+    print_price: Annotated[float, Field()]
+    print_vat: Annotated[float, Field()]
+    print_final_price: Annotated[float, Field()]
 
     # Итого.
-    final_price: Annotated[float, Field(ge=0)]
-    final_price_net: Annotated[float, Field(ge=0)]
+    final_price: Annotated[float, Field()]
+    final_price_net: Annotated[float, Field()]
 
 
 class Transit(BaseModel):
