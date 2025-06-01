@@ -2,6 +2,7 @@
 
 from datetime import datetime
 
+import polars as pl
 from pydantic import AfterValidator, BaseModel, BeforeValidator, Field, model_validator
 from typing_extensions import Annotated
 
@@ -31,7 +32,7 @@ class Metro(BaseModel):
 
     index: Annotated[
         int,
-        Field(title='Индекс'),
+        Field(title='Индекс', pl_dtype=pl.Int64),
         # Порядок выполнения BeforeValidator-ов снизу вверх, AfterValidator-ов сверху вниз.
         BeforeValidator(validators.is_integer),  # Значение должно быть целым числом.
         BeforeValidator(validators.is_number),  # Значение должно быть числом.
@@ -39,77 +40,83 @@ class Metro(BaseModel):
     ]
     advertiser: Annotated[
         str,
-        Field(title='Рекламодатель'),
+        Field(title='Рекламодатель', pl_dtype=pl.String),
         BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
     ]
     campaign: Annotated[
         str,
-        Field(title='Кампания'),
+        Field(title='Кампания', pl_dtype=pl.String),
         BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
     ]
     city: Annotated[
         str,
-        Field(title='Город'),
+        Field(title='Город', pl_dtype=pl.String),
         BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
     ]
     line: Annotated[
         str,
-        Field(title='Линия'),
+        Field(title='Линия', pl_dtype=pl.String),
         BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
     ]
     station: Annotated[
         str | None,
-        Field(title='Станция'),
+        Field(title='Станция', pl_dtype=pl.String),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
     location: Annotated[
         str | None,
-        Field(title='Локация'),
+        Field(title='Локация', pl_dtype=pl.String),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
     traffic: Annotated[
-        int | None,
-        Field(title='Пассажиропоток'),
-        AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
+        int,
+        Field(title='Пассажиропоток', pl_dtype=pl.Int64),
+        BeforeValidator(validators.set_value),  # Значение может быть пустым. Заменяем пустое значение на None.
+        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
+        AfterValidator(validators.is_integer),  # Значение должно быть целым числом.
     ]
     format_: Annotated[
         str,
-        Field(title='Формат поверхности'),
+        Field(title='Формат поверхности', pl_dtype=pl.String),
         BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
     ]
     size: Annotated[
         str,
-        Field(title='Размер поверхности'),
+        Field(title='Размер поверхности', pl_dtype=pl.String),
         BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
     ]
     cars_count: Annotated[
-        int | None,
-        Field(title='Количество вагонов'),
-        AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
+        int,
+        Field(title='Количество вагонов', pl_dtype=pl.Int64),
+        BeforeValidator(validators.set_value),  # Значение может быть пустым. Заменяем пустое значение на None.
+        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
+        AfterValidator(validators.is_integer),  # Значение должно быть целым числом.
     ]
     constructions_count: Annotated[
-        int | None,
-        Field(title='Количество поверхностей'),
-        AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
+        int,
+        Field(title='Количество поверхностей', pl_dtype=pl.Int64),
+        BeforeValidator(validators.set_value),  # Значение может быть пустым. Заменяем пустое значение на None.
+        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
+        AfterValidator(validators.is_integer),  # Значение должно быть целым числом.
     ]
 
     # Период размещения.
     month: Annotated[
         int,
-        Field(title='Месяц'),
+        Field(title='Месяц', pl_dtype=pl.Int64),
         BeforeValidator(validators.is_number),  # Значение должно быть числом.
         BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
         AfterValidator(validators.is_month),  # Проверка месяца.
     ]
     date_from: Annotated[
         datetime,
-        Field(title='Дата начала'),
+        Field(title='Дата начала', pl_dtype=pl.Datetime),
         BeforeValidator(validators.is_date),  # Значение должно быть датой.
         BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
     ]
     date_to: Annotated[
         datetime,
-        Field(title='Дата окончания'),
+        Field(title='Дата окончания', pl_dtype=pl.Datetime),
         BeforeValidator(validators.is_date),  # Значение должно быть датой.
         BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
     ]
@@ -117,31 +124,31 @@ class Metro(BaseModel):
     # Digital параметры.
     spot_duration: Annotated[
         float,
-        Field(title='Длительность ролика'),
+        Field(title='Длительность ролика', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
     spots_per_block: Annotated[
         float,
-        Field(title='Выходов в блоке'),
+        Field(title='Выходов в блоке', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
     block_duration: Annotated[
         float,
-        Field(title='Длительность блока'),
+        Field(title='Длительность блока', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
     spots_per_day: Annotated[
         float,
-        Field(title='Выходов в сутки'),
+        Field(title='Выходов в сутки', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
     hours_per_day: Annotated[
         float,
-        Field(title='Время работы поверхности'),
+        Field(title='Время работы поверхности', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
@@ -149,43 +156,43 @@ class Metro(BaseModel):
     # ID конструкций.
     gid_id: Annotated[
         str | None,
-        Field(title='GID / ID поверхности'),
+        Field(title='GID / ID поверхности', pl_dtype=pl.String),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
     client_id: Annotated[
         str | None,
-        Field(title='ID поверхности (клиент)'),
+        Field(title='ID поверхности (клиент)', pl_dtype=pl.String),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
 
     # Размещение.
     placement_price: Annotated[
         float,
-        Field(title='Размещение PRICE'),
+        Field(title='Размещение PRICE', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
     placement_discount: Annotated[
         float,
-        Field(title='Размещение DISCOUNT'),
+        Field(title='Размещение DISCOUNT', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_percentage),  # Значение должно быть процентом.
     ]
     placement_price_net: Annotated[
         float,
-        Field(title='Размещение NET'),
+        Field(title='Размещение NET', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
     placement_vat: Annotated[
         float,
-        Field(title='Размещение VAT'),
+        Field(title='Размещение VAT', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_percentage),  # Значение должно быть процентом.
     ]
     placement_final_price: Annotated[
         float,
-        Field(title='Размещение NET + VAT'),
+        Field(title='Размещение NET + VAT', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
@@ -193,19 +200,19 @@ class Metro(BaseModel):
     # Основной монтаж.
     installation_price: Annotated[
         float,
-        Field(title='Монтаж NET'),
+        Field(title='Монтаж NET', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
     installation_vat: Annotated[
         float,
-        Field(title='Монтаж VAT'),
+        Field(title='Монтаж VAT', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_percentage),  # Значение должно быть процентом.
     ]
     installation_final_price: Annotated[
         float,
-        Field(title='Монтаж NET + VAT'),
+        Field(title='Монтаж NET + VAT', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
@@ -213,19 +220,19 @@ class Metro(BaseModel):
     # Дополнительный монтаж.
     extra_installation_price: Annotated[
         float,
-        Field(title='Доп. монтаж NET'),
+        Field(title='Доп. монтаж NET', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
     extra_installation_vat: Annotated[
         float,
-        Field(title='Доп. монтаж VAT'),
+        Field(title='Доп. монтаж VAT', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_percentage),  # Значение должно быть процентом.
     ]
     extra_installation_final_price: Annotated[
         float,
-        Field(title='Доп. монтаж NET + VAT'),
+        Field(title='Доп. монтаж NET + VAT', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
@@ -233,19 +240,19 @@ class Metro(BaseModel):
     # Печать.
     print_price: Annotated[
         float,
-        Field(title='Печать NET'),
+        Field(title='Печать NET', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
     print_vat: Annotated[
         float,
-        Field(title='Печать VAT'),
+        Field(title='Печать VAT', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_percentage),  # Значение должно быть процентом.
     ]
     print_final_price: Annotated[
         float,
-        Field(title='Печать NET + VAT'),
+        Field(title='Печать NET + VAT', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
@@ -253,13 +260,13 @@ class Metro(BaseModel):
     # Итого.
     final_price: Annotated[
         float,
-        Field(title='Итого NET'),
+        Field(title='Итого NET', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
     final_price_vat: Annotated[
         float,
-        Field(title='Итого NET + VAT'),
+        Field(title='Итого NET + VAT', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
@@ -281,7 +288,6 @@ class Metro(BaseModel):
             raise ValueError('Дата начала размещения не может быть позже даты окончания размещения.')
 
         return self
-
 
 class Transit(BaseModel):
     """Шаблон транспорта."""
