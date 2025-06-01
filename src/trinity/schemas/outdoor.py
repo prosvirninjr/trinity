@@ -116,33 +116,33 @@ class Metro(BaseModel):
 
     # Digital параметры.
     spot_duration: Annotated[
-        float,
+        float | None,
         Field(title='Длительность ролика'),
-        BeforeValidator(validators.set_zero),  # Значение может быть пустым. Заменяем пустое значение на 0.
+        AfterValidator(validators.set_zero),  # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
     spots_per_block: Annotated[
-        float,
+        float | None,
         Field(title='Выходов в блоке'),
-        BeforeValidator(validators.set_zero),  # Значение может быть пустым. Заменяем пустое значение на 0.
+        AfterValidator(validators.set_zero),  # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
     block_duration: Annotated[
-        float,
+        float | None,
         Field(title='Длительность блока'),
-        BeforeValidator(validators.set_zero),  # Значение может быть пустым. Заменяем пустое значение на 0.
+        AfterValidator(validators.set_zero),  # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
     spots_per_day: Annotated[
-        float,
+        float | None,
         Field(title='Выходов в сутки'),
-        BeforeValidator(validators.set_zero),  # Значение может быть пустым. Заменяем пустое значение на 0.
+        AfterValidator(validators.set_zero),  # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
     hours_per_day: Annotated[
-        float,
+        float | None,
         Field(title='Время работы поверхности'),
-        BeforeValidator(validators.set_zero),  # Значение может быть пустым. Заменяем пустое значение на 0.
+        AfterValidator(validators.set_zero),  # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
 
