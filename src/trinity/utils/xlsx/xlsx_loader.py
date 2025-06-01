@@ -4,6 +4,7 @@ import polars as pl
 from openpyxl import load_workbook
 
 
+# TODO: Написать тесты.
 def load_st(wb: str | BytesIO, wh_name: str, st_name: str) -> pl.DataFrame:
     try:
         wb = load_workbook(wb, data_only=True, read_only=False)
