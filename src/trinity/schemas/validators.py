@@ -63,16 +63,28 @@ def is_integer(value: int | float) -> int:
     raise ValueError('Значение не является целым числом.', value)
 
 
-def is_percentage(value: int | float) -> float:
+def is_percentage(value: int | float) -> int | float:
     """
     After Pydantic валидатор. Проверяет, является ли входное значение процентом.
     Поднимает исключение, если значение не является процентом.
     """
     if isinstance(value, (int, float)):
         if 0 <= value <= 100:
-            return float(value)
+            return value
 
     raise ValueError('Значение не является процентом.', value)
+
+
+def is_not_negative(value: int | float) -> int | float:
+    """
+    After Pydantic валидатор. Проверяет, является ли входное значение неотрицательным числом.
+    Поднимает исключение, если значение является отрицательным.
+    """
+    if isinstance(value, (int, float)):
+        if value >= 0:
+            return value
+
+    raise ValueError('Значение должно быть неотрицательным числом.', value)
 
 
 # Специальные валидаторы.
