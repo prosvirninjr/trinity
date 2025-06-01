@@ -61,3 +61,9 @@ class MetroController:
         v_df = self._build_df(r_df)
 
         self.df = v_df
+
+    def run_analyze(self) -> pl.DataFrame:
+        pass
+
+    def get_analyze(self) -> pl.DataFrame:
+        pass
