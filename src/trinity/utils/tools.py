@@ -28,7 +28,7 @@ class TextTools:
 
         Args:
             string (str): Строка.
-            max_length (int): Максимальная длина результата.
+            max_length (int): Максимальная длина строки.
 
         Returns:
             str: Обрезанная строка.
@@ -44,7 +44,7 @@ class TextTools:
             string (str): Строка.
 
         Returns:
-            bool: True, если строка пустая или содержит только пробелы, 'None', '-', 'n/a'.
+            bool: True, если строка пустая, иначе False.
         """
         c_str = TextTools.to_clean(string)
         return not c_str or c_str.lower() in ('none', '-', 'n/a')
@@ -53,12 +53,12 @@ class TextTools:
     @cache
     def get_hash(string: str) -> str:
         """
-        Вычисляет SHA-256 хэш строки.
+        Вычисляет SHA-256 хэш.
 
         Args:
             string (str): Строка.
 
         Returns:
-            str: SHA-256 хэш строки.
+            str: SHA-256 хэш.
         """
         return hashlib.sha256(string.encode('utf-8')).hexdigest()
