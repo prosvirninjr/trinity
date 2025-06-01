@@ -9,12 +9,12 @@ def load_st(wb: str | BytesIO, wh_name: str, st_name: str) -> pl.DataFrame:
         wb = load_workbook(wb, data_only=True, read_only=False)
         ws = wb[wh_name]
     except KeyError as e:
-        raise KeyError('Рабочий лист не найден', wh_name) from e
+        raise KeyError('Рабочий лист не найден.', wh_name) from e
 
     try:
         st = ws.tables[st_name]
     except KeyError as e:
-        raise KeyError('Смарт-таблица не найдена', st_name) from e
+        raise KeyError('Смарт-таблица не найдена.', st_name) from e
 
     # Определяем диапазон ячеек смарт-таблицы.
     st_range = st.ref
