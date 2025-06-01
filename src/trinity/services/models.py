@@ -43,7 +43,7 @@ class MetroTemplate:
 
         # Если нет ни одной ошибки — собираем итоговый DataFrame.
         if not details:
-            return pl.DataFrame(data, schema=Metro.get_schema())
+            return pl.DataFrame(data, schema=Metro.get_polars_schema())
 
         # Если есть, генерируем отчет об ошибках.
         v_info: list[dict] = []

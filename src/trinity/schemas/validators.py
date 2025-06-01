@@ -126,7 +126,7 @@ def set_value(value: str | int | float | None) -> int | float:
 
 
 # Предметные валидаторы.
-def is_month(value: int) -> int:
+def valid_month(value: int) -> int:
     """
     After Pydantic валидатор. Проверяет, является ли входное значение валидным месяцем.
     Поднимает исключение, если значение не является месяцем.
@@ -135,3 +135,15 @@ def is_month(value: int) -> int:
         return value
 
     raise ValueError('Месяц должен быть в диапазоне от 1 до 12.')
+
+
+def valid_hours(value: int | float) -> int | float:
+    """
+    After Pydantic валидатор. Проверяет, является ли входное значение валидным количеством часов.
+    Поднимает исключение, если значение не является валидным количеством часов.
+    """
+    if isinstance(value, (int, float)):
+        if 0 <= value <= 24:
+            return value
+
+    raise ValueError('Количество часов должно быть в диапазоне от 0 до 24.')

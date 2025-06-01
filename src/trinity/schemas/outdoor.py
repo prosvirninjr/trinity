@@ -106,7 +106,7 @@ class Metro(BaseModel):
         Field(title='Месяц', pl_dtype=pl.Int64),
         BeforeValidator(validators.is_number),  # Значение должно быть числом.
         BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
-        AfterValidator(validators.is_month),  # Проверка месяца.
+        AfterValidator(validators.valid_month),  # Проверка месяца.
     ]
     date_from: Annotated[
         datetime,
@@ -151,6 +151,7 @@ class Metro(BaseModel):
         Field(title='Время работы поверхности', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
+        AfterValidator(validators.valid_hours),  # Значение должно быть корректным количеством часов.
     ]
 
     # ID конструкций.
@@ -289,9 +290,32 @@ class Metro(BaseModel):
 
         return self
 
+    @model_validator(mode='after')
+    def valid_digital_params(self) -> 'Metro':
+        """Проверка корректности цифровых параметров."""
+
+        params = [
+            self.spot_duration,
+            self.spots_per_block,
+            self.block_duration,
+            self.spots_per_day,
+            self.hours_per_day,
+        ]
+
+        if sum(params) != 0 and any(param == 0 for param in params):
+            raise ValueError('Необходимо указать все digital параметры.')
+
+        if self.spot_duration > self.block_duration:
+            raise ValueError('Длительность ролика не может быть больше длительности блока.')
+
+        if self.spot_duration * self.spots_per_block > self.block_duration:
+            raise ValueError('Общий хронометраж роликов не может превышать длительность блока.')
+
+        return self
+
     @classmethod
-    def get_schema(self) -> dict:
-        """Возвращает схему DataFrame."""
+    def get_polars_schema(self) -> dict:
+        """Возвращает схему polars DataFrame."""
         schema: dict[str, pl.DataType] = {}
 
         for field, field_info in Metro.model_fields.items():
