@@ -289,6 +289,17 @@ class Metro(BaseModel):
 
         return self
 
+    @classmethod
+    def get_schema(self) -> dict:
+        """Возвращает схему DataFrame."""
+        schema: dict[str, pl.DataType] = {}
+
+        for field, field_info in Metro.model_fields.items():
+            schema[field] = field_info.json_schema_extra.get('pl_dtype')
+
+        return schema
+
+
 class Transit(BaseModel):
     """Шаблон транспорта."""
 
