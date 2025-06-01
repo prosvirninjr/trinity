@@ -62,3 +62,28 @@ class TextTools:
             str: SHA-256 хэш.
         """
         return hashlib.sha256(string.encode('utf-8')).hexdigest()
+
+
+class Parser:
+    """Утилиты для парсинга строк."""
+
+    @staticmethod
+    def parse_number(string: str) -> float | None:
+        # Очищаем строку.
+        c_str = TextTools.to_clean(string)
+
+        if not c_str:
+            return None
+
+        # Если разделитель - точка, но запятая служит для разделения классов, удаляем запятую.
+        if ',' in c_str and '.' in c_str:
+            c_str = c_str.replace(',', '')
+        else:
+            # Если разделитель - запятая, заменяем запятую на точку.
+            # Дополнительно удаляем точку в конце строки (при наличии).
+            c_str = c_str.replace(',', '.').removesuffix('.')
+
+        try:
+            return float(c_str)
+        except ValueError:
+            return None

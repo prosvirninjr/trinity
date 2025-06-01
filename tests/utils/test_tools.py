@@ -1,6 +1,6 @@
 import pytest
 
-from trinity.utils.tools import TextTools
+from trinity.utils.tools import Parser, TextTools
 
 
 class TestTextTools:
@@ -44,3 +44,19 @@ class TestTextTools:
     @pytest.mark.skip(reason='Тестирование метода излишне, так как hashlib - встроенная библиотека.')
     def test_get_hash(self):
         pass
+
+
+class TestParser:
+    @pytest.mark.parametrize(
+        'string, expected',
+        [
+            ('123', 123.0),
+            ('123.0', 123.0),
+            ('123,4', 123.4),
+            ('1,123.0', 1123.0),
+            ('-1.5', -1.5),
+            ('.5', 0.5),
+        ],
+    )
+    def test_parse_number(self, string: str, expected: float | None):
+        assert Parser.parse_number(string) == expected
