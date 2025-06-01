@@ -56,6 +56,9 @@ class TestParser:
             ('1,123.0', 1123.0),
             ('-1.5', -1.5),
             ('.5', 0.5),
+            ('-', None),
+            (' ', None),
+            ('', None),
         ],
     )
     def test_parse_number(self, string: str, expected: float | None):
