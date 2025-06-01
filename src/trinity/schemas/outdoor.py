@@ -308,10 +308,35 @@ class Metro(BaseModel):
         if self.spot_duration > self.block_duration:
             raise ValueError('Длительность ролика не может быть больше длительности блока.')
 
-        if self.spot_duration * self.spots_per_block > self.block_duration:
+        if (self.spot_duration * self.spots_per_block) > self.block_duration:
             raise ValueError('Общий хронометраж роликов не может превышать длительность блока.')
 
         return self
+
+    @model_validator(mode='after')
+    def valid_placement(self) -> 'Metro':
+        """Проверка размещения."""
+        pass
+
+    @model_validator(mode='after')
+    def valid_installation(self) -> 'Metro':
+        """Проверка монтажа."""
+        pass
+
+    @model_validator(mode='after')
+    def valid_extra_installation(self) -> 'Metro':
+        """Проверка дополнительного монтажа."""
+        pass
+
+    @model_validator(mode='after')
+    def valid_print(self) -> 'Metro':
+        """Проверка печати."""
+        pass
+
+    @model_validator(mode='after')
+    def valid_final_prices(self) -> 'Metro':
+        """Проверка итоговых цен."""
+        pass
 
     @classmethod
     def get_polars_schema(self) -> dict:
