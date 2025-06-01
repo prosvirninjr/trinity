@@ -75,8 +75,9 @@ class Parser:
     @cache
     # TODO: Добавить docstring.
     def parse_number(string: str) -> float | None:
-        # Очищаем строку.
+        # Очищаем строку и убираем пробелы.
         c_str = TextTools.to_clean(string)
+        c_str = c_str.replace(' ', '')
 
         # Если строка пустая, возвращаем None.
         if not c_str:
