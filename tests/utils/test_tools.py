@@ -31,6 +31,7 @@ class TestTextTools:
     @pytest.mark.parametrize(
         'string, expected',
         [
+            ('Apple', False),
             ('-', True),
             ('', True),
             ('\n', True),

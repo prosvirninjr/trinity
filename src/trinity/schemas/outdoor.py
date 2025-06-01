@@ -1,5 +1,7 @@
 """Pydantic-схемы шаблонов для наружной рекламы."""
 
+from datetime import datetime
+
 from pydantic import AfterValidator, BaseModel, BeforeValidator, Field
 from typing_extensions import Annotated
 
@@ -56,17 +58,17 @@ class Metro(BaseModel):
         BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
     ]
     station: Annotated[
-        str,
+        str | None,
         Field(title='Станция'),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
     location: Annotated[
-        str,
+        str | None,
         Field(title='Локация'),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
     traffic: Annotated[
-        int,
+        int | None,
         Field(title='Пассажиропоток'),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
@@ -81,32 +83,32 @@ class Metro(BaseModel):
         BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
     ]
     cars_count: Annotated[
-        int,
+        int | None,
         Field(title='Количество вагонов'),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
     constructions_count: Annotated[
-        int,
+        int | None,
         Field(title='Количество поверхностей'),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
 
     # Период размещения.
     month: Annotated[
-        str,
+        int,
         Field(title='Месяц'),
         BeforeValidator(validators.is_number),  # Значение должно быть числом.
         BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
         AfterValidator(validators.is_month),  # Проверка месяца.
     ]
     date_from: Annotated[
-        str,
+        datetime,
         Field(title='Дата начала'),
         BeforeValidator(validators.is_date),  # Значение должно быть датой.
         BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
     ]
     date_to: Annotated[
-        str,
+        datetime,
         Field(title='Дата окончания'),
         BeforeValidator(validators.is_date),  # Значение должно быть датой.
         BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
@@ -114,51 +116,51 @@ class Metro(BaseModel):
 
     # Digital параметры.
     spot_duration: Annotated[
-        float,
+        float | None,
         Field(title='Длительность ролика'),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
     spots_per_block: Annotated[
-        float,
+        float | None,
         Field(title='Выходов в блоке'),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
     block_duration: Annotated[
-        float,
+        float | None,
         Field(title='Длительность блока'),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
     spots_per_day: Annotated[
-        float,
+        float | None,
         Field(title='Выходов в сутки'),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
     hours_per_day: Annotated[
-        float,
+        float | None,
         Field(title='Время работы поверхности'),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
 
     # ID конструкций.
     gid_id: Annotated[
-        str,
+        str | None,
         Field(title='GID / ID поверхности'),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
     client_id: Annotated[
-        str,
+        str | None,
         Field(title='ID поверхности (клиент)'),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
 
     # Размещение.
     placement_price: Annotated[
-        float,
+        float | None,
         Field(title='Размещение PRICE'),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
     placement_discount: Annotated[
-        float,
+        float | None,
         Field(title='Размещение DISCOUNT'),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
@@ -169,7 +171,7 @@ class Metro(BaseModel):
         BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
     ]
     placement_vat: Annotated[
-        float,
+        float | None,
         Field(title='Размещение VAT'),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
@@ -182,50 +184,56 @@ class Metro(BaseModel):
 
     # Основной монтаж.
     installation_price: Annotated[
-        float,
+        float | None,
         Field(title='Монтаж NET'),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
     installation_vat: Annotated[
-        float,
+        float | None,
         Field(title='Монтаж VAT'),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
     installation_final_price: Annotated[
         float,
         Field(title='Монтаж NET + VAT'),
+        BeforeValidator(validators.is_number),  # Значение должно быть числом.
+        BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
     ]
 
     # Дополнительный монтаж.
     extra_installation_price: Annotated[
-        float,
+        float | None,
         Field(title='Доп. монтаж NET'),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
     extra_installation_vat: Annotated[
-        float,
+        float | None,
         Field(title='Доп. монтаж VAT'),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
     extra_installation_final_price: Annotated[
         float,
         Field(title='Доп. монтаж NET + VAT'),
+        BeforeValidator(validators.is_number),  # Значение должно быть числом.
+        BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
     ]
 
     # Печать.
     print_price: Annotated[
-        float,
+        float | None,
         Field(title='Печать NET'),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
     print_vat: Annotated[
-        float,
+        float | None,
         Field(title='Печать VAT'),
         AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
     ]
     print_final_price: Annotated[
         float,
         Field(title='Печать NET + VAT'),
+        BeforeValidator(validators.is_number),  # Значение должно быть числом.
+        BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
     ]
 
     # Итого.

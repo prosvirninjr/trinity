@@ -10,8 +10,8 @@ def is_empty(value: Any) -> Any:
     Поднимает исключение, если значение является пустым.
     """
     if isinstance(value, str):
-        if c_str := TextTools.is_empty(value):
-            return c_str
+        if not TextTools.is_empty(value):
+            return value
 
     if isinstance(value, (int, float)):
         return value
