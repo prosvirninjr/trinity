@@ -116,29 +116,34 @@ class Metro(BaseModel):
 
     # Digital параметры.
     spot_duration: Annotated[
-        float | None,
+        float,
         Field(title='Длительность ролика'),
-        AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
+        BeforeValidator(validators.set_zero),  # Значение может быть пустым. Заменяем пустое значение на 0.
+        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
     spots_per_block: Annotated[
-        float | None,
+        float,
         Field(title='Выходов в блоке'),
-        AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
+        BeforeValidator(validators.set_zero),  # Значение может быть пустым. Заменяем пустое значение на 0.
+        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
     block_duration: Annotated[
-        float | None,
+        float,
         Field(title='Длительность блока'),
-        AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
+        BeforeValidator(validators.set_zero),  # Значение может быть пустым. Заменяем пустое значение на 0.
+        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
     spots_per_day: Annotated[
-        float | None,
+        float,
         Field(title='Выходов в сутки'),
-        AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
+        BeforeValidator(validators.set_zero),  # Значение может быть пустым. Заменяем пустое значение на 0.
+        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
     hours_per_day: Annotated[
-        float | None,
+        float,
         Field(title='Время работы поверхности'),
-        AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
+        BeforeValidator(validators.set_zero),  # Значение может быть пустым. Заменяем пустое значение на 0.
+        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
 
     # ID конструкций.

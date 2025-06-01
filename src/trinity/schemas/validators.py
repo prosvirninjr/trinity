@@ -93,14 +93,27 @@ def set_empty(value: Any) -> Any:
     After Pydantic валидатор. Если входное значение является пустым (пустая строка или None), возвращает None.
     """
 
-    if not value:
-        return None
-
     if isinstance(value, str):
         if TextTools.is_empty(value):
             return None
 
+    if not value:
+        return None
+
     return value
+
+
+def set_zero(value: str | int | float | None) -> int | float:
+    """
+    Before | After Pydantic валидатор. Если входное значение является пустым (пустая строка или None), возвращает 0.
+    """
+    if value is None or TextTools.is_empty(value):
+        return 0
+
+    if isinstance(value, (int, float)):
+        return value
+
+    raise ValueError('Значение должно быть числом.', value)
 
 
 # Предметные валидаторы.
