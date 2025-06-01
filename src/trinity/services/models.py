@@ -10,6 +10,12 @@ from trinity.utils.xlsx.xlsx_loader import load_st
 
 class MetroTemplate:
     def __init__(self, workbook: str | io.BytesIO):
+        """
+        Инициализация менеджера.
+
+        Args:
+            workbook (str | io.BytesIO): Путь к файлу или объект BytesIO с рабочей книгой .xlsx.
+        """
         self.template: pl.DataFrame = self._load_template(workbook)
 
     # TODO: Добавить документацию.
