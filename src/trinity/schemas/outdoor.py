@@ -2,7 +2,7 @@
 
 from datetime import datetime
 
-from pydantic import AfterValidator, BaseModel, BeforeValidator, Field
+from pydantic import AfterValidator, BaseModel, BeforeValidator, Field, model_validator
 from typing_extensions import Annotated
 
 from trinity.schemas import validators
@@ -263,6 +263,24 @@ class Metro(BaseModel):
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
+
+    @model_validator(mode='after')
+    def valid_month(self) -> 'Metro':
+        """Проверка корректности месяца размещения."""
+        if self.date_from.month != self.month:
+            raise ValueError('Месяц размещения не соответствует месяцу даты начала размещения.')
+        if self.date_to.month != self.month:
+            raise ValueError('Месяц размещения не соответствует месяцу даты окончания размещения.')
+
+        return self
+
+    @model_validator(mode='after')
+    def valid_period(self) -> 'Metro':
+        """Проверка корректности периода размещения."""
+        if self.date_from > self.date_to:
+            raise ValueError('Дата начала размещения не может быть позже даты окончания размещения.')
+
+        return self
 
 
 class Transit(BaseModel):
