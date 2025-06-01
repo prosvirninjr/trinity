@@ -5,12 +5,12 @@ from openpyxl import load_workbook
 
 
 # TODO: Написать тесты.
-def load_st(wb: str | BytesIO, wh_name: str, st_name: str) -> pl.DataFrame:
+def load_st(wb: str | BytesIO, ws_name: str, st_name: str) -> pl.DataFrame:
     try:
         wb = load_workbook(wb, data_only=True, read_only=False)
-        ws = wb[wh_name]
+        ws = wb[ws_name]
     except KeyError as e:
-        raise KeyError('Рабочий лист не найден.', wh_name) from e
+        raise KeyError('Рабочий лист не найден.', ws_name) from e
 
     try:
         st = ws.tables[st_name]
