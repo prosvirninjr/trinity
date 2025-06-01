@@ -16,7 +16,7 @@ def is_empty(value: Any) -> Any:
     if isinstance(value, (int, float)):
         return value
 
-    raise ValueError('Значение не может быть пустым.', value)
+    raise ValueError('Значение не может быть пустым.')
 
 
 def is_number(value: Any) -> float:
@@ -33,7 +33,7 @@ def is_number(value: Any) -> float:
         if result:
             return result
 
-    raise ValueError('Значение не является числом.', value)
+    raise ValueError('Значение не является числом.')
 
 
 def is_date(value: Any) -> float:
@@ -47,7 +47,7 @@ def is_date(value: Any) -> float:
         if result:
             return result
 
-    raise ValueError('Значение не является датой.', value)
+    raise ValueError('Значение не является датой.')
 
 
 def is_integer(value: int | float) -> int:
@@ -60,7 +60,7 @@ def is_integer(value: int | float) -> int:
     if result:
         return int(value)
 
-    raise ValueError('Значение не является целым числом.', value)
+    raise ValueError('Значение не является целым числом.')
 
 
 def is_percentage(value: int | float) -> int | float:
@@ -72,7 +72,7 @@ def is_percentage(value: int | float) -> int | float:
         if 0 <= value <= 100:
             return value
 
-    raise ValueError('Значение не является процентом.', value)
+    raise ValueError('Значение не является процентом.')
 
 
 def is_not_negative(value: int | float) -> int | float:
@@ -84,7 +84,7 @@ def is_not_negative(value: int | float) -> int | float:
         if value >= 0:
             return value
 
-    raise ValueError('Значение должно быть неотрицательным числом.', value)
+    raise ValueError('Значение должно быть неотрицательным числом.')
 
 
 # Специальные валидаторы.
@@ -114,7 +114,7 @@ def set_value(value: str | int | float | None) -> int | float:
         else:
             value = Parser.parse_number(value)
             if value is None:
-                raise ValueError('Значение должно быть числом.', value)
+                raise ValueError('Значение должно быть числом.')
 
     if value is None:
         return 0
@@ -122,7 +122,7 @@ def set_value(value: str | int | float | None) -> int | float:
     if isinstance(value, (int, float)):
         return value
 
-    raise ValueError('Значение должно быть числом.', value)
+    raise ValueError('Значение должно быть числом.')
 
 
 # Предметные валидаторы.
@@ -134,4 +134,4 @@ def is_month(value: int) -> int:
     if 1 <= value <= 12:
         return value
 
-    raise ValueError('Месяц должен быть в диапазоне от 1 до 12.', value)
+    raise ValueError('Месяц должен быть в диапазоне от 1 до 12.')
