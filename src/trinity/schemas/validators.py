@@ -89,3 +89,15 @@ def set_empty(value: Any) -> Any:
             return None
 
     return value
+
+
+# Предметные валидаторы.
+def is_month(value: int) -> int:
+    """
+    After Pydantic валидатор. Проверяет, является ли входное значение валидным месяцем.
+    Поднимает исключение, если значение не является месяцем.
+    """
+    if 1 <= value <= 12:
+        return value
+
+    raise ValueError('Месяц должен быть в диапазоне от 1 до 12.', value)
