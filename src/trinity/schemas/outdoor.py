@@ -1,7 +1,9 @@
 """Pydantic-схемы шаблонов для наружной рекламы."""
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, BeforeValidator, Field
 from typing_extensions import Annotated
+
+from trinity.schemas import validators
 
 
 class Outdoor(BaseModel):
@@ -25,60 +27,189 @@ class Indoor(BaseModel):
 class Metro(BaseModel):
     """Шаблон метро."""
 
-    index: Annotated[int, Field()]
-    advertiser: Annotated[str, Field()]
-    campaign: Annotated[str, Field()]
-    city: Annotated[str, Field()]
-    line: Annotated[str, Field()]
-    station: Annotated[str, Field()]
-    location: Annotated[str, Field()]
-    traffic: Annotated[int, Field()]
-    type_: Annotated[str, Field()]
-    size: Annotated[str, Field()]
-    cars_count: Annotated[int, Field()]
-    constructions_count: Annotated[int, Field()]
+    index: Annotated[
+        int,
+        Field(title='Индекс'),
+        # Порядок выполнения BeforeValidator-ов снизу вверх.
+        BeforeValidator(validators.is_integer),  # Значение должно быть целым числом.
+        BeforeValidator(validators.is_number),  # Значение должно быть числом.
+        BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
+    ]
+    advertiser: Annotated[
+        str,
+        Field(title='Рекламодатель'),
+        BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
+    ]
+    campaign: Annotated[
+        str,
+        Field(title='Кампания'),
+        BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
+    ]
+    city: Annotated[
+        str,
+        Field(title='Город'),
+        BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
+    ]
+    line: Annotated[
+        str,
+        Field(title='Линия'),
+        BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
+    ]
+    station: Annotated[
+        str,
+        Field(title='Станция'),
+    ]
+    location: Annotated[
+        str,
+        Field(title='Локация'),
+    ]
+    traffic: Annotated[
+        int,
+        Field(title='Пассажиропоток'),
+    ]
+    format_: Annotated[
+        str,
+        Field(title='Формат поверхности'),
+        BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
+    ]
+    size: Annotated[
+        str,
+        Field(title='Размер поверхности'),
+        BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
+    ]
+    cars_count: Annotated[
+        int,
+        Field(title='Количество вагонов'),
+    ]
+    constructions_count: Annotated[
+        int,
+        Field(title='Количество поверхностей'),
+    ]
 
     # Период размещения.
-    month: Annotated[str, Field()]
-    date_from: Annotated[str, Field()]
-    date_to: Annotated[str, Field()]
+    month: Annotated[
+        str,
+        Field(title='Месяц'),
+        BeforeValidator(validators.is_number),  # Значение должно быть числом.
+    ]
+    date_from: Annotated[
+        str,
+        Field(title='Дата начала'),
+        BeforeValidator(validators.is_date),  # Значение не должно быть пустым.
+    ]
+    date_to: Annotated[
+        str,
+        Field(title='Дата окончания'),
+        BeforeValidator(validators.is_date),  # Значение не должно быть пустым.
+    ]
 
     # Digital параметры.
-    spot_duration: Annotated[float, Field(gt=0)]
-    spots_per_block: Annotated[float, Field(gt=0)]
-    block_duration: Annotated[float, Field(gt=0)]
-    spots_per_day: Annotated[float, Field(gt=0)]
-    hours_per_day: Annotated[float, Field(gt=0)]
+    spot_duration: Annotated[
+        float,
+        Field(title='Длительность ролика'),
+    ]
+    spots_per_block: Annotated[
+        float,
+        Field(title='Выходов в блоке'),
+    ]
+    block_duration: Annotated[
+        float,
+        Field(title='Длительность блока'),
+    ]
+    spots_per_day: Annotated[
+        float,
+        Field(title='Выходов в сутки'),
+    ]
+    hours_per_day: Annotated[
+        float,
+        Field(title='Время работы поверхности'),
+    ]
 
     # ID конструкций.
-    gid_id: Annotated[str, Field()]
-    client_id: Annotated[str, Field()]
+    gid_id: Annotated[
+        str,
+        Field(title='GID / ID поверхности'),
+    ]
+    client_id: Annotated[
+        str,
+        Field(title='ID поверхности (клиент)'),
+    ]
 
     # Размещение.
-    placement_price: Annotated[float, Field()]
-    placement_discount: Annotated[float, Field()]
-    placement_price_net: Annotated[float, Field()]
-    placement_vat: Annotated[float, Field()]
-    placement_final_price: Annotated[float, Field()]
+    placement_price: Annotated[
+        float,
+        Field(title='Размещение PRICE'),
+    ]
+    placement_discount: Annotated[
+        float,
+        Field(title='Размещение DISCOUNT'),
+    ]
+    placement_price_net: Annotated[
+        float,
+        Field(title='Размещение NET'),
+        BeforeValidator(validators.is_number),  # Значение должно быть числом.
+    ]
+    placement_vat: Annotated[
+        float,
+        Field(title='Размещение VAT'),
+    ]
+    placement_final_price: Annotated[
+        float,
+        Field(title='Размещение NET + VAT'),
+        BeforeValidator(validators.is_number),  # Значение должно быть числом.
+    ]
 
     # Основной монтаж.
-    installation_price: Annotated[float, Field()]
-    installation_vat: Annotated[float, Field()]
-    installation_final_price: Annotated[float, Field()]
+    installation_price: Annotated[
+        float,
+        Field(title='Монтаж NET'),
+    ]
+    installation_vat: Annotated[
+        float,
+        Field(title='Монтаж VAT'),
+    ]
+    installation_final_price: Annotated[
+        float,
+        Field(title='Монтаж NET + VAT'),
+    ]
 
     # Дополнительный монтаж.
-    extra_installation_price: Annotated[float, Field()]
-    extra_installation_vat: Annotated[float, Field()]
-    extra_installation_final_price: Annotated[float, Field()]
+    extra_installation_price: Annotated[
+        float,
+        Field(title='Доп. монтаж NET'),
+    ]
+    extra_installation_vat: Annotated[
+        float,
+        Field(title='Доп. монтаж VAT'),
+    ]
+    extra_installation_final_price: Annotated[
+        float,
+        Field(title='Доп. монтаж NET + VAT'),
+    ]
 
     # Печать.
-    print_price: Annotated[float, Field()]
-    print_vat: Annotated[float, Field()]
-    print_final_price: Annotated[float, Field()]
+    print_price: Annotated[
+        float,
+        Field(title='Печать NET'),
+    ]
+    print_vat: Annotated[
+        float,
+        Field(title='Печать VAT'),
+    ]
+    print_final_price: Annotated[
+        float,
+        Field(title='Печать NET + VAT'),
+    ]
 
     # Итого.
-    final_price: Annotated[float, Field()]
-    final_price_net: Annotated[float, Field()]
+    final_price: Annotated[
+        float,
+        Field(title='Итого NET'),
+    ]
+    final_price_vat: Annotated[
+        float,
+        Field(title='Итого NET + VAT'),
+    ]
 
 
 class Transit(BaseModel):
