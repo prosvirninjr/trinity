@@ -186,3 +186,32 @@ class Parser:
                     return mapping[match[0]]
 
         return None
+
+    @staticmethod
+    @cache
+    # TODO: Добавить docstring.
+    def parse_timeslot(string: str) -> str | None:
+        # Очищаем строку.
+        c_str = TextTools.to_clean(string)
+
+        # Если строка пустая, возвращаем None.
+        if TextTools.is_empty(c_str):
+            return None
+
+        # Паттерн распознавания временного интервала.
+        match = re.match(r'(\d{2}:\d{2}(?::\d{2})?)\s*[-–]\s*(\d{2}:\d{2}(?::\d{2})?)', c_str)
+
+        # Если не удалось распознать временной интервал, возвращаем None.
+        if not match:
+            return None
+
+        time_from = match.group(1)
+        time_to = match.group(2)
+
+        # Добавляем секунды, если они отсутствуют.
+        if time_from.count(':') == 1:
+            time_from += ':00'
+        if time_to.count(':') == 1:
+            time_to += ':00'
+
+        return f'{time_from}-{time_to}'

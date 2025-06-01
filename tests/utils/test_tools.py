@@ -110,3 +110,20 @@ class TestParser:
     )
     def test_parse_date(self, string: str, expected: datetime | None):
         assert Parser.parse_date(string) == expected
+
+    # TODO: Реализовать тест.
+    @pytest.mark.skip(reason='Пока не реализован.')
+    def test_parse_object(self):
+        pass
+
+    @pytest.mark.parametrize(
+        'string, expected',
+        [
+            ('10:00 - 11:00', '10:00:00-11:00:00'),
+            ('09:30 - 10:30', '09:30:00-10:30:00'),
+            ('12:00 - 13:00', '12:00:00-13:00:00'),
+            ('14:00 - 15:00', '14:00:00-15:00:00'),
+        ],
+    )
+    def test_parse_timeslot(self, string: str, expected: str | None):
+        assert Parser.parse_timeslot(string) == expected
