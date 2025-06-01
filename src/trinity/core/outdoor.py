@@ -4,7 +4,7 @@ import polars as pl
 from pydantic import ValidationError
 
 from trinity.schemas.outdoor import Metro
-from trinity.services.exceptions import TemplateDataError
+from trinity.services.exceptions import TemplateDataError, TemplateStructureError
 from trinity.utils.xlsx.xlsx_loader import load_st
 
 
@@ -18,7 +18,7 @@ class MetroController:
             fields = list(Metro.model_fields.keys())
             df.columns = fields
         except Exception as e:
-            raise ValueError('Ошибка при установке заголовка DataFrame.') from e
+            raise TemplateStructureError('Ошибка при установке заголовка DataFrame.') from e
 
         return df
 
@@ -57,13 +57,21 @@ class MetroController:
     def load_template(self, workbook: str | io.BytesIO) -> None:
         r_df = load_st(workbook, ws_name='Метро & МЦК', st_name='metro')
         r_df = self._set_header(r_df)
-
         v_df = self._build_df(r_df)
 
         self.df = v_df
 
+    # TODO: Добавить документацию.
+    def get_df(self) -> pl.DataFrame:
+        if self.df.is_empty():
+            raise ValueError('DataFrame пуст. Загрузите шаблон перед получением данных.')
+
+        return self.df
+
+    # TODO: Добавить документацию.
     def run_analyze(self) -> pl.DataFrame:
         pass
 
+    # TODO: Добавить документацию.
     def get_analyze(self) -> pl.DataFrame:
         pass
