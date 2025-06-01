@@ -8,27 +8,27 @@ from trinity.services.exceptions import TemplateDataError, TemplateStructureErro
 from trinity.utils.xlsx.xlsx_loader import load_st
 
 
-class MetroController:
-    def __init__(self):
-        self.df: pl.DataFrame = pl.DataFrame()
+class MetroTemplate:
+    def __init__(self, workbook: str | io.BytesIO):
+        self.template: pl.DataFrame = self._load_template(workbook)
 
     # TODO: Добавить документацию.
-    def _set_header(self, df: pl.DataFrame) -> None:
+    def _set_header(self, r_template: pl.DataFrame) -> None:
         try:
             fields = list(Metro.model_fields.keys())
-            df.columns = fields
+            r_template.columns = fields
         except Exception as e:
-            raise TemplateStructureError('Ошибка при установке заголовка DataFrame.') from e
+            raise TemplateStructureError('Не удалось установить заголовок DataFrame.') from e
 
-        return df
+        return r_template
 
     # TODO: Добавить документацию.
-    def _build_df(self, df: pl.DataFrame) -> pl.DataFrame:
+    def _build_template(self, r_template: pl.DataFrame) -> pl.DataFrame:
         data: list[dict] = []
         details: list[tuple[int, list[dict]]] = []
 
         # Перебираем строки исходного DataFrame.
-        for idx, row in enumerate(df.iter_rows(named=True), start=1):
+        for idx, row in enumerate(r_template.iter_rows(named=True), start=1):
             try:
                 # Валидируем каждую строку через Pydantic.
                 data.append(Metro(**row).model_dump())
@@ -51,25 +51,25 @@ class MetroController:
                     }
                 )
 
-        raise TemplateDataError('Ошибка валидации.', v_info)
+        raise TemplateDataError('Данные не прошли валидацию.', v_info)
 
     # TODO: Добавить документацию.
-    def load_template(self, workbook: str | io.BytesIO) -> None:
-        r_df = load_st(workbook, ws_name='Метро & МЦК', st_name='metro')
-        r_df = self._set_header(r_df)
-        v_df = self._build_df(r_df)
+    def _load_template(self, workbook: str | io.BytesIO) -> None:
+        r_template = load_st(workbook, ws_name='Метро & МЦК', st_name='metro')
+        r_template = self._set_header(r_template)
+        v_template = self._build_template(r_template)
 
-        self.df = v_df
-
-    # TODO: Добавить документацию.
-    def get_df(self) -> pl.DataFrame:
-        if self.df.is_empty():
-            raise ValueError('DataFrame пуст. Загрузите шаблон перед получением данных.')
-
-        return self.df
+        self.template = v_template
 
     # TODO: Добавить документацию.
-    def run_analysis(self) -> None:
-        """Запуск анализа данных."""
-        if self.df.is_empty():
-            raise ValueError('DataFrame пуст. Загрузите шаблон перед запуском анализа.')
+    def process_template(self) -> None:
+        pass
+
+    # TODO: Добавить документацию.
+    def get_template(self) -> pl.DataFrame:
+        return self.template
+
+
+class MetroAnalyzer:
+    def __init__(self, template: pl.DataFrame):
+        self.template = template
