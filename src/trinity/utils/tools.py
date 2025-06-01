@@ -12,10 +12,10 @@ class TextTools:
         Очищает строку от управляющих символов и лишних пробелов.
 
         Args:
-            string (str): Исходная строка.
+            string (str): Строка.
 
         Returns:
-            str: Очищённая строка.
+            str: Очищенная строка.
         """
         c_str = re.sub(r'\n', ' ', string)
         c_str = re.sub(r'[\x00-\x09\x0B-\x1F\x7F-\x9F]', '', c_str)
@@ -27,7 +27,7 @@ class TextTools:
         Обрезает строку до заданной длины, добавляя '...' в конец. Итоговая длина строки учитывает '...'.
 
         Args:
-            string (str): Исходная строка.
+            string (str): Строка.
             max_length (int): Максимальная длина результата.
 
         Returns:
@@ -41,7 +41,7 @@ class TextTools:
         Проверяет, является ли строка пустой или содержит только специальные метки.
 
         Args:
-            string (str): Исходная строка.
+            string (str): Строка.
 
         Returns:
             bool: True, если строка пустая или содержит только пробелы, 'None', '-', 'n/a'.
@@ -53,10 +53,10 @@ class TextTools:
     @cache
     def get_hash(string: str) -> str:
         """
-        Вычисляет SHA-256 хэш от строки.
+        Вычисляет SHA-256 хэш строки.
 
         Args:
-            string (str): Исходная строка.
+            string (str): Строка.
 
         Returns:
             str: SHA-256 хэш строки.
