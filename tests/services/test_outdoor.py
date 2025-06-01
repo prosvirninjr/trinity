@@ -2,7 +2,7 @@ from datetime import datetime
 
 import pytest
 
-from trinity.services.logic import Coefficient
+from trinity.services.logics import Coefficient
 
 
 class TestCoefficient:
