@@ -3,6 +3,8 @@ import re
 from datetime import datetime
 from functools import cache
 
+from rapidfuzz import fuzz, process
+
 
 class TextTools:
     """Утилиты для работы со строками."""
@@ -144,5 +146,43 @@ class Parser:
                 return dt.replace(hour=0, minute=0, second=0, microsecond=0)
             except ValueError:
                 continue
+
+        return None
+
+    @staticmethod
+    def parse_object(string: str, choices: dict[str, list[str]], threshold: int = 90) -> str | None:
+        """
+        Конвертирует строку в стандартизованное значение, используя нечеткое сравнение.
+
+        Args:
+            string (str): Входная строка, которую нужно стандартизировать.
+            choices (dict[str, list[str]]): Словарь, где ключи — стандартизованные формы, а значения — варианты.
+            threshold (int): Минимальное пороговое значение для нечеткого сравнения (от 0 до 100).
+
+        Returns:
+            str | None: Найденная стандартизованная форма или None, если подходящее значение не найдено.
+        """
+        c_str = TextTools.to_clean(string)
+
+        if TextTools.is_empty(c_str):
+            return None
+
+        key = c_str.lower()
+
+        # Flatten mapping: вариант или стандарт -> стандарт.
+        mapping = {TextTools.to_clean(std).lower(): std for std in choices}
+        mapping.update((TextTools.to_clean(var).lower(), std) for std, vars in choices.items() for var in vars)
+
+        # Прямое совпадение.
+        if std := mapping.get(key):
+            return std
+
+        # Нечеткое совпадение.
+        candidates = list(mapping)
+
+        for cut in range(100, threshold - 1, -1):
+            for scorer in (fuzz.token_set_ratio, fuzz.WRatio):
+                if match := process.extractOne(key, candidates, scorer=scorer, score_cutoff=cut):
+                    return mapping[match[0]]
 
         return None
