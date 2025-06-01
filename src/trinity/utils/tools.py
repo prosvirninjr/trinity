@@ -1,5 +1,6 @@
 import hashlib
 import re
+from datetime import datetime
 from functools import cache
 
 
@@ -7,6 +8,7 @@ class TextTools:
     """Утилиты для работы со строками."""
 
     @staticmethod
+    @cache
     def to_clean(string: str) -> str:
         """
         Очищает строку от управляющих символов и лишних пробелов.
@@ -22,6 +24,7 @@ class TextTools:
         return re.sub(r'\s+', ' ', c_str).strip()
 
     @staticmethod
+    @cache
     def to_trunc(string: str, max_length: int = 10) -> str:
         """
         Обрезает строку до заданной длины, добавляя '...' в конец. Итоговая длина строки учитывает '...'.
@@ -36,6 +39,7 @@ class TextTools:
         return string[: max(0, max_length - 3)] + '...' if len(string) > max_length else string
 
     @staticmethod
+    @cache
     def is_empty(string: str) -> bool:
         """
         Проверяет, является ли строка пустой или содержит только специальные метки.
@@ -68,10 +72,13 @@ class Parser:
     """Утилиты для парсинга строк."""
 
     @staticmethod
+    @cache
+    # TODO: Добавить docstring.
     def parse_number(string: str) -> float | None:
         # Очищаем строку.
         c_str = TextTools.to_clean(string)
 
+        # Если строка пустая, возвращаем None.
         if not c_str:
             return None
 
@@ -87,3 +94,54 @@ class Parser:
             return float(c_str)
         except ValueError:
             return None
+
+    @staticmethod
+    @cache
+    # TODO: Добавить docstring.
+    def parse_date(string: str) -> datetime | None:
+        # Очищаем строку.
+        c_str = TextTools.to_clean(string)
+
+        # Если строка пустая, возвращаем None.
+        if not c_str:
+            return None
+
+        # Форматы даты и даты-времени (YYYY-MM-DD).
+        date_fmts_ymd = [
+            '%Y-%m-%d %H:%M:%S',
+            '%Y/%m/%d %H:%M:%S',
+            '%Y.%m.%d %H:%M:%S',
+            '%Y-%m-%d',
+            '%Y/%m/%d',
+            '%Y.%m.%d',
+        ]
+
+        # Форматы даты и даты-времени (DD-MM-YYYY).
+        date_fmts_dmy = [
+            '%d-%m-%Y %H:%M:%S',
+            '%d/%m/%Y %H:%M:%S',
+            '%d.%m.%Y %H:%M:%S',
+            '%d-%m-%Y',
+            '%d/%m/%Y',
+            '%d.%m.%Y',
+        ]
+
+        # Пробуем cпарсить сначала форматы YYYY-MM-DD.
+        for fmt in date_fmts_ymd:
+            try:
+                # Возвращаем datetime с временем 00:00:00.
+                dt = datetime.strptime(c_str, fmt)
+                return dt.replace(hour=0, minute=0, second=0, microsecond=0)
+            except ValueError:
+                continue
+
+        # Затем пробуем cпарсить форматы DD-MM-YYYY.
+        for fmt in date_fmts_dmy:
+            try:
+                # Возвращаем datetime с временем 00:00:00.
+                dt = datetime.strptime(c_str, fmt)
+                return dt.replace(hour=0, minute=0, second=0, microsecond=0)
+            except ValueError:
+                continue
+
+        return None
