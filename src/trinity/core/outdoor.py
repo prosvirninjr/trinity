@@ -11,7 +11,6 @@ from trinity.utils.xlsx.xlsx_loader import load_st
 class MetroController:
     def __init__(self):
         self.df: pl.DataFrame = pl.DataFrame()
-        self.v_info: list[dict] = []
 
     # TODO: Добавить документацию.
     def _set_header(self, df: pl.DataFrame) -> None:
@@ -24,7 +23,7 @@ class MetroController:
         return df
 
     # TODO: Добавить документацию.
-    def _build_df(self, df: pl.DataFrame):
+    def _build_df(self, df: pl.DataFrame) -> pl.DataFrame:
         data: list[dict] = []
         details: list[tuple[int, list[dict]]] = []
 
@@ -55,20 +54,10 @@ class MetroController:
         raise TemplateDataError('Ошибка валидации.', v_info)
 
     # TODO: Добавить документацию.
-    def load_template(self, workbook: str | io.BytesIO) -> bool:
+    def load_template(self, workbook: str | io.BytesIO) -> None:
         r_df = load_st(workbook, ws_name='Метро & МЦК', st_name='metro')
         r_df = self._set_header(r_df)
 
-        try:
-            v_df = self._build_df(r_df)
-        except TemplateDataError as e:
-            self.v_info = e.field
-            return False
-        else:
-            self.df = v_df
+        v_df = self._build_df(r_df)
 
-        return True
-
-    def get_v_info(self) -> list[dict]:
-        """Возвращает результат валидации."""
-        return self.v_info
+        self.df = v_df
