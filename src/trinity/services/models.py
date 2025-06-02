@@ -68,12 +68,32 @@ class MetroTemplate:
         self.template = v_template
 
     # TODO: Добавить документацию.
-    def process_template(self) -> None:
-        pass
+    def _process_template(self, template: pl.DataFrame) -> pl.DataFrame:
+        """
+        Обрабатывает шаблон метро.
+
+        Добавляет вычисляемые столбцы и парсит данные.
+
+        Args:
+            template (pl.DataFrame): Исходный шаблон метро.
+        """
+        return template
 
     # TODO: Добавить документацию.
-    def get_template(self) -> pl.DataFrame:
-        return self.template
+    def get_template(self, original: bool = False) -> pl.DataFrame:
+        """
+        Возвращает шаблон метро.
+
+        Args:
+            original (bool): Если True, возвращает оригинальный шаблон без обработки.
+
+        Returns:
+            pl.DataFrame: Шаблон метро в виде DataFrame.
+        """
+        if original:
+            return self.template
+
+        return self._process_template(self.template.clone())
 
 
 class MetroAnalyzer:
