@@ -1,5 +1,6 @@
 """Pydantic-схемы шаблонов для наружной рекламы."""
 
+import math
 from datetime import datetime
 
 import polars as pl
@@ -167,7 +168,7 @@ class Metro(BaseModel):
     ]
 
     # Размещение.
-    placement_price: Annotated[
+    placement: Annotated[
         float,
         Field(title='Размещение PRICE', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
@@ -179,7 +180,7 @@ class Metro(BaseModel):
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_percentage),  # Значение должно быть процентом.
     ]
-    placement_price_net: Annotated[
+    placement_net: Annotated[
         float,
         Field(title='Размещение NET', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
@@ -191,7 +192,7 @@ class Metro(BaseModel):
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_percentage),  # Значение должно быть процентом.
     ]
-    placement_final_price: Annotated[
+    placement_final: Annotated[
         float,
         Field(title='Размещение NET + VAT', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
@@ -199,7 +200,7 @@ class Metro(BaseModel):
     ]
 
     # Основной монтаж.
-    installation_price: Annotated[
+    installation_net: Annotated[
         float,
         Field(title='Монтаж NET', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
@@ -211,7 +212,7 @@ class Metro(BaseModel):
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_percentage),  # Значение должно быть процентом.
     ]
-    installation_final_price: Annotated[
+    installation_final: Annotated[
         float,
         Field(title='Монтаж NET + VAT', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
@@ -219,19 +220,19 @@ class Metro(BaseModel):
     ]
 
     # Дополнительный монтаж.
-    extra_installation_price: Annotated[
+    e_installation_net: Annotated[
         float,
         Field(title='Доп. монтаж NET', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
-    extra_installation_vat: Annotated[
+    e_installation_vat: Annotated[
         float,
         Field(title='Доп. монтаж VAT', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_percentage),  # Значение должно быть процентом.
     ]
-    extra_installation_final_price: Annotated[
+    e_installation_final: Annotated[
         float,
         Field(title='Доп. монтаж NET + VAT', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
@@ -239,7 +240,7 @@ class Metro(BaseModel):
     ]
 
     # Печать.
-    print_price: Annotated[
+    print_net: Annotated[
         float,
         Field(title='Печать NET', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
@@ -251,7 +252,7 @@ class Metro(BaseModel):
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_percentage),  # Значение должно быть процентом.
     ]
-    print_final_price: Annotated[
+    print_final: Annotated[
         float,
         Field(title='Печать NET + VAT', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
@@ -259,13 +260,13 @@ class Metro(BaseModel):
     ]
 
     # Итого.
-    final_price: Annotated[
+    final_net: Annotated[
         float,
         Field(title='Итого NET', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
         AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
     ]
-    final_price_vat: Annotated[
+    final_vat: Annotated[
         float,
         Field(title='Итого NET + VAT', pl_dtype=pl.Float64),
         BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
@@ -316,27 +317,56 @@ class Metro(BaseModel):
     @model_validator(mode='after')
     def valid_placement(self) -> 'Metro':
         """Проверка размещения."""
-        pass
+        if not math.isclose(self.placement * (1 - self.placement_discount), self.placement_net, rel_tol=1e-9):
+            raise ValueError('Размещение PRICE не соответствует Размещению NET с учетом скидки.')
+
+        if not math.isclose(self.placement_net * (1 + self.placement_vat), self.placement_final, rel_tol=1e-9):
+            raise ValueError('Размещение NET не соответствует Размещению NET с НДС.')
 
     @model_validator(mode='after')
     def valid_installation(self) -> 'Metro':
         """Проверка монтажа."""
-        pass
+        if not math.isclose(self.installation_net * (1 - self.installation_vat), self.installation_final, rel_tol=1e-9):
+            raise ValueError('Монтаж NET не соответствует Монтажу NET с НДС.')
+
+        return self
 
     @model_validator(mode='after')
     def valid_extra_installation(self) -> 'Metro':
         """Проверка дополнительного монтажа."""
-        pass
+        if not math.isclose(
+            self.e_installation_net * (1 - self.e_installation_vat),
+            self.e_installation_final,
+            rel_tol=1e-9,
+        ):
+            raise ValueError('Дополнительный монтаж NET не соответствует Дополнительному монтажу NET с НДС.')
+
+        return self
 
     @model_validator(mode='after')
     def valid_print(self) -> 'Metro':
         """Проверка печати."""
-        pass
+        if not math.isclose(self.print_price_net * (1 + self.print_vat), self.print_final, rel_tol=1e-9):
+            raise ValueError('Печать NET не соответствует Печати NET с НДС.')
+
+        return self
 
     @model_validator(mode='after')
     def valid_final_prices(self) -> 'Metro':
         """Проверка итоговых цен."""
-        pass
+        if not math.isclose(
+            self.placement_net + self.installation_net + self.e_installation_net + self.print_net,
+            self.final_net,
+            rel_tol=1e-9,
+        ):
+            raise ValueError('Итоговая цена NET не соответствует сумме всех компонентов.')
+
+        if not math.isclose(
+            self.placement_final + self.installation_final + self.e_installation_final + self.print_final,
+            self.final_vat,
+            rel_tol=1e-9,
+        ):
+            raise ValueError('Итоговая цена с НДС не соответствует сумме всех компонентов.')
 
     @classmethod
     def get_polars_schema(self) -> dict:
