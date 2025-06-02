@@ -92,7 +92,11 @@ class MetroTemplate:
         Returns:
             pl.DataFrame: Шаблон метро в виде DataFrame.
         """
-        r_template = load_st(workbook, ws_name='Метро & МЦК', st_name='metro')
+        try:
+            r_template = load_st(workbook, ws_name='Метро & МЦК', st_name='metro')
+        except KeyError as e:
+            raise TemplateStructureError('Не удалось найти шаблон метро в рабочей книге.') from e
+
         r_template = self._set_header(r_template)
         v_template = self._build_template(r_template)
 
