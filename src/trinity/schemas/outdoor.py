@@ -63,12 +63,12 @@ class Metro(BaseModel):
     station: Annotated[
         str | None,
         Field(title='Станция', pl_dtype=pl.String),
-        AfterValidator(partial(validators.set_empty, column='Станция')),
+        AfterValidator(validators.set_empty),
     ]
     location: Annotated[
         str | None,
         Field(title='Локация', pl_dtype=pl.String),
-        AfterValidator(partial(validators.set_empty, column='Локация')),
+        AfterValidator(validators.set_empty),
     ]
     traffic: Annotated[
         int,
@@ -160,12 +160,12 @@ class Metro(BaseModel):
     gid_id: Annotated[
         str | None,
         Field(title='GID / ID поверхности', pl_dtype=pl.String),
-        AfterValidator(partial(validators.set_empty, column='GID / ID поверхности')),
+        AfterValidator(validators.set_empty),
     ]
     client_id: Annotated[
         str | None,
         Field(title='ID поверхности (клиент)', pl_dtype=pl.String),
-        AfterValidator(partial(validators.set_empty, column='ID поверхности (клиент)')),
+        AfterValidator(validators.set_empty),
     ]
 
     # Размещение.

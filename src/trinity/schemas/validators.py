@@ -88,7 +88,7 @@ def is_not_negative(value: int | float, column: str) -> int | float:
 
 
 # Специальные валидаторы.
-def set_empty(value: Any, column: str) -> Any:
+def set_empty(value: Any) -> Any:
     """
     After Pydantic валидатор. Если входное значение является пустым (пустая строка или None), возвращает None.
     """
