@@ -61,12 +61,12 @@ class MetroTemplate:
         raise TemplateDataError('Данные не прошли валидацию.', v_info)
 
     # TODO: Добавить документацию.
-    def _load_template(self, workbook: str | io.BytesIO) -> None:
+    def _load_template(self, workbook: str | io.BytesIO) -> pl.DataFrame:
         r_template = load_st(workbook, ws_name='Метро & МЦК', st_name='metro')
         r_template = self._set_header(r_template)
         v_template = self._build_template(r_template)
 
-        self.template = v_template
+        return v_template
 
     def _create_is_digital_column(self, template: pl.DataFrame) -> pl.DataFrame:
         """Создает столбец с маркерами digital конструкций."""
