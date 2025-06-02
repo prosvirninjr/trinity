@@ -229,6 +229,21 @@ class MetroTemplate:
 
         Добавляет вычисляемые столбцы и парсит данные.
 
+        Требует наличия следующих столбцов:
+            - advertiser
+            - city
+            - line
+            - station
+            - location
+            - format_
+            - size
+            - spot_duration
+            - spots_per_block
+            - block_duration
+            - date_from
+            - date_to
+            - placement_net
+
         Args:
             template (pl.DataFrame): Исходный шаблон метро.
         """
