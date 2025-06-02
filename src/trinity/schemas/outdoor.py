@@ -73,9 +73,9 @@ class Metro(BaseModel):
     traffic: Annotated[
         int,
         Field(title='Пассажиропоток', pl_dtype=pl.Int64),
+        BeforeValidator(partial(validators.is_integer, column='Пассажиропоток')),
         BeforeValidator(partial(validators.set_value, column='Пассажиропоток')),
         AfterValidator(partial(validators.is_not_negative, column='Пассажиропоток')),
-        AfterValidator(partial(validators.is_integer, column='Пассажиропоток')),
     ]
     format_: Annotated[
         str,
@@ -90,16 +90,16 @@ class Metro(BaseModel):
     cars_count: Annotated[
         int,
         Field(title='Количество вагонов', pl_dtype=pl.Int64),
+        BeforeValidator(partial(validators.is_integer, column='Количество вагонов')),
         BeforeValidator(partial(validators.set_value, column='Количество вагонов')),
         AfterValidator(partial(validators.is_not_negative, column='Количество вагонов')),
-        AfterValidator(partial(validators.is_integer, column='Количество вагонов')),
     ]
     constructions_count: Annotated[
         int,
         Field(title='Количество поверхностей', pl_dtype=pl.Int64),
+        BeforeValidator(partial(validators.is_integer, column='Количество поверхностей')),
         BeforeValidator(partial(validators.set_value, column='Количество поверхностей')),
         AfterValidator(partial(validators.is_not_negative, column='Количество поверхностей')),
-        AfterValidator(partial(validators.is_integer, column='Количество поверхностей')),
     ]
 
     # Период размещения.
