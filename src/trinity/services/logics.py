@@ -195,6 +195,7 @@ class MParser:
 
     @staticmethod
     @cache
+    # FIXME: Не распознает корректно МЦД.
     def parse_line(city: str, line: str | None, station: str | None) -> str | None:
         # 1. Если станция и линия не указаны, возвращаем None.
         if line is None and station is None:
