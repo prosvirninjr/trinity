@@ -1,3 +1,4 @@
+from datetime import datetime
 from typing import Any
 
 from trinity.utils.tools import Parser, TextTools
@@ -36,7 +37,7 @@ def is_number(value: Any, column: str) -> float:
     raise ValueError(f'Значение в столбце "{column}" не является числом.')
 
 
-def is_date(value: Any, column: str) -> float:
+def is_date(value: Any, column: str) -> datetime:
     """
     Before Pydantic валидатор. Проверяет, является ли входное значение датой.
     Поднимает исключение, если значение не является датой.
