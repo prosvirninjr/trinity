@@ -3,6 +3,9 @@
 import calendar
 from datetime import datetime
 from functools import cache
+from importlib.resources import files
+
+from trinity.utils.tools import Parser
 
 
 class Coefficient:
@@ -80,3 +83,15 @@ class Construction:
             return min(dimensions), max(dimensions)
         except (ValueError, AttributeError):
             return 0, 0
+
+
+class MParser:
+    """
+    Расширенный парсер строк для бизнес-логики наружной рекламы.
+    """
+
+    @staticmethod
+    @cache
+    def parse_advertiser(advertiser: str) -> str | None:
+        choices = files('trinity').joinpath('data', 'advertisers.json')
+        return Parser.parse_object(advertiser, choices, threshold=90)

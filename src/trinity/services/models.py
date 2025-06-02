@@ -189,6 +189,27 @@ class MetroTemplate:
 
         return template
 
+    def _parse_advertiser(self):
+        pass
+
+    def _parse_city(self):
+        pass
+
+    def _parse_line(self):
+        pass
+
+    def _parse_station(self):
+        pass
+
+    def _parse_location(self):
+        pass
+
+    def _parse_format(self):
+        pass
+
+    def _parse_size(self):
+        pass
+
     def _process_template(self, template: pl.DataFrame) -> pl.DataFrame:
         """
         Обрабатывает шаблон метро.
