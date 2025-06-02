@@ -208,9 +208,11 @@ class MParser:
         # 2. Логика определения линии вне зависимости от станции.
         if station is None:
             guessed_line = Parser.parse_object(line, line_choices, threshold=90)
+
             if guessed_line:
                 log.info(f'Линия распознана: {guessed_line}')
                 return guessed_line
+
             log.warning(f'Не удалось распознать линию: {line}')
             return None
 
@@ -224,6 +226,21 @@ class MParser:
 
         # Пытаемся распознать станцию (fuzzy), и/или смотрим точное совпадение.
         fuzzy_station = Parser.parse_object(station, station_choices, threshold=90)
+
+        # Специальная логика для МЦД.
+        if guessed_line.startswith('МЦД'):
+            base_mcd = 'МЦД'
+
+            for mcd_line in filter(lambda x: x.startswith('МЦД-'), line_choices):
+                stations = metro[city].get(mcd_line, {})
+
+                if station in stations or (fuzzy_station and fuzzy_station in stations):
+                    log.info(f'Линия распознана: {mcd_line}')
+                    return mcd_line
+
+            log.info(f'Линия распознана: {base_mcd}')
+            return base_mcd
+
         stations_on_line = metro[city][guessed_line]
 
         if station in stations_on_line or (fuzzy_station and fuzzy_station in stations_on_line):

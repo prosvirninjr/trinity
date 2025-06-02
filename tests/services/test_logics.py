@@ -88,7 +88,7 @@ class TestMParser:
             ('Санкт-Петербург', 'Калужско-Рижская', 'Партизанская', None),
             # МЦД.
             ('Москва', 'МЦД-4', None, 'МЦД-4'),
-            ('Москва', 'МЦД-4', 'Мичуринец', 'МЦД-4'),
+            ('Москва', 'МЦД', 'Мичуринец', 'МЦД-4'),
         ],
     )
     def test_parse_line(self, city: str, line: str | None, station: str | None, expected: str):
