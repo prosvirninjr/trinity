@@ -19,8 +19,19 @@ class MetroTemplate:
         """
         self.template: pl.DataFrame = self._load_template(workbook)
 
-    # TODO: Добавить документацию.
     def _set_header(self, r_template: pl.DataFrame) -> None:
+        """
+        Устанавливает заголовок DataFrame на основе полей модели Metro.
+
+        Args:
+            r_template (pl.DataFrame): Исходный шаблон метро в виде DataFrame.
+
+        Returns:
+            pl.DataFrame: DataFrame с установленным заголовком.
+
+        Raises:
+            TemplateStructureError: Если не удалось установить заголовок DataFrame.
+        """
         try:
             fields = list(Metro.model_fields.keys())
             r_template.columns = fields
@@ -29,8 +40,19 @@ class MetroTemplate:
 
         return r_template
 
-    # TODO: Добавить документацию.
     def _build_template(self, r_template: pl.DataFrame) -> pl.DataFrame:
+        """
+        Создает DataFrame из шаблона метро, валидируя каждую строку.
+
+        Args:
+            r_template (pl.DataFrame): Исходный шаблон метро в виде DataFrame.
+
+        Returns:
+            pl.DataFrame: Валидированный шаблон метро в виде DataFrame.
+
+        Raises:
+            TemplateDataError: Если данные не прошли валидацию.
+        """
         data: list[dict] = []
         details: list[tuple[int, list[dict]]] = []
 
@@ -60,8 +82,16 @@ class MetroTemplate:
 
         raise TemplateDataError('Данные не прошли валидацию.', v_info)
 
-    # TODO: Добавить документацию.
     def _load_template(self, workbook: str | io.BytesIO) -> pl.DataFrame:
+        """
+        Загружает шаблон метро из файла Excel.
+
+        Args:
+            workbook (str | io.BytesIO): Путь к файлу или объект BytesIO с рабочей книгой .xlsx.
+
+        Returns:
+            pl.DataFrame: Шаблон метро в виде DataFrame.
+        """
         r_template = load_st(workbook, ws_name='Метро & МЦК', st_name='metro')
         r_template = self._set_header(r_template)
         v_template = self._build_template(r_template)
@@ -106,7 +136,6 @@ class MetroTemplate:
 
         return template
 
-    # TODO: Добавить документацию.
     def _process_template(self, template: pl.DataFrame) -> pl.DataFrame:
         """
         Обрабатывает шаблон метро.
@@ -123,7 +152,6 @@ class MetroTemplate:
 
         return template
 
-    # TODO: Добавить документацию.
     def get_template(self, original: bool = False) -> pl.DataFrame:
         """
         Возвращает шаблон метро.
