@@ -116,7 +116,11 @@ class MetroTemplate:
         Args:
             template (pl.DataFrame): Исходный шаблон метро.
         """
+        # Создаем вычисляемые столбцы.
         template = self._create_is_digital_column(template)
+        template = self._create_rental_c_column(template)
+        template = self._create_digital_c_column(template)
+
         return template
 
     # TODO: Добавить документацию.
