@@ -5,7 +5,7 @@ from pydantic import ValidationError
 
 from trinity.schemas.outdoor import Metro
 from trinity.services.exceptions import TemplateDataError, TemplateStructureError
-from trinity.services.logics import Coefficient, Construction
+from trinity.services.logics import Coefficient, Construction, MParser
 from trinity.utils.xlsx.xlsx_loader import load_st
 
 
@@ -189,26 +189,39 @@ class MetroTemplate:
 
         return template
 
-    def _parse_advertiser(self):
-        pass
+    def _parse_advertiser(self, template: pl.DataFrame) -> pl.DataFrame:
+        """Парсит столбец advertiser. Стандартизирует названия рекламодателей."""
+        template = template.with_columns(
+            pl.col('advertiser')
+            .map_elements(lambda x: MParser.parse_advertiser(x), return_dtype=pl.Utf8)
+            .alias('advertiser')
+        )
 
-    def _parse_city(self):
-        pass
+        return template
 
-    def _parse_line(self):
-        pass
+    def _parse_city(self, template: pl.DataFrame) -> pl.DataFrame:
+        """Парсит столбец city. Стандартизирует названия городов."""
+        return template
 
-    def _parse_station(self):
-        pass
+    def _parse_line(self, template: pl.DataFrame) -> pl.DataFrame:
+        """Парсит столбец line. Стандартизирует названия линий метро."""
+        return template
 
-    def _parse_location(self):
-        pass
+    def _parse_station(self, template: pl.DataFrame) -> pl.DataFrame:
+        """Парсит столбец station. Стандартизирует названия станций метро."""
+        return template
 
-    def _parse_format(self):
-        pass
+    def _parse_location(self, template: pl.DataFrame) -> pl.DataFrame:
+        """Парсит столбец location. Стандартизирует названия локаций."""
+        return template
 
-    def _parse_size(self):
-        pass
+    def _parse_format(self, template: pl.DataFrame) -> pl.DataFrame:
+        """Парсит столбец format. Стандартизирует форматы поверхностей."""
+        return template
+
+    def _parse_size(self, template: pl.DataFrame) -> pl.DataFrame:
+        """Парсит столбец size. Стандартизирует размеры конструкций."""
+        return template
 
     def _process_template(self, template: pl.DataFrame) -> pl.DataFrame:
         """
@@ -227,6 +240,15 @@ class MetroTemplate:
 
         # Создаем вспомогательные столбцы для векторизованных вычислений.
         template = self._create_tech_columns(template)
+
+        # Парсим данные.
+        template = self._parse_advertiser(template)
+        template = self._parse_city(template)
+        template = self._parse_line(template)
+        template = self._parse_station(template)
+        template = self._parse_location(template)
+        template = self._parse_format(template)
+        template = self._parse_size(template)
 
         return template
 
