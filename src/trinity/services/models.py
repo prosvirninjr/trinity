@@ -161,7 +161,7 @@ class MetroTemplate:
             for row in template.iter_rows(named=True)
         ]
 
-        template = template.with_columns(pl.Series(d_c).alias('digital_c'))
+        template = template.with_columns(pl.Series(values=d_c, dtype=pl.Float64).alias('digital_c'))
 
         return template
 
@@ -187,8 +187,8 @@ class MetroTemplate:
         sizes = [Construction.get_sizes(row['size']) for row in template.iter_rows(named=True)]
 
         template = template.with_columns(
-            pl.Series([size[0] for size in sizes]).alias('_width'),
-            pl.Series([size[1] for size in sizes]).alias('_height'),
+            pl.Series(values=[size[0] for size in sizes], dtype=pl.Float64).alias('_width'),
+            pl.Series(values=[size[1] for size in sizes], dtype=pl.Float64).alias('_height'),
         )
 
         return template

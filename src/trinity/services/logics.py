@@ -36,10 +36,18 @@ class DuplicateFilter(logging.Filter):
         return True
 
 
+# Настраиваем форматирование логов.
+formatter = logging.Formatter(
+    fmt='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S',
+)
+
 # Настраиваем логирование.
 file_handler = logging.FileHandler(log_path / 'parser.log', mode='a', encoding='utf-8')
 file_handler.setLevel(logging.DEBUG)
 file_handler.addFilter(DuplicateFilter())
+file_handler.setFormatter(formatter)
+
 
 log = logging.getLogger(__name__)
 log.propagate = False  # Отключаем передачу сообщений родительским логгерам.
@@ -139,5 +147,18 @@ class MParser:
             log.warning(f'Не удалось распознать рекламодателя: {advertiser}')
         else:
             log.info(f'Рекламодатель распознан: {result}')
+
+        return result
+
+    @staticmethod
+    @cache
+    def parse_city(city: str) -> str | None:
+        choices = json.load(open(files('trinity').joinpath('data', 'mapping', 'cities.json')))
+        result = Parser.parse_object(city, choices, threshold=90)
+
+        if result is None:
+            log.warning(f'Не удалось распознать город: {city}')
+        else:
+            log.info(f'Город распознан: {result}')
 
         return result
