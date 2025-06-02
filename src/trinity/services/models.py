@@ -197,7 +197,7 @@ class MetroTemplate:
         """Парсит столбец advertiser. Стандартизирует названия рекламодателей."""
         template = template.with_columns(
             pl.col('advertiser')
-            .map_elements(lambda x: MParser.parse_advertiser(x), return_dtype=pl.Utf8)
+            .map_elements(lambda x: MParser.parse_advertiser(x), return_dtype=pl.String)
             .alias('advertiser')
         )
 
@@ -205,6 +205,10 @@ class MetroTemplate:
 
     def _parse_city(self, template: pl.DataFrame) -> pl.DataFrame:
         """Парсит столбец city. Стандартизирует названия городов."""
+        template = template.with_columns(
+            pl.col('city').map_elements(lambda x: MParser.parse_city(x), return_dtype=pl.String).alias('city')
+        )
+
         return template
 
     def _parse_line(self, template: pl.DataFrame) -> pl.DataFrame:
