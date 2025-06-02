@@ -161,6 +161,23 @@ class MetroTemplate:
 
         return template
 
+    def _create_base_price_column(self, template: pl.DataFrame) -> pl.DataFrame:
+        """
+        Создает столбец с базовой ценой.
+
+        Args:
+            template (pl.DataFrame): Валидный шаблон метро в виде DataFrame.
+
+        Returns:
+            pl.DataFrame: Шаблон метро с добавленным столбцом base_price.
+        """
+
+        template = template.with_columns(
+            (pl.col('placement_net') / (pl.col('digital_c') * pl.col('rental_c'))).round(4).alias('base_price')
+        )
+
+        return template
+
     def _process_template(self, template: pl.DataFrame) -> pl.DataFrame:
         """
         Обрабатывает шаблон метро.
@@ -174,6 +191,7 @@ class MetroTemplate:
         template = self._create_is_digital_column(template)
         template = self._create_rental_c_column(template)
         template = self._create_digital_c_column(template)
+        template = self._create_base_price_column(template)
 
         return template
 
