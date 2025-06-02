@@ -369,6 +369,8 @@ class Metro(BaseModel):
         ):
             raise ValueError('Итоговая цена с НДС не соответствует сумме всех компонентов.')
 
+        return self
+
     @classmethod
     def get_polars_schema(self) -> dict:
         """Возвращает схему polars DataFrame."""
