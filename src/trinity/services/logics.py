@@ -1,11 +1,49 @@
 """Бизнес-логика для наружной рекламы."""
 
 import calendar
+import logging
+import os
 from datetime import datetime
 from functools import cache
 from importlib.resources import files
 
 from trinity.utils.tools import Parser
+
+# Проверяем наличие папки и создаем ее при необходимости.
+log_path = files('trinity').joinpath('..', '..', 'logs')
+
+if not os.path.exists(log_path):
+    os.makedirs(log_path)
+
+
+# Настраиваем фильтрацию логов.
+class DuplicateFilter(logging.Filter):
+    """Не позволяет логировать дублирующиеся сообщения."""
+
+    def __init__(self):
+        super().__init__()
+        self._seen: set[str] = set()
+
+    def filter(self, record: logging.LogRecord) -> bool:
+        msg = record.getMessage()
+
+        if msg in self._seen:
+            return False
+
+        self._seen.add(msg)
+
+        return True
+
+
+# Настраиваем логирование.
+file_handler = logging.FileHandler(log_path, mode='a', encoding='utf-8')
+file_handler.setLevel(logging.DEBUG)
+file_handler.addFilter(DuplicateFilter())
+
+log = logging.getLogger(__name__)
+log.propagate = False  # Отключаем передачу сообщений родительским логгерам.
+log.setLevel(logging.DEBUG)
+log.addHandler(file_handler)
 
 
 class Coefficient:
@@ -94,4 +132,11 @@ class MParser:
     @cache
     def parse_advertiser(advertiser: str) -> str | None:
         choices = files('trinity').joinpath('data', 'advertisers.json')
-        return Parser.parse_object(advertiser, choices, threshold=90)
+        result = Parser.parse_object(advertiser, choices, threshold=90)
+
+        if result is None:
+            log.warning(f'Не удалось распознать рекламодателя: {advertiser}')
+        else:
+            log.info(f'Рекламодатель распознан: {result}')
+
+        return result

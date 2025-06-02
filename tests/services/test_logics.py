@@ -2,7 +2,7 @@ from datetime import datetime
 
 import pytest
 
-from trinity.services.logics import Coefficient
+from trinity.services.logics import Coefficient, MParser
 
 
 class TestCoefficient:
@@ -39,3 +39,16 @@ class TestCoefficient:
     ):
         """Проверяет корректность вычисления коэффициента digital размещения."""
         assert Coefficient.calc_digital_c(format_, spot_duration, spots_per_block, block_duration, round) == expected
+
+
+class TestMParser:
+    @pytest.mark.parametrize(
+        'advertiser, expected',
+        [
+            ('А101', 'А101'),
+            ('НСПК', 'НСПК'),
+        ],
+    )
+    def test_parse_advertiser(self, advertiser: str, expected: float):
+        """Проверяет корректность парсинга рекламодателя."""
+        assert MParser.parse_advertiser(advertiser) == expected
