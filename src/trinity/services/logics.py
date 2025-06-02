@@ -204,33 +204,30 @@ class MParser:
         line_choices = MParser._get_line_choices(metro, city)
         station_choices = MParser._get_station_choices(metro, city)
 
-        # 2. Логика определения линии вне зависимости от станции. Подтягиваем данные по городу. Возвращаем результат.
+        # 2. Логика определения линии вне зависимости от станции.
         if station is None:
             guessed_line = Parser.parse_object(line, line_choices, threshold=90)
-
             if guessed_line:
                 log.info(f'Линия распознана: {guessed_line}')
                 return guessed_line
-            else:
-                log.warning(f'Не удалось распознать линию: {line}')
-                return None
+            log.warning(f'Не удалось распознать линию: {line}')
+            return None
 
-        # 3. Логика определения линии с учетом станции. Подтягиваем данные по городу.
-        if station is not None:
-            # Сначала мы определяем линию независимо от станции, затем станцию, независимо от линии.
-            # Затем проверяем, есть ли в какой-либо из линий название станции.
-            # Если есть, то возвращаем эту линию, иначе, возвращаем None.
-            guessed_line = Parser.parse_object(line, line_choices, threshold=90)
-            guessed_station = Parser.parse_object(station, station_choices, threshold=90)
+        # 3. Логика определения линии с учётом станции.
+        # Сначала пытаемся распознать линию.
+        guessed_line = Parser.parse_object(line, line_choices, threshold=90)
 
-            if guessed_line and guessed_station:
-                # Проверяем, есть ли станция в списке станций линии.
-                if guessed_station in metro[city][guessed_line]:
-                    log.info(f'Линия распознана: {guessed_line}')
-                    return guessed_line
-                else:
-                    log.warning(f'Не удалось распознать линию: {line}')
-                    return None
-            else:
-                log.warning(f'Не удалось распознать линию: {line}')
-                return None
+        if not guessed_line:
+            log.warning(f'Не удалось распознать линию: {line}')
+            return None
+
+        # Пытаемся распознать станцию (fuzzy), и/или смотрим точное совпадение.
+        fuzzy_station = Parser.parse_object(station, station_choices, threshold=90)
+        stations_on_line = metro[city][guessed_line]
+
+        if station in stations_on_line or (fuzzy_station and fuzzy_station in stations_on_line):
+            log.info(f'Линия распознана: {guessed_line}')
+            return guessed_line
+
+        log.warning(f'Не удалось распознать линию: {line}')
+        return None
