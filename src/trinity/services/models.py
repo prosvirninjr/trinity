@@ -5,6 +5,7 @@ from pydantic import ValidationError
 
 from trinity.schemas.outdoor import Metro
 from trinity.services.exceptions import TemplateDataError, TemplateStructureError
+from trinity.services.logics import Coefficient
 from trinity.utils.xlsx.xlsx_loader import load_st
 
 
@@ -67,6 +68,44 @@ class MetroTemplate:
 
         self.template = v_template
 
+    def _create_is_digital_column(self, template: pl.DataFrame) -> pl.DataFrame:
+        """Создает столбец с маркерами digital конструкций."""
+        template = template.with_columns(
+            pl.col('spot_duration')
+            .map_elements(lambda x: True if x else False, return_dtype=pl.Boolean)
+            .alias('is_digital')
+        )
+
+        return template
+
+    def _create_rental_c_column(self, template: pl.DataFrame) -> pl.DataFrame:
+        """Создает столбец с коэффициентами длительности аренды."""
+        template = template.with_columns(
+            pl.struct('date_from', 'date_to')
+            .map_elements(lambda x: Coefficient.calc_rental_c(x['date_from'], x['date_to']), return_dtype=pl.Float64)
+            .alias('rental_c')
+        )
+
+        return template
+
+    def _create_digital_c_column(self, template: pl.DataFrame) -> pl.DataFrame:
+        # Если digital отсутствуют, задаем коэффициент равный 1.0, для исключения влияния на расчет.
+        d_c = [
+            1.0
+            if row['spot_duration'] == 0
+            else Coefficient.calc_digital_c(
+                row['format_'],
+                row['spot_duration'],
+                row['spots_per_block'],
+                row['block_duration'],
+            )
+            for row in template.iter_rows(named=True)
+        ]
+
+        template = template.with_columns(pl.Series(d_c).alias('digital_c'))
+
+        return template
+
     # TODO: Добавить документацию.
     def _process_template(self, template: pl.DataFrame) -> pl.DataFrame:
         """
@@ -77,6 +116,7 @@ class MetroTemplate:
         Args:
             template (pl.DataFrame): Исходный шаблон метро.
         """
+        template = self._create_is_digital_column(template)
         return template
 
     # TODO: Добавить документацию.
