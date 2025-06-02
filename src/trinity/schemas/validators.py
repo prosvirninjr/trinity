@@ -4,7 +4,7 @@ from trinity.utils.tools import Parser, TextTools
 
 
 # Базовые валидаторы.
-def is_empty(value: Any) -> Any:
+def is_empty(value: Any, column: str) -> Any:
     """
     Before Pydantic валидатор. Проверяет, является ли входное значение пустым.
     Поднимает исключение, если значение является пустым.
@@ -16,10 +16,10 @@ def is_empty(value: Any) -> Any:
     if isinstance(value, (int, float)):
         return value
 
-    raise ValueError('Значение не может быть пустым.')
+    raise ValueError(f'Значение в столбце "{column}" не может быть пустым.')
 
 
-def is_number(value: Any) -> float:
+def is_number(value: Any, column: str) -> float:
     """
     Before Pydantic валидатор. Проверяет, является ли входное значение числом.
     Поднимает исключение, если значение не является числом.
@@ -33,10 +33,10 @@ def is_number(value: Any) -> float:
         if result:
             return result
 
-    raise ValueError('Значение не является числом.')
+    raise ValueError(f'Значение в столбце "{column}" не является числом.')
 
 
-def is_date(value: Any) -> float:
+def is_date(value: Any, column: str) -> float:
     """
     Before Pydantic валидатор. Проверяет, является ли входное значение датой.
     Поднимает исключение, если значение не является датой.
@@ -47,10 +47,10 @@ def is_date(value: Any) -> float:
         if result:
             return result
 
-    raise ValueError('Значение не является датой.')
+    raise ValueError(f'Значение в столбце "{column}" не является датой.')
 
 
-def is_integer(value: int | float) -> int:
+def is_integer(value: int | float, column: str) -> int:
     """
     After Pydantic валидатор. Проверяет, является ли входное значение целым числом.
     Поднимает исключение, если значение не является целым числом.
@@ -60,10 +60,10 @@ def is_integer(value: int | float) -> int:
     if result:
         return int(value)
 
-    raise ValueError('Значение не является целым числом.')
+    raise ValueError(f'Значение в столбце "{column}" не является целым числом.')
 
 
-def is_percentage(value: int | float) -> int | float:
+def is_percentage(value: int | float, column: str) -> int | float:
     """
     After Pydantic валидатор. Проверяет, является ли входное значение процентом.
     Поднимает исключение, если значение не является процентом.
@@ -72,10 +72,10 @@ def is_percentage(value: int | float) -> int | float:
         if 0 <= value <= 100:
             return value
 
-    raise ValueError('Значение не является процентом.')
+    raise ValueError(f'Значение в столбце "{column}" не является процентом.')
 
 
-def is_not_negative(value: int | float) -> int | float:
+def is_not_negative(value: int | float, column: str) -> int | float:
     """
     After Pydantic валидатор. Проверяет, является ли входное значение неотрицательным числом.
     Поднимает исключение, если значение является отрицательным.
@@ -84,11 +84,11 @@ def is_not_negative(value: int | float) -> int | float:
         if value >= 0:
             return value
 
-    raise ValueError('Значение должно быть неотрицательным числом.')
+    raise ValueError(f'Значение в столбце "{column}" должно быть неотрицательным числом.')
 
 
 # Специальные валидаторы.
-def set_empty(value: Any) -> Any:
+def set_empty(value: Any, column: str) -> Any:
     """
     After Pydantic валидатор. Если входное значение является пустым (пустая строка или None), возвращает None.
     """
@@ -103,7 +103,7 @@ def set_empty(value: Any) -> Any:
     return value
 
 
-def set_value(value: str | int | float | None) -> int | float:
+def set_value(value: str | int | float | None, column: str) -> int | float:
     """
     Before | After Pydantic валидатор. Если входное значение является пустым (пустая строка или None), возвращает 0,
     Иначе возвращает само значение.
@@ -114,7 +114,7 @@ def set_value(value: str | int | float | None) -> int | float:
         else:
             value = Parser.parse_number(value)
             if value is None:
-                raise ValueError('Значение должно быть числом.')
+                raise ValueError(f'Значение в столбце "{column}" должно быть числом.')
 
     if value is None:
         return 0
@@ -122,11 +122,11 @@ def set_value(value: str | int | float | None) -> int | float:
     if isinstance(value, (int, float)):
         return value
 
-    raise ValueError('Значение должно быть числом.')
+    raise ValueError(f'Значение в столбце "{column}" должно быть числом.')
 
 
 # Предметные валидаторы.
-def valid_month(value: int) -> int:
+def valid_month(value: int, column: str) -> int:
     """
     After Pydantic валидатор. Проверяет, является ли входное значение валидным месяцем.
     Поднимает исключение, если значение не является месяцем.
@@ -134,10 +134,10 @@ def valid_month(value: int) -> int:
     if 1 <= value <= 12:
         return value
 
-    raise ValueError('Месяц должен быть в диапазоне от 1 до 12.')
+    raise ValueError(f'Значение в столбце "{column}" должно быть в диапазоне от 1 до 12.')
 
 
-def valid_hours(value: int | float) -> int | float:
+def valid_hours(value: int | float, column: str) -> int | float:
     """
     After Pydantic валидатор. Проверяет, является ли входное значение валидным количеством часов.
     Поднимает исключение, если значение не является валидным количеством часов.
@@ -146,4 +146,4 @@ def valid_hours(value: int | float) -> int | float:
         if 0 <= value <= 24:
             return value
 
-    raise ValueError('Количество часов должно быть в диапазоне от 0 до 24.')
+    raise ValueError(f'Количество часов в столбце "{column}" должно быть в диапазоне от 0 до 24.')

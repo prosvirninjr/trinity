@@ -2,6 +2,7 @@
 
 import math
 from datetime import datetime
+from functools import partial
 
 import polars as pl
 from pydantic import AfterValidator, BaseModel, BeforeValidator, Field, model_validator
@@ -35,242 +36,242 @@ class Metro(BaseModel):
         int,
         Field(title='Индекс', pl_dtype=pl.Int64),
         # Порядок выполнения BeforeValidator-ов снизу вверх, AfterValidator-ов сверху вниз.
-        BeforeValidator(validators.is_integer),  # Значение должно быть целым числом.
-        BeforeValidator(validators.is_number),  # Значение должно быть числом.
-        BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
+        BeforeValidator(partial(validators.is_integer, column='Индекс')),
+        BeforeValidator(partial(validators.is_number, column='Индекс')),
+        BeforeValidator(partial(validators.is_empty, column='Индекс')),
     ]
     advertiser: Annotated[
         str,
         Field(title='Рекламодатель', pl_dtype=pl.String),
-        BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
+        BeforeValidator(partial(validators.is_empty, column='Рекламодатель')),
     ]
     campaign: Annotated[
         str,
         Field(title='Кампания', pl_dtype=pl.String),
-        BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
+        BeforeValidator(partial(validators.is_empty, column='Кампания')),
     ]
     city: Annotated[
         str,
         Field(title='Город', pl_dtype=pl.String),
-        BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
+        BeforeValidator(partial(validators.is_empty, column='Город')),
     ]
     line: Annotated[
         str,
         Field(title='Линия', pl_dtype=pl.String),
-        BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
+        BeforeValidator(partial(validators.is_empty, column='Линия')),
     ]
     station: Annotated[
         str | None,
         Field(title='Станция', pl_dtype=pl.String),
-        AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
+        AfterValidator(partial(validators.set_empty, column='Станция')),
     ]
     location: Annotated[
         str | None,
         Field(title='Локация', pl_dtype=pl.String),
-        AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
+        AfterValidator(partial(validators.set_empty, column='Локация')),
     ]
     traffic: Annotated[
         int,
         Field(title='Пассажиропоток', pl_dtype=pl.Int64),
-        BeforeValidator(validators.set_value),  # Значение может быть пустым. Заменяем пустое значение на None.
-        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
-        AfterValidator(validators.is_integer),  # Значение должно быть целым числом.
+        BeforeValidator(partial(validators.set_value, column='Пассажиропоток')),
+        AfterValidator(partial(validators.is_not_negative, column='Пассажиропоток')),
+        AfterValidator(partial(validators.is_integer, column='Пассажиропоток')),
     ]
     format_: Annotated[
         str,
         Field(title='Формат поверхности', pl_dtype=pl.String),
-        BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
+        BeforeValidator(partial(validators.is_empty, column='Формат поверхности')),
     ]
     size: Annotated[
         str,
         Field(title='Размер поверхности', pl_dtype=pl.String),
-        BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
+        BeforeValidator(partial(validators.is_empty, column='Размер поверхности')),
     ]
     cars_count: Annotated[
         int,
         Field(title='Количество вагонов', pl_dtype=pl.Int64),
-        BeforeValidator(validators.set_value),  # Значение может быть пустым. Заменяем пустое значение на None.
-        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
-        AfterValidator(validators.is_integer),  # Значение должно быть целым числом.
+        BeforeValidator(partial(validators.set_value, column='Количество вагонов')),
+        AfterValidator(partial(validators.is_not_negative, column='Количество вагонов')),
+        AfterValidator(partial(validators.is_integer, column='Количество вагонов')),
     ]
     constructions_count: Annotated[
         int,
         Field(title='Количество поверхностей', pl_dtype=pl.Int64),
-        BeforeValidator(validators.set_value),  # Значение может быть пустым. Заменяем пустое значение на None.
-        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
-        AfterValidator(validators.is_integer),  # Значение должно быть целым числом.
+        BeforeValidator(partial(validators.set_value, column='Количество поверхностей')),
+        AfterValidator(partial(validators.is_not_negative, column='Количество поверхностей')),
+        AfterValidator(partial(validators.is_integer, column='Количество поверхностей')),
     ]
 
     # Период размещения.
     month: Annotated[
         int,
         Field(title='Месяц', pl_dtype=pl.Int64),
-        BeforeValidator(validators.is_number),  # Значение должно быть числом.
-        BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
-        AfterValidator(validators.valid_month),  # Проверка месяца.
+        BeforeValidator(partial(validators.is_number, column='Месяц')),
+        BeforeValidator(partial(validators.is_empty, column='Месяц')),
+        AfterValidator(partial(validators.valid_month, column='Месяц')),
     ]
     date_from: Annotated[
         datetime,
         Field(title='Дата начала', pl_dtype=pl.Datetime),
-        BeforeValidator(validators.is_date),  # Значение должно быть датой.
-        BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
+        BeforeValidator(partial(validators.is_date, column='Дата начала')),
+        BeforeValidator(partial(validators.is_empty, column='Дата начала')),
     ]
     date_to: Annotated[
         datetime,
         Field(title='Дата окончания', pl_dtype=pl.Datetime),
-        BeforeValidator(validators.is_date),  # Значение должно быть датой.
-        BeforeValidator(validators.is_empty),  # Значение не должно быть пустым.
+        BeforeValidator(partial(validators.is_date, column='Дата окончания')),
+        BeforeValidator(partial(validators.is_empty, column='Дата окончания')),
     ]
 
     # Digital параметры.
     spot_duration: Annotated[
         float,
         Field(title='Длительность ролика', pl_dtype=pl.Float64),
-        BeforeValidator(validators.set_value),  # Значение может быть пустым. Заменяем пустое значение на 0.
-        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
+        BeforeValidator(partial(validators.set_value, column='Длительность ролика')),
+        AfterValidator(partial(validators.is_not_negative, column='Длительность ролика')),
     ]
     spots_per_block: Annotated[
         float,
         Field(title='Выходов в блоке', pl_dtype=pl.Float64),
-        BeforeValidator(validators.set_value),  # Значение может быть пустым. Заменяем пустое значение на 0.
-        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
+        BeforeValidator(partial(validators.set_value, column='Выходов в блоке')),
+        AfterValidator(partial(validators.is_not_negative, column='Выходов в блоке')),
     ]
     block_duration: Annotated[
         float,
         Field(title='Длительность блока', pl_dtype=pl.Float64),
-        BeforeValidator(validators.set_value),  # Значение может быть пустым. Заменяем пустое значение на 0.
-        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
+        BeforeValidator(partial(validators.set_value, column='Длительность блока')),
+        AfterValidator(partial(validators.is_not_negative, column='Длительность блока')),
     ]
     spots_per_day: Annotated[
         float,
         Field(title='Выходов в сутки', pl_dtype=pl.Float64),
-        BeforeValidator(validators.set_value),  # Значение может быть пустым. Заменяем пустое значение на 0.
-        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
+        BeforeValidator(partial(validators.set_value, column='Выходов в сутки')),
+        AfterValidator(partial(validators.is_not_negative, column='Выходов в сутки')),
     ]
     hours_per_day: Annotated[
         float,
         Field(title='Время работы поверхности', pl_dtype=pl.Float64),
-        BeforeValidator(validators.set_value),  # Значение может быть пустым. Заменяем пустое значение на 0.
-        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
-        AfterValidator(validators.valid_hours),  # Значение должно быть корректным количеством часов.
+        BeforeValidator(partial(validators.set_value, column='Время работы поверхности')),
+        AfterValidator(partial(validators.is_not_negative, column='Время работы поверхности')),
+        AfterValidator(partial(validators.valid_hours, column='Время работы поверхности')),
     ]
 
     # ID конструкций.
     gid_id: Annotated[
         str | None,
         Field(title='GID / ID поверхности', pl_dtype=pl.String),
-        AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
+        AfterValidator(partial(validators.set_empty, column='GID / ID поверхности')),
     ]
     client_id: Annotated[
         str | None,
         Field(title='ID поверхности (клиент)', pl_dtype=pl.String),
-        AfterValidator(validators.set_empty),  # Значение может быть пустым. Заменяем пустое значение на None.
+        AfterValidator(partial(validators.set_empty, column='ID поверхности (клиент)')),
     ]
 
     # Размещение.
     placement: Annotated[
         float,
         Field(title='Размещение PRICE', pl_dtype=pl.Float64),
-        BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
-        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
+        BeforeValidator(partial(validators.set_value, column='Размещение PRICE')),
+        AfterValidator(partial(validators.is_not_negative, column='Размещение PRICE')),
     ]
     placement_discount: Annotated[
         float,
         Field(title='Размещение DISCOUNT', pl_dtype=pl.Float64),
-        BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
-        AfterValidator(validators.is_percentage),  # Значение должно быть процентом.
+        BeforeValidator(partial(validators.set_value, column='Размещение DISCOUNT')),
+        AfterValidator(partial(validators.is_percentage, column='Размещение DISCOUNT')),
     ]
     placement_net: Annotated[
         float,
         Field(title='Размещение NET', pl_dtype=pl.Float64),
-        BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
-        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
+        BeforeValidator(partial(validators.set_value, column='Размещение NET')),
+        AfterValidator(partial(validators.is_not_negative, column='Размещение NET')),
     ]
     placement_vat: Annotated[
         float,
         Field(title='Размещение VAT', pl_dtype=pl.Float64),
-        BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
-        AfterValidator(validators.is_percentage),  # Значение должно быть процентом.
+        BeforeValidator(partial(validators.set_value, column='Размещение VAT')),
+        AfterValidator(partial(validators.is_percentage, column='Размещение VAT')),
     ]
     placement_final: Annotated[
         float,
         Field(title='Размещение NET + VAT', pl_dtype=pl.Float64),
-        BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
-        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
+        BeforeValidator(partial(validators.set_value, column='Размещение NET + VAT')),
+        AfterValidator(partial(validators.is_not_negative, column='Размещение NET + VAT')),
     ]
 
     # Основной монтаж.
     installation_net: Annotated[
         float,
         Field(title='Монтаж NET', pl_dtype=pl.Float64),
-        BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
-        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
+        BeforeValidator(partial(validators.set_value, column='Монтаж NET')),
+        AfterValidator(partial(validators.is_not_negative, column='Монтаж NET')),
     ]
     installation_vat: Annotated[
         float,
         Field(title='Монтаж VAT', pl_dtype=pl.Float64),
-        BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
-        AfterValidator(validators.is_percentage),  # Значение должно быть процентом.
+        BeforeValidator(partial(validators.set_value, column='Монтаж VAT')),
+        AfterValidator(partial(validators.is_percentage, column='Монтаж VAT')),
     ]
     installation_final: Annotated[
         float,
         Field(title='Монтаж NET + VAT', pl_dtype=pl.Float64),
-        BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
-        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
+        BeforeValidator(partial(validators.set_value, column='Монтаж NET + VAT')),
+        AfterValidator(partial(validators.is_not_negative, column='Монтаж NET + VAT')),
     ]
 
     # Дополнительный монтаж.
     e_installation_net: Annotated[
         float,
         Field(title='Доп. монтаж NET', pl_dtype=pl.Float64),
-        BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
-        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
+        BeforeValidator(partial(validators.set_value, column='Доп. монтаж NET')),
+        AfterValidator(partial(validators.is_not_negative, column='Доп. монтаж NET')),
     ]
     e_installation_vat: Annotated[
         float,
         Field(title='Доп. монтаж VAT', pl_dtype=pl.Float64),
-        BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
-        AfterValidator(validators.is_percentage),  # Значение должно быть процентом.
+        BeforeValidator(partial(validators.set_value, column='Доп. монтаж VAT')),
+        AfterValidator(partial(validators.is_percentage, column='Доп. монтаж VAT')),
     ]
     e_installation_final: Annotated[
         float,
         Field(title='Доп. монтаж NET + VAT', pl_dtype=pl.Float64),
-        BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
-        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
+        BeforeValidator(partial(validators.set_value, column='Доп. монтаж NET + VAT')),
+        AfterValidator(partial(validators.is_not_negative, column='Доп. монтаж NET + VAT')),
     ]
 
     # Печать.
     print_net: Annotated[
         float,
         Field(title='Печать NET', pl_dtype=pl.Float64),
-        BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
-        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
+        BeforeValidator(partial(validators.set_value, column='Печать NET')),
+        AfterValidator(partial(validators.is_not_negative, column='Печать NET')),
     ]
     print_vat: Annotated[
         float,
         Field(title='Печать VAT', pl_dtype=pl.Float64),
-        BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
-        AfterValidator(validators.is_percentage),  # Значение должно быть процентом.
+        BeforeValidator(partial(validators.set_value, column='Печать VAT')),
+        AfterValidator(partial(validators.is_percentage, column='Печать VAT')),
     ]
     print_final: Annotated[
         float,
         Field(title='Печать NET + VAT', pl_dtype=pl.Float64),
-        BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
-        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
+        BeforeValidator(partial(validators.set_value, column='Печать NET + VAT')),
+        AfterValidator(partial(validators.is_not_negative, column='Печать NET + VAT')),
     ]
 
     # Итого.
     final_net: Annotated[
         float,
         Field(title='Итого NET', pl_dtype=pl.Float64),
-        BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
-        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
+        BeforeValidator(partial(validators.set_value, column='Итого NET')),
+        AfterValidator(partial(validators.is_not_negative, column='Итого NET')),
     ]
     final_vat: Annotated[
         float,
         Field(title='Итого NET + VAT', pl_dtype=pl.Float64),
-        BeforeValidator(validators.set_value),  # # Значение может быть пустым. Заменяем пустое значение на 0.
-        AfterValidator(validators.is_not_negative),  # Значение не должно быть отрицательным.
+        BeforeValidator(partial(validators.set_value, column='Итого NET + VAT')),
+        AfterValidator(partial(validators.is_not_negative, column='Итого NET + VAT')),
     ]
 
     @model_validator(mode='after')
