@@ -1,6 +1,7 @@
 """Бизнес-логика для наружной рекламы."""
 
 import calendar
+import json
 import logging
 import os
 from datetime import datetime
@@ -10,7 +11,7 @@ from importlib.resources import files
 from trinity.utils.tools import Parser
 
 # Проверяем наличие папки и создаем ее при необходимости.
-log_path = files('trinity').joinpath('..', '..', 'logs')
+log_path = files('trinity').joinpath('..', '..', '.logs')
 
 if not os.path.exists(log_path):
     os.makedirs(log_path)
@@ -36,7 +37,7 @@ class DuplicateFilter(logging.Filter):
 
 
 # Настраиваем логирование.
-file_handler = logging.FileHandler(log_path, mode='a', encoding='utf-8')
+file_handler = logging.FileHandler(log_path / 'parser.log', mode='a', encoding='utf-8')
 file_handler.setLevel(logging.DEBUG)
 file_handler.addFilter(DuplicateFilter())
 
@@ -131,7 +132,7 @@ class MParser:
     @staticmethod
     @cache
     def parse_advertiser(advertiser: str) -> str | None:
-        choices = files('trinity').joinpath('data', 'advertisers.json')
+        choices = json.load(open(files('trinity').joinpath('data', 'mapping', 'advertisers.json')))
         result = Parser.parse_object(advertiser, choices, threshold=90)
 
         if result is None:
