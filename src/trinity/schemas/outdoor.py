@@ -324,6 +324,8 @@ class Metro(BaseModel):
         if not math.isclose(self.placement_net * (1 + self.placement_vat), self.placement_final, rel_tol=1e-9):
             raise ValueError('Размещение NET не соответствует Размещению NET с НДС.')
 
+        return self
+
     @model_validator(mode='after')
     def valid_installation(self) -> 'Metro':
         """Проверка монтажа."""
@@ -347,7 +349,7 @@ class Metro(BaseModel):
     @model_validator(mode='after')
     def valid_print(self) -> 'Metro':
         """Проверка печати."""
-        if not math.isclose(self.print_price_net * (1 + self.print_vat), self.print_final, rel_tol=1e-9):
+        if not math.isclose(self.print_net * (1 + self.print_vat), self.print_final, rel_tol=1e-9):
             raise ValueError('Печать NET не соответствует Печати NET с НДС.')
 
         return self
