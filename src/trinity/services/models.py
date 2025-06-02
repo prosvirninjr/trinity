@@ -5,7 +5,7 @@ from pydantic import ValidationError
 
 from trinity.schemas.outdoor import Metro
 from trinity.services.exceptions import TemplateDataError, TemplateStructureError
-from trinity.services.logics import Coefficient
+from trinity.services.logics import Coefficient, Construction
 from trinity.utils.xlsx.xlsx_loader import load_st
 
 
@@ -178,6 +178,17 @@ class MetroTemplate:
 
         return template
 
+    def _create_tech_columns(self, template: pl.DataFrame) -> pl.DataFrame:
+        """Создает вспомогательные столбцы для векторизованных вычислений."""
+        sizes = [Construction.get_sizes(row['size']) for row in template.iter_rows(named=True)]
+
+        template = template.with_columns(
+            pl.Series([size[0] for size in sizes]).alias('_width'),
+            pl.Series([size[1] for size in sizes]).alias('_height'),
+        )
+
+        return template
+
     def _process_template(self, template: pl.DataFrame) -> pl.DataFrame:
         """
         Обрабатывает шаблон метро.
@@ -192,6 +203,9 @@ class MetroTemplate:
         template = self._create_rental_c_column(template)
         template = self._create_digital_c_column(template)
         template = self._create_base_price_column(template)
+
+        # Создаем вспомогательные столбцы для векторизованных вычислений.
+        template = self._create_tech_columns(template)
 
         return template
 

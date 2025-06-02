@@ -58,3 +58,25 @@ class Coefficient:
         digital_c = (spot_duration * ((86400 / block_duration) * spots_per_block)) / denominator
 
         return round(digital_c, n)
+
+
+class Construction:
+    @staticmethod
+    @cache
+    def get_sizes(size: str) -> tuple[float, float]:
+        """
+        Парсит строку с размером в формате 'W x H' и возвращает кортеж (width, height).
+
+        Args:
+            size (str): Строка с размерами в формате 'W x H'.
+
+        Returns:
+            tuple[float, float]: Кортеж с шириной и высотой. В случае неудачи возвращает (0, 0).
+        """
+        try:
+            dimensions = [float(dim.strip()) for dim in size.split('x')]
+            if len(dimensions) != 2:
+                return 0, 0
+            return min(dimensions), max(dimensions)
+        except (ValueError, AttributeError):
+            return 0, 0
