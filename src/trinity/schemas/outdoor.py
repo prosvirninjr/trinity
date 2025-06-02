@@ -58,22 +58,21 @@ class Metro(BaseModel):
     line: Annotated[
         str,
         Field(title='Линия', pl_dtype=pl.String),
-        BeforeValidator(partial(validators.is_empty, column='Линия')),
+        AfterValidator(validators.set_empty),  # Может быть пустым в случае закупки рекламы на всех станциях метро.
     ]
     station: Annotated[
         str | None,
         Field(title='Станция', pl_dtype=pl.String),
-        AfterValidator(validators.set_empty),
+        AfterValidator(validators.set_empty),  # Может быть пустым в случае закупки рекламы в вагоне метро.
     ]
     location: Annotated[
         str | None,
         Field(title='Локация', pl_dtype=pl.String),
-        AfterValidator(validators.set_empty),
+        AfterValidator(partial(validators.is_empty, column='Локация')),
     ]
     traffic: Annotated[
-        int,
-        Field(title='Пассажиропоток', pl_dtype=pl.Int64),
-        BeforeValidator(partial(validators.is_integer, column='Пассажиропоток')),
+        float,
+        Field(title='Пассажиропоток', pl_dtype=pl.Float64),
         BeforeValidator(partial(validators.set_value, column='Пассажиропоток')),
         AfterValidator(partial(validators.is_not_negative, column='Пассажиропоток')),
     ]
@@ -318,10 +317,10 @@ class Metro(BaseModel):
     @model_validator(mode='after')
     def valid_placement(self) -> 'Metro':
         """Проверка размещения."""
-        if not math.isclose(self.placement * (1 - self.placement_discount), self.placement_net, rel_tol=1e-9):
+        if not math.isclose(self.placement * (1 - self.placement_discount), self.placement_net, abs_tol=1.0):
             raise ValueError('Размещение PRICE не соответствует Размещению NET с учетом скидки.')
 
-        if not math.isclose(self.placement_net * (1 + self.placement_vat), self.placement_final, rel_tol=1e-9):
+        if not math.isclose(self.placement_net * (1 + self.placement_vat), self.placement_final, abs_tol=1.0):
             raise ValueError('Размещение NET не соответствует Размещению NET с НДС.')
 
         return self
@@ -329,7 +328,7 @@ class Metro(BaseModel):
     @model_validator(mode='after')
     def valid_installation(self) -> 'Metro':
         """Проверка монтажа."""
-        if not math.isclose(self.installation_net * (1 - self.installation_vat), self.installation_final, rel_tol=1e-9):
+        if not math.isclose(self.installation_net * (1 + self.installation_vat), self.installation_final, abs_tol=1.0):
             raise ValueError('Монтаж NET не соответствует Монтажу NET с НДС.')
 
         return self
@@ -338,9 +337,9 @@ class Metro(BaseModel):
     def valid_extra_installation(self) -> 'Metro':
         """Проверка дополнительного монтажа."""
         if not math.isclose(
-            self.e_installation_net * (1 - self.e_installation_vat),
+            self.e_installation_net * (1 + self.e_installation_vat),
             self.e_installation_final,
-            rel_tol=1e-9,
+            abs_tol=1.0,
         ):
             raise ValueError('Дополнительный монтаж NET не соответствует Дополнительному монтажу NET с НДС.')
 
@@ -349,7 +348,7 @@ class Metro(BaseModel):
     @model_validator(mode='after')
     def valid_print(self) -> 'Metro':
         """Проверка печати."""
-        if not math.isclose(self.print_net * (1 + self.print_vat), self.print_final, rel_tol=1e-9):
+        if not math.isclose(self.print_net * (1 + self.print_vat), self.print_final, abs_tol=1.0):
             raise ValueError('Печать NET не соответствует Печати NET с НДС.')
 
         return self
@@ -360,14 +359,14 @@ class Metro(BaseModel):
         if not math.isclose(
             self.placement_net + self.installation_net + self.e_installation_net + self.print_net,
             self.final_net,
-            rel_tol=1e-9,
+            abs_tol=1.0,
         ):
             raise ValueError('Итоговая цена NET не соответствует сумме всех компонентов.')
 
         if not math.isclose(
             self.placement_final + self.installation_final + self.e_installation_final + self.print_final,
             self.final_vat,
-            rel_tol=1e-9,
+            abs_tol=1.0,
         ):
             raise ValueError('Итоговая цена с НДС не соответствует сумме всех компонентов.')
 
