@@ -77,3 +77,12 @@ class TestMParser:
     def test_parse_city(self, city: str, expected: str):
         """Проверяет корректность парсинга города с разными вариантами входных данных."""
         assert MParser.parse_city(city) == expected
+
+    @pytest.mark.parametrize(
+        'city, line, station, expected',
+        [
+            ('Москва', 'Арбатско-Покровская', None, 'Арбатско-Покровская'),
+        ],
+    )
+    def test_parse_line(self, city: str, line: str | None, station: str | None, expected: str):
+        assert MParser.parse_line(city, line, station) == expected

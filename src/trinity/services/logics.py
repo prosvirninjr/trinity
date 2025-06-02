@@ -162,3 +162,75 @@ class MParser:
             log.info(f'Город распознан: {result}')
 
         return result
+
+    @staticmethod
+    def _get_line_choices(metro: dict, city: str) -> dict[str, list[str]]:
+        """
+        Возвращает словарь {линия: варианты} для указанного города на основе общего словаря metro.
+        """
+        city_data = metro[city]
+
+        return {ln: data.get('_self', {}).get('options', []) for ln, data in city_data.items() if '_self' in data}
+
+    @staticmethod
+    def _get_station_choices(metro: dict, city: str) -> dict[str, list[str]]:
+        """
+        Возвращает словарь {станция: варианты} для указанного города на основе общего словаря metro.
+        """
+        city_data = metro[city]
+
+        choices: dict[str, list[str]] = {}
+
+        for data in city_data.values():
+            for st_name, st_data in data.items():
+                if st_name == '_self':
+                    continue
+
+                opts = st_data['options']
+
+                if opts:
+                    choices[st_name] = opts
+
+        return choices
+
+    @staticmethod
+    @cache
+    def parse_line(city: str, line: str | None, station: str | None) -> str | None:
+        # 1. Если станция и линия не указаны, возвращаем None.
+        if line is None and station is None:
+            return None
+
+        metro = json.load(open(files('trinity').joinpath('data', 'mapping', 'metro.json')))
+        line_choices = MParser._get_line_choices(metro, city)
+        station_choices = MParser._get_station_choices(metro, city)
+
+        # 2. Логика определения линии вне зависимости от станции. Подтягиваем данные по городу. Возвращаем результат.
+        if station is None:
+            guessed_line = Parser.parse_object(line, line_choices, threshold=90)
+
+            if guessed_line:
+                log.info(f'Линия распознана: {guessed_line}')
+                return guessed_line
+            else:
+                log.warning(f'Не удалось распознать линию: {line}')
+                return None
+
+        # 3. Логика определения линии с учетом станции. Подтягиваем данные по городу.
+        if station is not None:
+            # Сначала мы определяем линию независимо от станции, затем станцию, независимо от линии.
+            # Затем проверяем, есть ли в какой-либо из линий название станции.
+            # Если есть, то возвращаем эту линию, иначе, возвращаем None.
+            guessed_line = Parser.parse_object(line, line_choices, threshold=90)
+            guessed_station = Parser.parse_object(station, station_choices, threshold=90)
+
+            if guessed_line and guessed_station:
+                # Проверяем, есть ли станция в списке станций линии.
+                if guessed_station in metro[city][guessed_line]:
+                    log.info(f'Линия распознана: {guessed_line}')
+                    return guessed_line
+                else:
+                    log.warning(f'Не удалось распознать линию: {line}')
+                    return None
+            else:
+                log.warning(f'Не удалось распознать линию: {line}')
+                return None

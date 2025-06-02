@@ -274,6 +274,15 @@ class Metro(BaseModel):
     ]
 
     @model_validator(mode='after')
+    def valid_line(self) -> 'Metro':
+        """Проверка корректности линии метро."""
+        if self.station is not None:
+            if self.line is None:
+                raise ValueError('Линия метро должна быть указана, если указана станция.')
+
+        return self
+
+    @model_validator(mode='after')
     def valid_month(self) -> 'Metro':
         """Проверка корректности месяца размещения."""
         if self.date_from.month != self.month:
