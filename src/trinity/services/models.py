@@ -99,7 +99,15 @@ class MetroTemplate:
         return v_template
 
     def _create_is_digital_column(self, template: pl.DataFrame) -> pl.DataFrame:
-        """Создает столбец с маркерами digital конструкций."""
+        """
+        Создает столбец с маркерами digital конструкций.
+
+        Args:
+            template (pl.DataFrame): Валидный шаблон метро в виде DataFrame.
+
+        Returns:
+            pl.DataFrame: Шаблон метро с добавленным столбцом is_digital.
+        """
         template = template.with_columns(
             pl.col('spot_duration')
             .map_elements(lambda x: True if x else False, return_dtype=pl.Boolean)
@@ -109,7 +117,15 @@ class MetroTemplate:
         return template
 
     def _create_rental_c_column(self, template: pl.DataFrame) -> pl.DataFrame:
-        """Создает столбец с коэффициентами длительности аренды."""
+        """
+        Создает столбец с коэффициентами длительности аренды.
+
+        Args:
+            template (pl.DataFrame): Валидный шаблон метро в виде DataFrame.
+
+        Returns:
+            pl.DataFrame: Шаблон метро с добавленным столбцом rental_c.
+        """
         template = template.with_columns(
             pl.struct('date_from', 'date_to')
             .map_elements(lambda x: Coefficient.calc_rental_c(x['date_from'], x['date_to']), return_dtype=pl.Float64)
@@ -119,6 +135,15 @@ class MetroTemplate:
         return template
 
     def _create_digital_c_column(self, template: pl.DataFrame) -> pl.DataFrame:
+        """
+        Создает столбец с коэффициентами digital конструкций.
+
+        Args:
+            template (pl.DataFrame): Валидный шаблон метро в виде DataFrame.
+
+        Returns:
+            pl.DataFrame: Шаблон метро с добавленным столбцом digital_c.
+        """
         # Если digital отсутствуют, задаем коэффициент равный 1.0, для исключения влияния на расчет.
         d_c = [
             1.0
