@@ -178,18 +178,16 @@ class MParser:
         Возвращает словарь {станция: варианты} для указанного города на основе общего словаря metro.
         """
         city_data = metro[city]
-
         choices: dict[str, list[str]] = {}
 
-        for data in city_data.values():
-            for st_name, st_data in data.items():
-                if st_name == '_self':
+        for line_data in city_data.values():
+            for st_name, st_data in line_data.items():
+                # Пропускаем мета-узел и дубликаты.
+                if st_name == '_self' or st_name in choices:
                     continue
 
-                opts = st_data['options']
-
-                if opts:
-                    choices[st_name] = opts
+                # Включаем станцию даже если список вариантов пуст.
+                choices[st_name] = st_data.get('options', [])
 
         return choices
 
