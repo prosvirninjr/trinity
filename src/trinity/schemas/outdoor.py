@@ -54,6 +54,7 @@ class Metro(BaseModel):
         str,
         Field(title='Город', pl_dtype=pl.String),
         BeforeValidator(partial(validators.is_empty, column='Город')),
+        AfterValidator(partial(validators.valid_metro, column='Город')),
     ]
     line: Annotated[
         str,

@@ -1,6 +1,7 @@
 from datetime import datetime
 from typing import Any
 
+from trinity.services.logics import MParser
 from trinity.utils.tools import Parser, TextTools
 
 
@@ -148,3 +149,29 @@ def valid_hours(value: int | float, column: str) -> int | float:
             return value
 
     raise ValueError(f'Количество часов в столбце "{column}" должно быть в диапазоне от 0 до 24.')
+
+
+def valid_metro(value: str, column: str) -> str:
+    """
+    After Pydantic валидатор. Проверяет, что входное значение содержит один из городов, где есть метро.
+    """
+    city = MParser.parse_city(value)
+
+    if city is None:
+        raise ValueError('Не удалось определить город метро.')
+
+    city = 'Москва' if city == 'Московская область' else city
+
+    if city not in (
+        'Москва',
+        'Санкт-Петербург',
+        'Екатеринбург',
+        'Казань',
+        'Новосибирск',
+        'Нижний Новгород',
+        'Самара',
+        'Волгоград',
+    ):
+        raise ValueError('В указанном городе нет метро.')
+
+    return city
