@@ -157,10 +157,11 @@ class MetroTemplate:
             1.0
             if row['spot_duration'] == 0
             else Coefficient.calc_digital_c(
-                row['format_'],
-                row['spot_duration'],
-                row['spots_per_block'],
-                row['block_duration'],
+                media='metro',
+                format_=row['format_'],
+                spot_duration=row['spot_duration'],
+                spots_per_block=row['spots_per_block'],
+                block_duration=row['block_duration'],
             )
             for row in template.iter_rows(named=True)
         ]
