@@ -300,16 +300,16 @@ class MParser:
         result = Parser.parse_object(format_, formats, threshold=90)
 
         if result is None:
-            log.warning(f'Не удалось распознать формат: {format_}')
+            log.warning('Не удалось распознать формат: %s', format_)
         else:
-            log.info(f'Формат распознан: {result}')
+            log.info('Формат распознан: %s -> %s', format_, result)
 
         return result
 
     @staticmethod
     @cache
     def _extract_size(string: str, n: int = 1) -> str | None:
-        # Удаляем единицы измерения (см, м, мм) и лишние пробелы
+        # Удаляем единицы измерения (см, м, мм) и лишние пробелы.
         string_without_units = re.sub(r'\s*(см|м|мм)\b', '', string, flags=re.IGNORECASE)
         cleaned_string = TextTools.to_clean(string_without_units)
 
@@ -332,7 +332,7 @@ class MParser:
             # Если произошла ошибка при преобразовании, возвращаем None.
             return None
         else:
-            return f'{width}x{height}'
+            return 'x'.join(map(str, (width, height)))
 
     @staticmethod
     @cache
@@ -350,18 +350,18 @@ class MParser:
 
         if parsed:
             if parsed == '-':
-                log.warning(f'Размер распознан, но не подпадает под стандартную запись: {string}')
+                log.warning('Размер распознан, но не подпадает под стандартную запись: %s', string)
                 return None
 
-            log.info(f'Размер распознан: {parsed}')
+            log.info('Размер распознан: %s -> %s', string, parsed)
             return parsed
 
         # Если не удалось распарсить по справочнику, пробуем экстрактор чисел.
         result = MParser._extract_size(string)
 
         if result:
-            log.info(f'Размер распознан: {result}')
+            log.info('Размер распознан: %s -> %s', string, result)
         else:
-            log.warning(f'Не удалось распарсить размер: {string}')
+            log.warning('Не удалось распарсить размер: %s', string)
 
         return result
