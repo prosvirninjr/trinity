@@ -179,7 +179,7 @@ class Indoor(BaseModel):
         Field(title='Комментарий', pl_dtype=pl.String),
         AfterValidator(validators.set_empty),
     ]
-    placement: Annotated[
+    placement_price: Annotated[
         float,
         Field(title='Размещение PRICE', pl_dtype=pl.Float64),
         BeforeValidator(partial(validators.set_value, column='Размещение PRICE')),
@@ -209,7 +209,7 @@ class Indoor(BaseModel):
         BeforeValidator(partial(validators.set_value, column='Размещение NET + VAT')),
         AfterValidator(partial(validators.is_not_negative, column='Размещение NET + VAT')),
     ]
-    production_unit_price: Annotated[
+    production_net: Annotated[
         float,
         Field(title='Производство NET', pl_dtype=pl.Float64),
         BeforeValidator(partial(validators.set_value, column='Производство NET')),
@@ -222,7 +222,7 @@ class Indoor(BaseModel):
         BeforeValidator(partial(validators.set_value, column='Производство COUNT')),
         AfterValidator(partial(validators.is_not_negative, column='Производство COUNT')),
     ]
-    production_total_price: Annotated[
+    production_total: Annotated[
         float,
         Field(title='Производство NET TOTAL', pl_dtype=pl.Float64),
         BeforeValidator(partial(validators.set_value, column='Производство NET TOTAL')),
@@ -234,7 +234,7 @@ class Indoor(BaseModel):
         BeforeValidator(partial(validators.set_value, column='Производство VAT')),
         AfterValidator(partial(validators.is_percentage, column='Производство VAT')),
     ]
-    production_total_final: Annotated[
+    production_final: Annotated[
         float,
         Field(title='Производство NET TOTAL + VAT', pl_dtype=pl.Float64),
         BeforeValidator(partial(validators.set_value, column='Производство NET TOTAL + VAT')),
@@ -271,7 +271,7 @@ class Indoor(BaseModel):
         BeforeValidator(partial(validators.set_value, column='Доп. монтаж COUNT')),
         AfterValidator(partial(validators.is_not_negative, column='Доп. монтаж COUNT')),
     ]
-    e_installation_total_net: Annotated[
+    e_installation_total: Annotated[
         float,
         Field(title='Доп. монтаж NET TOTAL', pl_dtype=pl.Float64),
         BeforeValidator(partial(validators.set_value, column='Доп. монтаж NET TOTAL')),
@@ -480,7 +480,7 @@ class Metro(BaseModel):
     ]
 
     # Размещение.
-    placement: Annotated[
+    placement_price: Annotated[
         float,
         Field(title='Размещение PRICE', pl_dtype=pl.Float64),
         BeforeValidator(partial(validators.set_value, column='Размещение PRICE')),
@@ -512,7 +512,7 @@ class Metro(BaseModel):
     ]
 
     # Основной монтаж.
-    installation_net: Annotated[
+    installation_total: Annotated[
         float,
         Field(title='Монтаж NET', pl_dtype=pl.Float64),
         BeforeValidator(partial(validators.set_value, column='Монтаж NET')),
@@ -532,7 +532,7 @@ class Metro(BaseModel):
     ]
 
     # Дополнительный монтаж.
-    e_installation_net: Annotated[
+    e_installation_total: Annotated[
         float,
         Field(title='Доп. монтаж NET', pl_dtype=pl.Float64),
         BeforeValidator(partial(validators.set_value, column='Доп. монтаж NET')),
@@ -552,7 +552,7 @@ class Metro(BaseModel):
     ]
 
     # Печать.
-    print_net: Annotated[
+    print_total: Annotated[
         float,
         Field(title='Печать NET', pl_dtype=pl.Float64),
         BeforeValidator(partial(validators.set_value, column='Печать NET')),
@@ -572,13 +572,13 @@ class Metro(BaseModel):
     ]
 
     # Итого.
-    final_net: Annotated[
+    full_net: Annotated[
         float,
         Field(title='Итого NET', pl_dtype=pl.Float64),
         BeforeValidator(partial(validators.set_value, column='Итого NET')),
         AfterValidator(partial(validators.is_not_negative, column='Итого NET')),
     ]
-    final_vat: Annotated[
+    full_vat: Annotated[
         float,
         Field(title='Итого NET + VAT', pl_dtype=pl.Float64),
         BeforeValidator(partial(validators.set_value, column='Итого NET + VAT')),
@@ -638,7 +638,7 @@ class Metro(BaseModel):
     @model_validator(mode='after')
     def valid_placement(self) -> 'Metro':
         """Проверка размещения."""
-        if not math.isclose(self.placement * (1 - self.placement_discount), self.placement_net, abs_tol=1.0):
+        if not math.isclose(self.placement_price * (1 - self.placement_discount), self.placement_net, abs_tol=1.0):
             raise ValueError('Размещение PRICE не соответствует Размещению NET с учетом скидки.')
 
         if not math.isclose(self.placement_net * (1 + self.placement_vat), self.placement_final, abs_tol=1.0):
@@ -649,7 +649,9 @@ class Metro(BaseModel):
     @model_validator(mode='after')
     def valid_installation(self) -> 'Metro':
         """Проверка монтажа."""
-        if not math.isclose(self.installation_net * (1 + self.installation_vat), self.installation_final, abs_tol=1.0):
+        if not math.isclose(
+            self.installation_total * (1 + self.installation_vat), self.installation_final, abs_tol=1.0
+        ):
             raise ValueError('Монтаж NET не соответствует Монтажу NET с НДС.')
 
         return self
@@ -658,7 +660,7 @@ class Metro(BaseModel):
     def valid_extra_installation(self) -> 'Metro':
         """Проверка дополнительного монтажа."""
         if not math.isclose(
-            self.e_installation_net * (1 + self.e_installation_vat),
+            self.e_installation_total * (1 + self.e_installation_vat),
             self.e_installation_final,
             abs_tol=1.0,
         ):
@@ -669,7 +671,7 @@ class Metro(BaseModel):
     @model_validator(mode='after')
     def valid_print(self) -> 'Metro':
         """Проверка печати."""
-        if not math.isclose(self.print_net * (1 + self.print_vat), self.print_final, abs_tol=1.0):
+        if not math.isclose(self.print_total * (1 + self.print_vat), self.print_final, abs_tol=1.0):
             raise ValueError('Печать NET не соответствует Печати NET с НДС.')
 
         return self
@@ -678,15 +680,15 @@ class Metro(BaseModel):
     def valid_final_prices(self) -> 'Metro':
         """Проверка итоговых цен."""
         if not math.isclose(
-            self.placement_net + self.installation_net + self.e_installation_net + self.print_net,
-            self.final_net,
+            self.placement_net + self.installation_total + self.e_installation_total + self.print_total,
+            self.full_net,
             abs_tol=1.0,
         ):
             raise ValueError('Итоговая цена NET не соответствует сумме всех компонентов.')
 
         if not math.isclose(
             self.placement_final + self.installation_final + self.e_installation_final + self.print_final,
-            self.final_vat,
+            self.full_vat,
             abs_tol=1.0,
         ):
             raise ValueError('Итоговая цена с НДС не соответствует сумме всех компонентов.')
