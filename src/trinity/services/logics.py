@@ -270,6 +270,25 @@ class MParser:
 
     @staticmethod
     @cache
+    def parse_location(location: str | None) -> str | None:
+        """
+        Стандартизирует название локации.
+        """
+        if location is None:
+            return None
+
+        locations = json.load(open(files('trinity').joinpath('data', 'mapping', 'locations.json')))
+        result = Parser.parse_object(location, locations, threshold=90)
+
+        if result is None:
+            log.warning(f'Не удалось распознать локацию: {location}')
+        else:
+            log.info(f'Локация распознана: {result}')
+
+        return result
+
+    @staticmethod
+    @cache
     def parse_format(format_: str) -> str | None:
         """
         Стандартизирует название формата конструкции.

@@ -64,14 +64,14 @@ class TestMParser:
     @pytest.mark.parametrize(
         'city, expected',
         [
-            ['Москва', 'Москва'],
-            ['Новосибирск', 'Новосибирск'],
-            ['Санкт-Петербург', 'Санкт-Петербург'],
-            ['Нижний Новгород', 'Нижний Новгород'],
-            ['Казань', 'Казань'],
-            ['Московская область', 'Московская область'],
-            ['Самара', 'Самара'],
-            ['Екатеринбург', 'Екатеринбург'],
+            ('Москва', 'Москва'),
+            ('Новосибирск', 'Новосибирск'),
+            ('Санкт-Петербург', 'Санкт-Петербург'),
+            ('Нижний Новгород', 'Нижний Новгород'),
+            ('Казань', 'Казань'),
+            ('Московская область', 'Московская область'),
+            ('Самара', 'Самара'),
+            ('Екатеринбург', 'Екатеринбург'),
         ],
     )
     def test_parse_city(self, city: str, expected: str):
@@ -167,3 +167,12 @@ class TestMParser:
     )
     def test_parse_size(self, size: str, expected: str):
         assert MParser.parse_size(size) == expected
+
+    @pytest.mark.parametrize(
+        'location, expected',
+        [
+            ('Вагон', 'Вагон'),
+        ],
+    )
+    def test_parse_location(self, location: str, expected: str):
+        assert MParser.parse_location(location) == expected
