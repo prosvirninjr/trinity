@@ -243,10 +243,20 @@ class MetroTemplate:
 
     def _parse_format(self, template: pl.DataFrame) -> pl.DataFrame:
         """Парсит столбец format. Стандартизирует форматы поверхностей."""
+        template = template.with_columns(
+            pl.col('format_')
+            .map_elements(lambda x: MParser.parse_format(x) or x, return_dtype=pl.String)
+            .alias('format_')
+        )
+
         return template
 
     def _parse_size(self, template: pl.DataFrame) -> pl.DataFrame:
         """Парсит столбец size. Стандартизирует размеры конструкций."""
+        template = template.with_columns(
+            pl.col('size').map_elements(lambda x: MParser.parse_size(x) or x, return_dtype=pl.String).alias('size')
+        )
+
         return template
 
     def _process_template(self, template: pl.DataFrame) -> pl.DataFrame:
