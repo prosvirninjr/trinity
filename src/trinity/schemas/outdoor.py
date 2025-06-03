@@ -17,7 +17,7 @@ class Outdoor(BaseModel):
     pass
 
 
-class Ots(BaseModel):
+class OTS(BaseModel):
     """Шаблон OTS."""
 
     pass
