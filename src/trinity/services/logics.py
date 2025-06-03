@@ -145,9 +145,9 @@ class MParser:
         result = Parser.parse_object(advertiser, choices, threshold=90)
 
         if result is None:
-            log.warning(f'Не удалось распознать рекламодателя: {advertiser}')
+            log.warning('Не удалось распознать рекламодателя: %s', advertiser)
         else:
-            log.info(f'Рекламодатель распознан: {result}')
+            log.info('Рекламодатель распознан: %s -> %s', advertiser, result)
 
         return result
 
@@ -158,9 +158,9 @@ class MParser:
         result = Parser.parse_object(city, choices, threshold=90)
 
         if result is None:
-            log.warning(f'Не удалось распознать город: {city}')
+            log.warning('Не удалось распознать город: %s', city)
         else:
-            log.info(f'Город распознан: {result}')
+            log.info('Город распознан: %s -> %s', city, result)
 
         return result
 
@@ -208,17 +208,17 @@ class MParser:
             guessed_line = Parser.parse_object(line, line_choices, threshold=90)
 
             if guessed_line:
-                log.info(f'Линия распознана: {guessed_line}')
+                log.info('Линия распознана: %s -> %s', line, guessed_line)
                 return guessed_line
 
-            log.warning(f'Не удалось распознать линию: {line}')
+            log.warning('Не удалось распознать линию: %s', line)
             return None
 
         # 3. Логика определения линии с учётом станции. # Сначала пытаемся распознать линию.
         guessed_line = Parser.parse_object(line, line_choices, threshold=90)
 
         if not guessed_line:
-            log.warning(f'Не удалось распознать линию: {line}')
+            log.warning('Не удалось распознать линию: %s', line)
             return None
 
         # Пытаемся распознать станцию (fuzzy), и / или смотрим точное совпадение.
@@ -232,19 +232,19 @@ class MParser:
                 stations = metro[city].get(mcd_line, {})
 
                 if station in stations or (fuzzy_station and fuzzy_station in stations):
-                    log.info(f'Линия распознана: {mcd_line}')
+                    log.info('Линия распознана: %s -> %s', line, mcd_line)
                     return mcd_line
 
-            log.info(f'Линия распознана: {base_mcd}')
+            log.info('Линия распознана: %s -> %s', line, base_mcd)
             return base_mcd
 
         stations_on_line = metro[city][guessed_line]
 
         if station in stations_on_line or (fuzzy_station and fuzzy_station in stations_on_line):
-            log.info(f'Линия распознана: {guessed_line}')
+            log.info('Линия распознана: %s -> %s', line, guessed_line)
             return guessed_line
 
-        log.warning(f'Не удалось распознать линию: {line}')
+        log.warning('Не удалось распознать линию: %s', line)
         return None
 
     @staticmethod
@@ -262,9 +262,9 @@ class MParser:
         result = Parser.parse_object(station, station_choices, threshold=90)
 
         if result is None:
-            log.warning(f'Не удалось распознать станцию: {station}')
+            log.warning('Не удалось распознать станцию: %s', station)
         else:
-            log.info(f'Станция распознана: {result}')
+            log.info('Станция распознана: %s -> %s', station, result)
 
         return result
 
@@ -281,9 +281,9 @@ class MParser:
         result = Parser.parse_object(location, locations, threshold=90)
 
         if result is None:
-            log.warning(f'Не удалось распознать локацию: {location}')
+            log.warning('Не удалось распознать локацию: %s', location)
         else:
-            log.info(f'Локация распознана: {result}')
+            log.info('Локация распознана: %s -> %s', location, result)
 
         return result
 
