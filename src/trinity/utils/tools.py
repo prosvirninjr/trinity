@@ -1,6 +1,7 @@
 import hashlib
 import re
 from datetime import datetime
+from decimal import ROUND_HALF_UP, Decimal
 from functools import cache
 
 from rapidfuzz import fuzz, process
@@ -215,3 +216,9 @@ class Parser:
             time_to += ':00'
 
         return f'{time_from}-{time_to}'
+
+
+def round_(value, ndigits=1):
+    """Округление по математическим правилам."""
+    exp = Decimal('1') if ndigits == 0 else Decimal(f'1e{-ndigits}')
+    return float(Decimal(value).quantize(exp, rounding=ROUND_HALF_UP))

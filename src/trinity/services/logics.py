@@ -4,11 +4,12 @@ import calendar
 import json
 import logging
 import os
+import re
 from datetime import datetime
 from functools import cache
 from importlib.resources import files
 
-from trinity.utils.tools import Parser
+from trinity.utils.tools import Parser, TextTools, round_
 
 # Проверяем наличие папки и создаем ее при необходимости.
 log_path = files('trinity').joinpath('..', '..', '.logs')
@@ -283,5 +284,58 @@ class MParser:
             log.warning(f'Не удалось распознать формат: {format_}')
         else:
             log.info(f'Формат распознан: {result}')
+
+        return result
+
+    @staticmethod
+    @cache
+    def _extract_size(string: str) -> str | None:
+        cleaned_string = TextTools.to_clean_string(string)
+
+        # Ищем числа с разделителями (x, х, X, Х, *, ×).
+        match = re.search(r'(\d+[,.]?\d*)\s*([xхXХ*×])\s*(\d+[,.]?\d*)', cleaned_string)
+
+        # Если не найдено совпадений, возвращаем None.
+        if not match:
+            return None
+
+        # Иначе извлекаем числа из регулярного выражения.
+        try:
+            width = float(match.group(1).replace(',', '.'))
+            height = float(match.group(3).replace(',', '.'))
+
+            width, height = sorted((width, height))
+
+            width, height = round_(width, 1), round_(height, 1)
+        except ValueError:
+            # Если произошла ошибка при преобразовании, возвращаем None.
+            return None
+        else:
+            return f'{width}x{height}'
+
+    @staticmethod
+    @cache
+    def parse_size(string: str | None, threshold: int = 100) -> str | None:
+        """
+        Сначала пробуем по справочнику размеров, затем экстрактор чисел.
+        """
+        if string is None:
+            log.warning('Не удалось распарсить размер: строка пустая')
+            return None
+
+        sizes = json.load(open(files('trinity').joinpath('data', 'mapping', 'sizes.json')))
+
+        parsed = Parser.parse_object(string, sizes, threshold)
+
+        if parsed is not None:
+            log.info(f'Размер распознан: {parsed}')
+            return parsed
+
+        result = MParser._extract_size(string)
+
+        if result is not None:
+            log.info(f'Размер распознан: {result}')
+        else:
+            log.warning(f'Не удалось распарсить размер: {string}')
 
         return result
