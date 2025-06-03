@@ -289,8 +289,8 @@ class MParser:
 
     @staticmethod
     @cache
-    def _extract_size(string: str) -> str | None:
-        cleaned_string = TextTools.to_clean_string(string)
+    def _extract_size(string: str, n: int = 1) -> str | None:
+        cleaned_string = TextTools.to_clean(string)
 
         # Ищем числа с разделителями (x, х, X, Х, *, ×).
         match = re.search(r'(\d+[,.]?\d*)\s*([xхXХ*×])\s*(\d+[,.]?\d*)', cleaned_string)
@@ -306,7 +306,7 @@ class MParser:
 
             width, height = sorted((width, height))
 
-            width, height = round_(width, 1), round_(height, 1)
+            width, height = round_(width, n), round_(height, n)
         except ValueError:
             # Если произошла ошибка при преобразовании, возвращаем None.
             return None
@@ -323,14 +323,15 @@ class MParser:
             log.warning('Не удалось распарсить размер: строка пустая')
             return None
 
+        # Сначала пытаемся распарсить размер по справочнику.
         sizes = json.load(open(files('trinity').joinpath('data', 'mapping', 'sizes.json')))
-
         parsed = Parser.parse_object(string, sizes, threshold)
 
         if parsed is not None:
             log.info(f'Размер распознан: {parsed}')
             return parsed
 
+        # Если не удалось распарсить по справочнику, пробуем экстрактор чисел.
         result = MParser._extract_size(string)
 
         if result is not None:
