@@ -290,7 +290,9 @@ class MParser:
     @staticmethod
     @cache
     def _extract_size(string: str, n: int = 1) -> str | None:
-        cleaned_string = TextTools.to_clean(string)
+        # Удаляем единицы измерения (см, м, мм) и лишние пробелы
+        string_without_units = re.sub(r'\s*(см|м|мм)\b', '', string, flags=re.IGNORECASE)
+        cleaned_string = TextTools.to_clean(string_without_units)
 
         # Ищем числа с разделителями (x, х, X, Х, *, ×).
         match = re.search(r'(\d+[,.]?\d*)\s*([xхXХ*×])\s*(\d+[,.]?\d*)', cleaned_string)
@@ -327,14 +329,18 @@ class MParser:
         sizes = json.load(open(files('trinity').joinpath('data', 'mapping', 'sizes.json')))
         parsed = Parser.parse_object(string, sizes, threshold)
 
-        if parsed is not None:
+        if parsed:
+            if parsed == '-':
+                log.warning(f'Размер распознан, но не подпадает под стандартную запись: {string}')
+                return None
+
             log.info(f'Размер распознан: {parsed}')
             return parsed
 
         # Если не удалось распарсить по справочнику, пробуем экстрактор чисел.
         result = MParser._extract_size(string)
 
-        if result is not None:
+        if result:
             log.info(f'Размер распознан: {result}')
         else:
             log.warning(f'Не удалось распарсить размер: {string}')

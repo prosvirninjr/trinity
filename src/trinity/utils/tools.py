@@ -218,7 +218,7 @@ class Parser:
         return f'{time_from}-{time_to}'
 
 
-def round_(value, ndigits=1):
+def round_(value, n=1):
     """Округление по математическим правилам."""
-    exp = Decimal('1') if ndigits == 0 else Decimal(f'1e{-ndigits}')
-    return float(Decimal(value).quantize(exp, rounding=ROUND_HALF_UP))
+    exp = Decimal('1') if n == 0 else Decimal(f'1e{-n}')
+    return float(Decimal(str(value)).quantize(exp, rounding=ROUND_HALF_UP))
