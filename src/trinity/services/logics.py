@@ -195,7 +195,6 @@ class MParser:
 
     @staticmethod
     @cache
-    # FIXME: Не распознает корректно МЦД.
     def parse_line(city: str, line: str | None, station: str | None) -> str | None:
         # 1. Если станция и линия не указаны, возвращаем None.
         if line is None and station is None:
@@ -216,15 +215,14 @@ class MParser:
             log.warning(f'Не удалось распознать линию: {line}')
             return None
 
-        # 3. Логика определения линии с учётом станции.
-        # Сначала пытаемся распознать линию.
+        # 3. Логика определения линии с учётом станции. # Сначала пытаемся распознать линию.
         guessed_line = Parser.parse_object(line, line_choices, threshold=90)
 
         if not guessed_line:
             log.warning(f'Не удалось распознать линию: {line}')
             return None
 
-        # Пытаемся распознать станцию (fuzzy), и/или смотрим точное совпадение.
+        # Пытаемся распознать станцию (fuzzy), и / или смотрим точное совпадение.
         fuzzy_station = Parser.parse_object(station, station_choices, threshold=90)
 
         # Специальная логика для МЦД.
@@ -249,3 +247,25 @@ class MParser:
 
         log.warning(f'Не удалось распознать линию: {line}')
         return None
+
+    @staticmethod
+    @cache
+    def parse_station(city: str, station: str) -> str | None:
+        """
+        Стандартизирует название станции для указанного города.
+        Если station=None или не удалось распознать — возвращает None.
+        """
+        if station is None:
+            return None
+
+        metro = json.load(open(files('trinity').joinpath('data', 'mapping', 'metro.json'), encoding='utf-8'))
+        station_choices = MParser._get_station_choices(metro, city)
+
+        result = Parser.parse_object(station, station_choices, threshold=90)
+
+        if result is None:
+            log.warning(f'Не удалось распознать станцию: {station}')
+        else:
+            log.info(f'Станция распознана: {result}')
+
+        return result
