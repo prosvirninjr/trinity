@@ -89,3 +89,29 @@ class TestMParser:
         """Проверяет корректность парсинга станции с разными вариантами входных данных."""
         city, station, expected = station_cases
         assert MParser.parse_station(city, station) == expected
+
+    @pytest.mark.parametrize(
+        'format_, expected',
+        [
+            ('Экран (транзит)', 'SCREEN'),
+            ('Световой короб (транзит)', 'LB'),
+            ('экран', 'SCREEN'),
+            ('Кристалайт', 'LB'),
+            ('Двусторонний стикер', 'STICKER'),
+            ('Screen', 'SCREEN'),
+            ('Сити-формат цифровой', 'DCF'),
+            ('Стикер', 'STICKER'),
+            ('Стикеры на турникетах', 'STICKER'),
+            ('Цифровой экран 3х1', 'SCREEN'),
+            ('LB', 'LB'),
+            ('Экраны в вагонах', 'SCREEN'),
+            ('стикер в простенке', 'STICKER'),
+            ('стикер', 'STICKER'),
+            ('Стикер (транзит)', 'STICKER'),
+            ('Лайтбокс', 'LB'),
+            ('Лайт Бокс', 'LB'),
+            ('DCF', 'DCF'),
+        ],
+    )
+    def test_parse_format(self, format_: str, expected: str):
+        assert MParser.parse_format(format_) == expected

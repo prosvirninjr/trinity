@@ -251,7 +251,6 @@ class MParser:
     def parse_station(city: str, station: str) -> str | None:
         """
         Стандартизирует название станции для указанного города.
-        Если station=None или не удалось распознать — возвращает None.
         """
         if station is None:
             return None
@@ -265,5 +264,24 @@ class MParser:
             log.warning(f'Не удалось распознать станцию: {station}')
         else:
             log.info(f'Станция распознана: {result}')
+
+        return result
+
+    @staticmethod
+    @cache
+    def parse_format(format_: str) -> str | None:
+        """
+        Стандартизирует название формата конструкции.
+        """
+        if format_ is None:
+            return None
+
+        formats = json.load(open(files('trinity').joinpath('data', 'mapping', 'formats.json')))
+        result = Parser.parse_object(format_, formats, threshold=90)
+
+        if result is None:
+            log.warning(f'Не удалось распознать формат: {format_}')
+        else:
+            log.info(f'Формат распознан: {result}')
 
         return result
