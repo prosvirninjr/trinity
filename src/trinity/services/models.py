@@ -197,7 +197,7 @@ class MetroTemplate:
         """Парсит столбец advertiser. Стандартизирует названия рекламодателей."""
         template = template.with_columns(
             pl.col('advertiser')
-            .map_elements(lambda x: MParser.parse_advertiser(x), return_dtype=pl.String)
+            .map_elements(lambda x: MParser.parse_advertiser(x) or x, return_dtype=pl.String)
             .alias('advertiser')
         )
 
@@ -206,17 +206,35 @@ class MetroTemplate:
     def _parse_city(self, template: pl.DataFrame) -> pl.DataFrame:
         """Парсит столбец city. Стандартизирует названия городов."""
         template = template.with_columns(
-            pl.col('city').map_elements(lambda x: MParser.parse_city(x), return_dtype=pl.String).alias('city')
+            pl.col('city').map_elements(lambda x: MParser.parse_city(x) or x, return_dtype=pl.String).alias('city')
         )
 
         return template
 
     def _parse_line(self, template: pl.DataFrame) -> pl.DataFrame:
         """Парсит столбец line. Стандартизирует названия линий метро."""
+        template = template.with_columns(
+            pl.struct('city', 'line', 'station')
+            .map_elements(
+                lambda x: MParser.parse_line(x['city'], x['line'], x['station']) or x['line'],
+                return_dtype=pl.String,
+            )
+            .alias('line')
+        )
+
         return template
 
     def _parse_station(self, template: pl.DataFrame) -> pl.DataFrame:
         """Парсит столбец station. Стандартизирует названия станций метро."""
+        template = template.with_columns(
+            pl.struct('city', 'station')
+            .map_elements(
+                lambda x: MParser.parse_station(x['city'], x['station']) or x['station'],
+                return_dtype=pl.String,
+            )
+            .alias('station')
+        )
+
         return template
 
     def _parse_location(self, template: pl.DataFrame) -> pl.DataFrame:
