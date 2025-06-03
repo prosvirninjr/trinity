@@ -341,7 +341,7 @@ class MParser:
         Сначала пробуем по справочнику размеров, затем экстрактор чисел.
         """
         if string is None:
-            log.warning('Не удалось распарсить размер: %s', string)
+            log.warning('Не удалось распознать размер: %s', string)
             return None
 
         # Сначала пытаемся распарсить размер по справочнику.
@@ -356,12 +356,12 @@ class MParser:
             log.info('Размер распознан: %s -> %s', string, parsed)
             return parsed
 
-        # Если не удалось распарсить по справочнику, пробуем экстрактор чисел.
+        # Если Не удалось распознать по справочнику, пробуем экстрактор чисел.
         result = MParser._extract_size(string)
 
         if result:
             log.info('Размер распознан: %s -> %s', string, result)
         else:
-            log.warning('Не удалось распарсить размер: %s', string)
+            log.warning('Не удалось распознать размер: %s', string)
 
         return result
