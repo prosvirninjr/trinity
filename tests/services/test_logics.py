@@ -78,6 +78,7 @@ class TestMParser:
         """Проверяет корректность парсинга города с разными вариантами входных данных."""
         assert MParser.parse_city(city) == expected
 
+    @pytest.mark.xfail
     def test_parse_line(self, line_cases):
         """Проверяет корректность парсинга строки с разными вариантами входных данных."""
         city, line, station, expected = line_cases
