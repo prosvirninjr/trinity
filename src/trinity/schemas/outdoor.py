@@ -26,7 +26,318 @@ class Ots(BaseModel):
 class Indoor(BaseModel):
     """Шаблон индор."""
 
-    pass
+    index: Annotated[
+        int,
+        Field(title='Индекс', pl_dtype=pl.Int64),
+        BeforeValidator(partial(validators.is_integer, column='Индекс')),
+        BeforeValidator(partial(validators.is_number, column='Индекс')),
+        BeforeValidator(partial(validators.is_empty, column='Индекс')),
+    ]
+    advertiser: Annotated[
+        str,
+        Field(title='Рекламодатель', pl_dtype=pl.String),
+        BeforeValidator(partial(validators.is_empty, column='Рекламодатель')),
+    ]
+    campaign: Annotated[
+        str,
+        Field(title='Кампания', pl_dtype=pl.String),
+        BeforeValidator(partial(validators.is_empty, column='Кампания')),
+    ]
+    subject: Annotated[
+        str,
+        Field(title='Субъект', pl_dtype=pl.String),
+        BeforeValidator(partial(validators.is_empty, column='Субъект')),
+    ]
+    city: Annotated[
+        str,
+        Field(title='Город', pl_dtype=pl.String),
+        BeforeValidator(partial(validators.is_empty, column='Город')),
+    ]
+    location_type: Annotated[
+        str,
+        Field(title='Тип локации', pl_dtype=pl.String),
+        BeforeValidator(partial(validators.is_empty, column='Тип локации')),
+    ]
+    location_name: Annotated[
+        str,
+        Field(title='Название локации', pl_dtype=pl.String),
+        BeforeValidator(partial(validators.is_empty, column='Название локации')),
+    ]
+    format_: Annotated[
+        str,
+        Field(title='Формат поверхности', pl_dtype=pl.String),
+        BeforeValidator(partial(validators.is_empty, column='Формат поверхности')),
+    ]
+    size: Annotated[
+        str,
+        Field(title='Размер поверхности', pl_dtype=pl.String),
+        BeforeValidator(partial(validators.is_empty, column='Размер поверхности')),
+    ]
+    constructions_count: Annotated[
+        int,
+        Field(title='Количество поверхностей', pl_dtype=pl.Int64),
+        BeforeValidator(partial(validators.is_integer, column='Количество поверхностей')),
+        BeforeValidator(partial(validators.set_value, column='Количество поверхностей')),
+        AfterValidator(partial(validators.is_not_negative, column='Количество поверхностей')),
+    ]
+    placement_per_unit: Annotated[
+        float,
+        Field(title='Стоимость за единицу размещения', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Стоимость за единицу размещения')),
+        AfterValidator(partial(validators.is_not_negative, column='Стоимость за единицу размещения')),
+    ]
+    month: Annotated[
+        int,
+        Field(title='Месяц', pl_dtype=pl.Int64),
+        BeforeValidator(partial(validators.is_number, column='Месяц')),
+        BeforeValidator(partial(validators.is_empty, column='Месяц')),
+        AfterValidator(partial(validators.valid_month, column='Месяц')),
+    ]
+    date_from: Annotated[
+        datetime,
+        Field(title='Начало аренды', pl_dtype=pl.Datetime),
+        BeforeValidator(partial(validators.is_date, column='Начало аренды')),
+        BeforeValidator(partial(validators.is_empty, column='Начало аренды')),
+    ]
+    date_to: Annotated[
+        datetime,
+        Field(title='Окончание аренды', pl_dtype=pl.Datetime),
+        BeforeValidator(partial(validators.is_date, column='Окончание аренды')),
+        BeforeValidator(partial(validators.is_empty, column='Окончание аренды')),
+    ]
+    spot_duration: Annotated[
+        float,
+        Field(title='Длительность ролика', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Длительность ролика')),
+        AfterValidator(partial(validators.is_not_negative, column='Длительность ролика')),
+    ]
+    spots_per_block: Annotated[
+        float,
+        Field(title='Количество выходов в блоке', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Количество выходов в блоке')),
+        AfterValidator(partial(validators.is_not_negative, column='Количество выходов в блоке')),
+    ]
+    block_duration: Annotated[
+        float,
+        Field(title='Длительность блока', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Длительность блока')),
+        AfterValidator(partial(validators.is_not_negative, column='Длительность блока')),
+    ]
+    spots_per_day: Annotated[
+        float,
+        Field(title='Выходов в сутки', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Выходов в сутки')),
+        AfterValidator(partial(validators.is_not_negative, column='Выходов в сутки')),
+    ]
+    hours_per_day: Annotated[
+        float,
+        Field(title='Время работы конструкции', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Время работы конструкции')),
+        AfterValidator(partial(validators.is_not_negative, column='Время работы конструкции')),
+        AfterValidator(partial(validators.valid_hours, column='Время работы конструкции')),
+    ]
+    gid_id: Annotated[
+        str | None,
+        Field(title='GID | ID конструкции', pl_dtype=pl.String),
+        AfterValidator(validators.set_empty),
+    ]
+    client_id: Annotated[
+        str | None,
+        Field(title='№ конструкции в программе клиента', pl_dtype=pl.String),
+        AfterValidator(validators.set_empty),
+    ]
+    material: Annotated[
+        str,
+        Field(title='Материал', pl_dtype=pl.String),
+        BeforeValidator(partial(validators.is_empty, column='Материал')),
+    ]
+    daily_grp: Annotated[
+        float,
+        Field(title='Daily GRP', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Daily GRP')),
+        AfterValidator(partial(validators.is_not_negative, column='Daily GRP')),
+    ]
+    latitude: Annotated[
+        float,
+        Field(title='Широта', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Широта')),
+        AfterValidator(partial(validators.is_not_negative, column='Широта')),
+    ]
+    longitude: Annotated[
+        float,
+        Field(title='Долгота', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Долгота')),
+        AfterValidator(partial(validators.is_not_negative, column='Долгота')),
+    ]
+    operator: Annotated[
+        str,
+        Field(title='Оператор', pl_dtype=pl.String),
+        BeforeValidator(partial(validators.is_empty, column='Оператор')),
+    ]
+    comment: Annotated[
+        str | None,
+        Field(title='Комментарий', pl_dtype=pl.String),
+        AfterValidator(validators.set_empty),
+    ]
+    placement: Annotated[
+        float,
+        Field(title='Размещение PRICE', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Размещение PRICE')),
+        AfterValidator(partial(validators.is_not_negative, column='Размещение PRICE')),
+    ]
+    placement_discount: Annotated[
+        float,
+        Field(title='Размещение DISCOUNT', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Размещение DISCOUNT')),
+        AfterValidator(partial(validators.is_percentage, column='Размещение DISCOUNT')),
+    ]
+    placement_net: Annotated[
+        float,
+        Field(title='Размещение NET', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Размещение NET')),
+        AfterValidator(partial(validators.is_not_negative, column='Размещение NET')),
+    ]
+    placement_vat: Annotated[
+        float,
+        Field(title='Размещение VAT', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Размещение VAT')),
+        AfterValidator(partial(validators.is_percentage, column='Размещение VAT')),
+    ]
+    placement_final: Annotated[
+        float,
+        Field(title='Размещение NET + VAT', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Размещение NET + VAT')),
+        AfterValidator(partial(validators.is_not_negative, column='Размещение NET + VAT')),
+    ]
+    production_unit_price: Annotated[
+        float,
+        Field(title='Производство NET', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Производство NET')),
+        AfterValidator(partial(validators.is_not_negative, column='Производство NET')),
+    ]
+    production_count: Annotated[
+        int,
+        Field(title='Производство COUNT', pl_dtype=pl.Int64),
+        BeforeValidator(partial(validators.is_integer, column='Производство COUNT')),
+        BeforeValidator(partial(validators.set_value, column='Производство COUNT')),
+        AfterValidator(partial(validators.is_not_negative, column='Производство COUNT')),
+    ]
+    production_total_price: Annotated[
+        float,
+        Field(title='Производство NET TOTAL', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Производство NET TOTAL')),
+        AfterValidator(partial(validators.is_not_negative, column='Производство NET TOTAL')),
+    ]
+    production_vat: Annotated[
+        float,
+        Field(title='Производство VAT', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Производство VAT')),
+        AfterValidator(partial(validators.is_percentage, column='Производство VAT')),
+    ]
+    production_total_final: Annotated[
+        float,
+        Field(title='Производство NET TOTAL + VAT', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Производство NET TOTAL + VAT')),
+        AfterValidator(partial(validators.is_not_negative, column='Производство NET TOTAL + VAT')),
+    ]
+    installation_net: Annotated[
+        float,
+        Field(title='Монтаж NET', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Монтаж NET')),
+        AfterValidator(partial(validators.is_not_negative, column='Монтаж NET')),
+    ]
+    installation_vat: Annotated[
+        float,
+        Field(title='Монтаж VAT', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Монтаж VAT')),
+        AfterValidator(partial(validators.is_percentage, column='Монтаж VAT')),
+    ]
+    installation_final: Annotated[
+        float,
+        Field(title='Монтаж NET + VAT', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Монтаж NET + VAT')),
+        AfterValidator(partial(validators.is_not_negative, column='Монтаж NET + VAT')),
+    ]
+    e_installation_net: Annotated[
+        float,
+        Field(title='Доп. монтаж NET', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Доп. монтаж NET')),
+        AfterValidator(partial(validators.is_not_negative, column='Доп. монтаж NET')),
+    ]
+    e_installation_count: Annotated[
+        int,
+        Field(title='Доп. монтаж COUNT', pl_dtype=pl.Int64),
+        BeforeValidator(partial(validators.is_integer, column='Доп. монтаж COUNT')),
+        BeforeValidator(partial(validators.set_value, column='Доп. монтаж COUNT')),
+        AfterValidator(partial(validators.is_not_negative, column='Доп. монтаж COUNT')),
+    ]
+    e_installation_total_net: Annotated[
+        float,
+        Field(title='Доп. монтаж NET TOTAL', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Доп. монтаж NET TOTAL')),
+        AfterValidator(partial(validators.is_not_negative, column='Доп. монтаж NET TOTAL')),
+    ]
+    e_installation_vat: Annotated[
+        float,
+        Field(title='Доп. монтаж VAT', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Доп. монтаж VAT')),
+        AfterValidator(partial(validators.is_percentage, column='Доп. монтаж VAT')),
+    ]
+    e_installation_final: Annotated[
+        float,
+        Field(title='Доп. монтаж NET + VAT', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Доп. монтаж NET + VAT')),
+        AfterValidator(partial(validators.is_not_negative, column='Доп. монтаж NET + VAT')),
+    ]
+    delivery_net: Annotated[
+        float,
+        Field(title='Доставка NET', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Доставка NET')),
+        AfterValidator(partial(validators.is_not_negative, column='Доставка NET')),
+    ]
+    delivery_vat: Annotated[
+        float,
+        Field(title='Доставка VAT', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Доставка VAT')),
+        AfterValidator(partial(validators.is_percentage, column='Доставка VAT')),
+    ]
+    delivery_final: Annotated[
+        float,
+        Field(title='Доставка NET + VAT', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Доставка NET + VAT')),
+        AfterValidator(partial(validators.is_not_negative, column='Доставка NET + VAT')),
+    ]
+    full_net: Annotated[
+        float,
+        Field(title='Итого NET', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Итого NET')),
+        AfterValidator(partial(validators.is_not_negative, column='Итого NET')),
+    ]
+    full_vat: Annotated[
+        float,
+        Field(title='Итого VAT', pl_dtype=pl.Float64),
+        BeforeValidator(partial(validators.set_value, column='Итого VAT')),
+        AfterValidator(partial(validators.is_not_negative, column='Итого VAT')),
+    ]
+
+    @model_validator(mode='after')
+    def valid_month(self) -> 'Indoor':
+        if self.date_from.month != self.month or self.date_to.month != self.month:
+            raise ValueError('Месяц аренды не соответствует дате.')
+        return self
+
+    @model_validator(mode='after')
+    def valid_period(self) -> 'Indoor':
+        if self.date_from > self.date_to:
+            raise ValueError('Дата начала не может быть позже окончания.')
+        return self
+
+    @classmethod
+    def get_polars_schema(cls) -> dict[str, pl.DataType]:
+        schema: dict[str, pl.DataType] = {}
+        for field, info in Indoor.model_fields.items():
+            schema[field] = info.json_schema_extra.get('pl_dtype')
+        return schema
 
 
 class Metro(BaseModel):
