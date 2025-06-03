@@ -243,6 +243,12 @@ class MetroTemplate:
 
     def _parse_location(self, template: pl.DataFrame) -> pl.DataFrame:
         """Парсит столбец location. Стандартизирует названия локаций."""
+        template = template.with_columns(
+            pl.col('location')
+            .map_elements(lambda x: MParser.parse_location(x) or x, return_dtype=pl.String)
+            .alias('location')
+        )
+
         return template
 
     def _parse_format(self, template: pl.DataFrame) -> pl.DataFrame:
