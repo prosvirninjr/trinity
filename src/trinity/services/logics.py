@@ -351,7 +351,7 @@ class MParser:
         if parsed:
             if parsed == '-':
                 log.warning('Размер распознан, но не подпадает под стандартную запись: %s', string)
-                return None
+                return parsed
 
             log.info('Размер распознан: %s -> %s', string, parsed)
             return parsed
