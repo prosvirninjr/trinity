@@ -16,6 +16,10 @@ class MetroTemplate:
 
         Args:
             workbook (str | io.BytesIO): Путь к файлу или объект BytesIO с рабочей книгой .xlsx.
+
+        Raises:
+            TemplateStructureError: Если не удалось загрузить шаблон метро из рабочей книги.
+            TemplateDataError: Если данные в шаблоне метро не прошли валидацию.
         """
         self.template: pl.DataFrame = self._load_template(workbook)
 
