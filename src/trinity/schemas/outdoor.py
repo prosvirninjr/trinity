@@ -149,7 +149,7 @@ class Indoor(BaseModel):
     material: Annotated[
         str,
         Field(title='Материал', pl_dtype=pl.String),
-        BeforeValidator(partial(validators.is_empty, column='Материал')),
+        AfterValidator(partial(validators.set_empty)),
     ]
     daily_grp: Annotated[
         float,
