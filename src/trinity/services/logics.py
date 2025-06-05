@@ -264,7 +264,7 @@ class MParser:
         if station is None:
             return None
 
-        metro = json.load(open(files('trinity').joinpath('data', 'mapping', 'metro.json'), encoding='utf-8'))
+        metro = json.load(open(files('trinity').joinpath('data', 'mapping', 'metro', 'metro.json'), encoding='utf-8'))
         station_choices = MParser._get_station_choices(metro, city)
 
         result = Parser.parse_object(station, station_choices, threshold=90)
@@ -285,7 +285,7 @@ class MParser:
         if location is None:
             return None
 
-        locations = json.load(open(files('trinity').joinpath('data', 'mapping', 'locations.json')))
+        locations = json.load(open(files('trinity').joinpath('data', 'mapping', 'metro', 'locations.json')))
         result = Parser.parse_object(location, locations, threshold=90)
 
         if result is None:
