@@ -3,7 +3,7 @@ import io
 import polars as pl
 from pydantic import ValidationError
 
-from trinity.schemas.outdoor import Metro
+from trinity.schemas.outdoor import Indoor, Metro
 from trinity.services.exceptions import TemplateDataError, TemplateStructureError
 from trinity.services.logics import Coefficient, Construction, MParser
 from trinity.utils.xlsx.xlsx_loader import load_st
@@ -333,3 +333,101 @@ class MetroTemplate:
 class MetroAnalyzer:
     def __init__(self, template: pl.DataFrame):
         self.template = template
+
+
+class IndoorTemplate:
+    def __init__(self, workbook: str | io.BytesIO):
+        """
+        Инициализация менеджера.
+
+        Args:
+            workbook (str | io.BytesIO): Путь к файлу или объект BytesIO с рабочей книгой .xlsx.
+
+        Raises:
+            TemplateStructureError: Если не удалось загрузить шаблон метро из рабочей книги.
+            TemplateDataError: Если данные в шаблоне метро не прошли валидацию.
+        """
+        self.template: pl.DataFrame = self._load_template(workbook)
+
+    def _set_header(self, r_template: pl.DataFrame) -> None:
+        """
+        Устанавливает заголовок DataFrame на основе полей модели Indoor.
+
+        Args:
+            r_template (pl.DataFrame): Исходный шаблон в виде DataFrame.
+
+        Returns:
+            pl.DataFrame: DataFrame с установленным заголовком.
+
+        Raises:
+            TemplateStructureError: Если не удалось установить заголовок DataFrame.
+        """
+        try:
+            fields = list(Indoor.model_fields.keys())
+            r_template.columns = fields
+        except Exception as e:
+            raise TemplateStructureError('Не удалось установить заголовок DataFrame.') from e
+
+        return r_template
+
+    def _build_template(self, r_template: pl.DataFrame) -> pl.DataFrame:
+        """
+        Создает DataFrame из шаблона, валидируя каждую строку.
+
+        Args:
+            r_template (pl.DataFrame): Исходный шаблон в виде DataFrame.
+
+        Returns:
+            pl.DataFrame: Валидированный шаблон в виде DataFrame.
+
+        Raises:
+            TemplateDataError: Если данные не прошли валидацию.
+        """
+        data: list[dict] = []
+        details: list[tuple[int, list[dict]]] = []
+
+        # Перебираем строки исходного DataFrame.
+        for idx, row in enumerate(r_template.iter_rows(named=True), start=1):
+            try:
+                # Валидируем каждую строку через Pydantic.
+                data.append(Indoor(**row).model_dump())
+            except ValidationError as e:
+                details.append((idx, e.errors(include_url=False, include_context=False)))
+
+        # Если нет ни одной ошибки — собираем итоговый DataFrame.
+        if not details:
+            return pl.DataFrame(data, schema=Indoor.get_polars_schema())
+
+        # Если есть, генерируем отчет об ошибках.
+        v_info: list[dict] = []
+
+        for idx, errors in details:
+            for error in errors:
+                v_info.append(
+                    {
+                        'Строка': idx,
+                        'Ошибка': error['msg'].removeprefix('Value error, '),
+                    }
+                )
+
+        raise TemplateDataError('Данные не прошли валидацию.', v_info)
+
+    def _load_template(self, workbook: str | io.BytesIO) -> pl.DataFrame:
+        """
+        Загружает шаблон из файла Excel.
+
+        Args:
+            workbook (str | io.BytesIO): Путь к файлу или объект BytesIO с рабочей книгой .xlsx.
+
+        Returns:
+            pl.DataFrame: Шаблон в виде DataFrame.
+        """
+        try:
+            r_template = load_st(workbook, ws_name='Indoor', st_name='indoor')
+        except KeyError as e:
+            raise TemplateStructureError('Не удалось найти шаблон в рабочей книге.') from e
+
+        r_template = self._set_header(r_template)
+        v_template = self._build_template(r_template)
+
+        return v_template
