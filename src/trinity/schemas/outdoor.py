@@ -69,9 +69,9 @@ class Indoor(BaseModel):
         BeforeValidator(partial(validators.is_empty, column='Формат поверхности')),
     ]
     size: Annotated[
-        str,
+        str | None,
         Field(title='Размер поверхности', pl_dtype=pl.String),
-        BeforeValidator(partial(validators.is_empty, column='Размер поверхности')),
+        AfterValidator(partial(validators.set_empty)),
     ]
     constructions_count: Annotated[
         int,
@@ -147,7 +147,7 @@ class Indoor(BaseModel):
         AfterValidator(validators.set_empty),
     ]
     material: Annotated[
-        str,
+        str | None,
         Field(title='Материал', pl_dtype=pl.String),
         AfterValidator(partial(validators.set_empty)),
     ]
@@ -368,7 +368,7 @@ class Metro(BaseModel):
         AfterValidator(partial(validators.valid_metro, column='Город')),
     ]
     line: Annotated[
-        str,
+        str | None,
         Field(title='Линия', pl_dtype=pl.String),
         AfterValidator(validators.set_empty),  # Может быть пустым в случае закупки рекламы на всех станциях метро.
     ]
@@ -394,9 +394,9 @@ class Metro(BaseModel):
         BeforeValidator(partial(validators.is_empty, column='Формат поверхности')),
     ]
     size: Annotated[
-        str,
+        str | None,
         Field(title='Размер поверхности', pl_dtype=pl.String),
-        BeforeValidator(partial(validators.is_empty, column='Размер поверхности')),
+        AfterValidator(partial(validators.set_empty, column='Размер поверхности')),
     ]
     cars_count: Annotated[
         int,
