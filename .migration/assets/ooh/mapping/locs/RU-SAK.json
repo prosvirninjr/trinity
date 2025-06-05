@@ -1,0 +1,966 @@
+{
+    "Дуэ": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кириллово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Малиновка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тымовское": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Южно-Курильск": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Медвежье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лагунное": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Никольское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Горячий Пляж": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Краснополье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Приозерное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Анива": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Прудное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тунгор": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ольховка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Эхаби": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Орлово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ольшанка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Макаров": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Гребенское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Поречье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чехов": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Туманово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Зырянское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Красногорск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Колендо": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Томари": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Серные Источники": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Урожайное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Озерный": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лопатино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Северное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Правда": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ильинское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Прибой": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Северо-Курильск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Яблочное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Красноярское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Калинино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Люблино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Долинск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Совхозное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ноглики": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Даги": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Эвай": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лермонтовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Катангли": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ныш-2": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Вахрушев": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Южно-Сахалинск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Мгачи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чайво": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Вал": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новая Деревня": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Морской Пильтун": {
+        "location_type": "Село",
+        "options": []
+    },
+    "17 км": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ныш": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тихменево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гастелло": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Синегорск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Курильск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Санаторное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мангидай": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Леонидово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Активное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Смирных": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Николайчук": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шуми-Городок": {
+        "location_type": "Село",
+        "options": []
+    },
+    "ДНП Анивский залив": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Пригородное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Южная Хандаса": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рыбоводное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лагури": {
+        "location_type": "Планировочный район",
+        "options": []
+    },
+    "Лиственничное": {
+        "location_type": "Планировочный район",
+        "options": []
+    },
+    "Хомутово": {
+        "location_type": "Планировочный район",
+        "options": []
+    },
+    "Углезаводск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кошевое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Головнино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сосновка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Горячие Ключи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Михайловка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Корсаковка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шахтерск": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Чапланово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чистоводное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Воскресенское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тельновское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новодеревенское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Заречное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лесное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Арги-Паги": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Первомайск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Раздольное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Малокурильское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Оха": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Забайкалец": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Пионеры": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Венское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Некрасовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рыбновск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Амурское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Надеждино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ключи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Заозерное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ельники": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Фирсово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Елочки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Первая Падь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Виахту": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Березняки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ясное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Зональное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Горное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мицулевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дубовое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Восточное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ульва": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ожидаево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Победино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Корсаков": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Китовое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Таранай": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чир-Унвд": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Пензенское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Арсентьевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лонгари": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ручьи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Славы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Муравьево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Песчанское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рейдово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Черемшанка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Александровск-Сахалинский": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Покровка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Селезнево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сокол": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Охотское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рыбацкое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Комрво": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Петропавловское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Взморье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Арково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новоселово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Огоньки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кировское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Байково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Высокое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верхний Армудан": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Соловьевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Белинское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Буюклы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Восход": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Молодежное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ново-Тымовское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бамбучек": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Подгорное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шебунино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Пильтун-2": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Костромское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Камышево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Стародубское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Октябрьское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Успенское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Павино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Озерское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Крабозаводское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сабо": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Пятиречье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Пугачево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Москальво": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тихое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Майское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Трудовое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Углегорск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Чеховское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бошняково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ватутино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Застава Докучаева": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Отрада": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Холмск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Благовещенское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Советское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Горнозаводск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Белые Ключи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Белоречье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Поронайск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Онор": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Менделеево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новиково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Буровая Рудный": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Айнское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ударное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Трамбаус": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Березовая Поляна": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Матросово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Буревестник": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рощино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ясноморское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Белое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Невельск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Лесогорское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Соболиное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Воскресеновка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Онор-2": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рыбаки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Иркир": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Пожарское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Арково-Берег": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Вторая Падь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Танги": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Колхозное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Старорусское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Цапко": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дальнее": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Красная Тымь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Быков": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Пихтовое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дачное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Горки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Береговое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новосибирское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Неводское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Третья Падь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Палево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рыбное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Утесное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Троицкое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Придорожное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Адо-Тымово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Восток": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Зеленодольск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Парусное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тамбовское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хоэ": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Пильво": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новотроицкое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чапаево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Владимировка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Маяк Ловцова": {
+        "location_type": "Село",
+        "options": []
+    }
+}

@@ -1,0 +1,7966 @@
+{
+    "Артемовец": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Уголек": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Рыбник": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Шахтинские Зори": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Орбита": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Дары леса": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Шахта 17": {
+        "location_type": "Микрорайон",
+        "options": []
+    },
+    "Журавушка": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Металлист": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Заводской": {
+        "location_type": "Микрорайон",
+        "options": []
+    },
+    "Алмазный": {
+        "location_type": "Микрорайон",
+        "options": []
+    },
+    "Мичуринец-1": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Шахтер ш.Южная": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Мичуринец-3": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Азовка": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Дон-Текс": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Буревестник": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Восход": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Дружба": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Рассвет": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Донецк": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Зверево": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Трудовой": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Каменск-Шахтинский": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Новочеркасск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Западные электические сети": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Прогресс": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Заря": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Планета": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Машиностроитель-1": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Березка": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Мичуринец-2": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Шахта 32": {
+        "location_type": "Микрорайон",
+        "options": []
+    },
+    "Левобережный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Елизаветовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Зеленый Мыс": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Отрадовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Обуховка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Опорный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Платоно-Петровка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Радуга": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Городище": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кугей": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бирючий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Усть-Койсуг": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новониколаевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шмат": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новомирский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кулешовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новополтавский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ростов-на-Дону": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Полтава 2-я": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Степнянский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Курган": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Светлый путь": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Григорьевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Марков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ельбузд": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Геолог": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Маргаритово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Космическое": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Новоалександровка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Черемушки": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Колузаево": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Цыганки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лагутник": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Коса": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сонино": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Стремительное": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Песчаный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Топольки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Труд": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Береговой": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Овощной": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Машиностроитель": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Павло-Очаково": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мечетный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Метелев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Надежда": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Большевик": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Орловка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Харьковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новомаргаритово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Займо-Обрыв": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Порт-Катон": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Обогатитель": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Сибирьковый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ясный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Первомайский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Карповка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новошахтинск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Октябрьское": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "ШАРЗ": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Весна": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Азов": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Верхнепопов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гуково": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Батайск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Муравейник": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Наумов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Таганрог": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Приовражный": {
+        "location_type": "Микрорайон",
+        "options": []
+    },
+    "Семимаячный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Дороговский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Коммунар": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Горняцкий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шарковка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Русичи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шахтер": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Синегорский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Елизаветинская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Какичев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Урожай-1": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Новотроицкое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Таловка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Приморский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Аксай": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Заря Востока": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Стефанидинодар": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верхнеподпольный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Полтава 1-я": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Тимирязевский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Павловка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Киров": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Советский Дар": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дорожный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Самарское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Темерницкий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пролетарская диктатура": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Рыбацкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Задонский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Донской": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Истомино": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ленина": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Межевой": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мускатный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Круглое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мечетка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красный Колос": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пчеловодный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кочеванчик": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Дугино": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Реконструктор": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ковалевка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Михайловский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ленинский Лесхоз": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Астахов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Галактика": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Павловский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Александровка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нижнетемерницкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Каменка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Васильево-Петровский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Илларионов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Четвертинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ольгинская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Мутилинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Петровка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Козырек": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Октябрьский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Черюмкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Рогожкино": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Евлантьев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Рубеженский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Юшкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Большенаполовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Земцов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Зеленый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нижнесоленый": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Казанская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Казачий Ерик": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красный Октябрь": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Малая Балабинка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Платоновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кирпичный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Краснодворск": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новониколаевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ейский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Солоновский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Показатель": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхнетемерницкий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Фомин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Знаменка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мишкинская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Лиховидовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхнесоленый": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Свидовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Калиновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Латышев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Петровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Каракашев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гребенниковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Попов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижняя Козинка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Степной": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Цугейкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Яблоновский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Поповка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Спорный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Пономаревка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Узяк": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красноармейский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Краснозоринский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Золотой Колос": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Полевой": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бурхановка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красный Сад": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Спутник": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Дубовой": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Махин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Суровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Вербовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Янтарный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Разметный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхний Хомутец": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижнетиховский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Северный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Галагановка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Старочеркасская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Урожай-2": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Краснокутская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Советский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гормиловский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхнеастахов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чаканиха": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новосальский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Пешково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Малый Мишкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Садковский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхний Жиров": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Каяльский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красный Маныч": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Опытный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Горбатов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Андреевская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Солонцовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Головатовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Орехов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Дивный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чепрасовский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Камышеваха": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Алексеевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Грушевская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Ереминский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малаховский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Еремеевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Боковская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Койсуг": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Щепкин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Демидовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Белавин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Большой Лог": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красная Поляна": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Элитный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дуленков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Тубянский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мило-Яковлевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Рогожкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижнеподпольный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Заикинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхняковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красная Заря": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Базковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Коньков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Горизонт": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ильин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Чумбур-Коса": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Васильево-Петровское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Поздняковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Забуденовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Грачев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кагальник": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Макаровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Алитуб": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Грушинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Суходольск": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Вислогузов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Каргинская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Маяковского": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гусарева Балка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Возрожденный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Южный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ароматный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Свиридов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Христичево": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Веселый Гай": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Белая Калитва": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Быковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Российский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхнечирский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ясырев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Рудаков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Водопадный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Жирный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Семибалки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Холодный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Морозовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Садовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Климовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ильичев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижнепопов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Островского": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Савельевский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Победа": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Горки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Веселый": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Шумилинская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Солнечный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Полушкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красноводский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Грабовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Стожки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дядин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мокросоленый": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Озерский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Слава Труда": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ильичевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Коксовый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нижнекуберский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Морозов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Пухляковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Раздолье": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Полынный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кульбакин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Обухов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мрыховский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Боярышниковый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Валовый": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Погожев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Высочино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Уланский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Головное": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бирюковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Поцелуев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малый Гашун": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Калитвенская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Каргальская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Мещеряковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Аглос": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Казанская Лопатина": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхний Пиховкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Пирожок": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Парамонов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Огородный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Фролов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Васильевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Волченский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Зерноград": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Кукуевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Меловатский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижнеговейный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мельничный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Крайний": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Казинка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Марьевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сибилев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Речной": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Заречье": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Мичуринский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Урывский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Разъезд Васильевский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Егоров": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лободин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Головка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Светлоречное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дубенцовская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Шолоховский": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Лагутники": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Рябичев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Первомайское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Анновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Путь Правды": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхнесвечниково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кочевань": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Транспортник": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Свобода": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "2-й Россошинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новодонецкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Бондарный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Каменный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сухая Балка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Почтовый": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Виноградный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Целинный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Литвиновка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Краснодонский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Вишневка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Булочкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Егоро-Чернояровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Семенкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Большовская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Западный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Потапов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Тузлуков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Займище": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Манычская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Лысогорка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нижнесеребряковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Багаевская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Усть-Мечетка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Осокино": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шахтостроитель": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Саловский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Насонтов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижний Астахов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гуляй-Борисовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Калинин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижнекугоейский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Краса Дона": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Калашников": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Федулов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сорговый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхнекалиновка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Апанасовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Орловская Балка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Романовская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Новокузнецовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Углекаменный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Привольный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сергеевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ясногорка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дачный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кугоейский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сосны": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Усиковка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Родничек": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Елкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Фомино-Свечниково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Янов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Березово-Федоровка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Садовый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кленовый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Миргородский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Усьман": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Арпачин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Дубки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Грушевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Овражный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Романов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхнеянченков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Степной Кут": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Цветной": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Курнаковка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Михайловка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ажинов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "1-й Россошинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Богураев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Отрадный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кривошлыков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Бакинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Проциков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Пустошкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новопокровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхнемакеевка": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Староротовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кудинов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Дибровый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Экспериментальный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Талловеров": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Голые Бугры": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ильинка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красный Яр": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Рясное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Белянин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сариновка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сараи": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лесной": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхние Хороли": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Скальный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кагальничек (Кагальницкое с/п)": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лагутьевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Комсомольский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чапаев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Краснояровка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Палий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кагальничек (Иваново-Шамшевское с/п)": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Крутинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Липяги": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новоселовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Пятая Сотня": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Федоровка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Демишев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малоекатериновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Заречный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Бакланов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Живые Ключи": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Усть-Быстрый": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Подгорный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Средние Хороли": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Чистый Ручей": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Светлый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Краснодаровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Венделеевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новоберезовка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Демидовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малый Лог": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бутков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Богураево": {
+        "location_type": "Станция",
+        "options": []
+    },
+    "Новонатальин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Полосачи": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Рожок": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Николаевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Голубовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Дараганов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Казьминка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сухореченский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Васильево-Шамшево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Корсунка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Зерновой": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Горноватовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кут": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кривой Лиман": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гвардейский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мирошниковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Большая Орловка": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Фроловка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ракитный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новопавловский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Погорелов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Воронцовка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Братский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Шиловка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Денисовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Революционный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Титов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Камышевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Красная Звезда": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кононов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Подлесный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Колесов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Черниговский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Краснодонецкая": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Новоалександровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Донецкий Лесхоз": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Шебалин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новоспасовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гусынка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ключевой": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Крылов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Пишванов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Банниково-Александровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Трудо-Пономаревка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Чернышев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Заветное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Федосеевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Белогоровка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ириновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Бородинов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ковалевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Алексеевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ольховчик": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гернер": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Савдя": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лагунный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Матвеев Курган": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Богатов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новоивановка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Подгаевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Павлов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Высокий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Маринченский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Хуторской": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Криничный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Клюев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лобов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Старая Станица": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Русско-Садовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Голубинка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мокрый Батай": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красные Лучи": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кринички": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Старорубашкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Терновая Балка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Раково-Таврический": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Дегтево": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Киселевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Грачи": {
+        "location_type": "Станция",
+        "options": []
+    },
+    "Водяный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Середин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхнесеребряковка": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Подгоренская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Новорубашкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ленинка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новобатайск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ленинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кузмичевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Спорная": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Свой Труд": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Агрономов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Зинцева Балка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Липов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гашун": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Большие Эльбуздовские": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малахов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Никольский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Тимошенко": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гусев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Тюльпаны": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кудиновка": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Куропатин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Зимовники": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Еритовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Алексеев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ануфриевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижний Пиховкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Глубокий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Шоссейный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новоракитный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Батальщиковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Пятилетка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Масаловка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кутейниковская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Междупольный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кривский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Вязовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижненагольная": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Глубокий Яр": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Суходольный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Майкопский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Прудовой": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Иваново-Шамшево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Андреев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Крутая Горка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бурульский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Песковатская Лопатина": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Жуково-Татарский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новостройка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кутейниково": {
+        "location_type": "Станция",
+        "options": []
+    },
+    "Колодези": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Минаев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новоталовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Хоботок": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Потапенко": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Назаровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Савоськин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Петухов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Двуречье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Плешаков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Свободное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Баклановская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Копанский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малиновка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ергени": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Стоговской": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новая Деревня": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Березовый": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Колодезный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новогашунский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Тавричанка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Титовка": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Хомутовская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Придонский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Среднеговейный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кичкино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Балко-Грузский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мешковская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Разъезд 201-й км": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Таганрогский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Родники": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Брянский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Воротилов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Чкалова": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Дружный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Семичный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхнекрасный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Никаноровка": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Александровка 2-я": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Украинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мигулинская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Новоиловлиновский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Хапры": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мирный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малая Каменка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Котов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Березовая Роща": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Локтев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Яблочный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Федорцев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кугейский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мамонкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ульяновский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Парижский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Эркетиновская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Кагальницкая": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Новороговская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Гремучий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Золотое Руно": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Пузановский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Недвиговка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Большая Поляна": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Зеленая Роща": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лопатин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Третенский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лугань": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Луки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новобеляевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Валуево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сухой Лог": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Приморка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Криворожье": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Ивановский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красное Знамя": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Фрунзе": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Никитин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Спартак": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Казачий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Прощальный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Адьянов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Султан-Салы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дубровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кировская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Чекилев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Маныч-Балабинка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Холостонур": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красный Крым": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Тарадинка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Бессергеновка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Свободный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Офенталь": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Полстяной": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новохрещатик": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Коноваловский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Крюково": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Козлова Балка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Зеленопольский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Стоянов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Пантелеевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Плешаков (Волченская с/а)": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кочетовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Фоминка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Скельновский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Зеркальный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ясиновский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Дмитриадовка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Назаров": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Безымянный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижнебурцев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Богданов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Миллерово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Светлый Яр": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Золотая Коса": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхнеерохин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малая Западенка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Шаумяновский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Подгорский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Русско-Лютино": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижнежировский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Присальский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Громчанский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Терновский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Песчаный Брод": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Золотьки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Скелянский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новолодин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новоуколовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красный Пахарь": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Семаки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Роговский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сиротский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Молодежный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Треневка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ефремовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Малодубравный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Поверенный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кумшатское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Раскольный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Грузиновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Самбуров": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Исаев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новоефановка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гирин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кут-Кудинов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новолакедемоновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Софиевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Власовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красный Кут": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Балабанов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Советка": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Синявское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Натальевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рясной": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Долоковка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Вишневецкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Никольская": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Новобарабанщиков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Примиусский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кавалерский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гаевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Дальний": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Средний Маныч": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Абрамовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Щербаково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Антоновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Прядки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Филиппенков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхоломов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Моисеев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Каменно-Тузловка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Греково": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Московский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Луначарский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Позднеевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Дубовское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Штоколов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Денисово-Алексеевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Секретев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кузьминка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Березовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ольховский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Седых": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Волошино": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Снежный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Донецкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Николаево-Отрадное": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Грай-Воронец": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мураловка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новиковка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Овчинников": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ключковка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Вареновка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Красностепной": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дудукалов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Боцманово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Русско-Сидоровка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхние Грачики": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сужено": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Алдабульский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Николаево-Козловский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Берестовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Курячий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ютин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Боркин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Харьковка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ериковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Павло-Мануйловский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Обийко": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гайдамачка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Приют": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Благодатно-Егоровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лисичкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ивановка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Бутенки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Денисово-Николаевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Белый Колодезь": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Николаево-Иловайский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Камышев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Таврический": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Александровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Изобильный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Каменногорье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Большая Неклиновка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Христофоровка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Головинка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижнесазонов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Решетовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гуреев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Закосьнов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новая Надежда": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Амта": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Весело-Вознесенка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Белгородцев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Куйбышево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ильинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кринично-Лугский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малая Лучка": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Петропавловский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижнеясиновский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Иловайский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лотошники": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Щеглов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Власово-Буртовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижнеерохин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новопавловка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рогалик": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Козорезов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сал-Адьянов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малая Неклиновка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новоспасовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Оболонский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Егорлыкская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Акатновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кашары": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Репяховка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхнеговейный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мелюзовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Морозовск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Прасковейский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Объединенный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Чекалов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кравцов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ореховка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Матросский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ореховый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Жиров": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Калмыков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Костино-Быстрянский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малореченский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Карташево": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Козыри": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Вербовый Лог": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Золотарево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пришиб": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кумшацкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Черниговка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Таловатая Балка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Русское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Диченский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Туроверово-Глубокинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сотников": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Войнов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Уляшкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Донцов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Покровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новоольховка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ярский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Жуковская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Новоивановский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Владимировский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Зайцево": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сибирьки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Степано-Савченский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Русский Колодец": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Юров": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нововеселый": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ольховый": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Приходько-Придченский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Терновая": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Полесье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новоольховский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Вячеслав": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Крутой Яр": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Озерный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нариманов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Россошь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Халыбо-Адабашев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лиман": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Греково-Петровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Репяховатый": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Афанасьевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Троицкое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ольховый Рог": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Безымянка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Екатериновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Тюльпанный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новобахмутский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Греково-Станичный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Жеребковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Крюков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Семеновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лопуховатый": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мокрый Гашун": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новорусский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижние Грачики": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхнегреково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Николаевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Николовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Байков": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пономарев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Широков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Волоцков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мацинин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Золотой": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Борисов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхнеталовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижнекалиновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Козинка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Пенчуков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Будановка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Туроверов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхнепетровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Королев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Груцинов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Иллиодоровка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Орлов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Аникин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Харсеев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Большой Гашун": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Караичев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Широко-Бахолдинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новояблоновский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Марченков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Плотников": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Чапура": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Илюхин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Третий Интернационал": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Касьяновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Маньково-Березовская": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Гавриловка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новоандриановка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Долотинка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Краснощеков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Агропролетарский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новодмитриевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Заозерье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чигиринка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Большая Кирсановка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Вяжа": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Репная": {
+        "location_type": "Станция",
+        "options": []
+    },
+    "Кучеровка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Вольно-Донская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Орешкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Обухов N4": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сулин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Теплые Ключи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шахты": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Архиповка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Александров": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Калмыковка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Самойлово": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Тишкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Марс": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Болдиновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Русско-Власовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новомосковка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Вареник": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Решетняков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мальчевско-Полненская": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Милютинская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Выселки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Веселовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Миллеров": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Молаканский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Муравлев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мечетинская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Доброполье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Вознесенский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Колесниково": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижнедонской": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красноглинский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Старокузнецов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Погорелово": {
+        "location_type": "Станция",
+        "options": []
+    },
+    "Речка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Имени Ленина": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лихой": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Чистоозерный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новая Поляна": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Атюхта": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Светоч": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Анисимовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мальчевская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Кульбаково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Данилов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижнепетровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ряженое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Большая Таловая": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Разлатный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Малая Гнилуша": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Платов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Великанов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Хмызов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мокрый Керчик": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхнеясиновский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лесхоз": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Владимировская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Владимиров": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Широко-Оглоблинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Шалаевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Политотдельское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Донлесхоз": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Краснюков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Богачев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Терновой": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Костиков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Чертковская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Крынка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новосветловский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чичерино": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Косенко": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Севостьянов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красина": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мержаново": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Табунный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Заполосный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гоголевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Марфинка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Посадки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Древние Курганы": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Машлыкино": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Дарьевка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Заплавская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Усово": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Божковка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новые Постройки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Селезнев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Платово": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Индустриальный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новофедоровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Власов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лобачев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новощербаков": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пятихатки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Журавлев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Аграрный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ямовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малая Хлоповая": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Чернышевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Орловский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Некрасовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Драчевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ребриковка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Передовой": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Леонов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Качкан": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Рязанкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Отрадное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чернигово-Песчаный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Островянский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Отрадно-Курносовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Морская": {
+        "location_type": "Станция",
+        "options": []
+    },
+    "Орден Ленина": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Шахтенки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сычевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Николаев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ефремовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Троицкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малая Сопка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Раскиты": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Журавка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Закордонный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Долинный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новомарьевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Второй Киевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новополеевский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Луганский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Атамановка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новочигириновский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Готальский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красногорняцкий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Любовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сулинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Трофименков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Водино": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижнетавричанский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Вальково": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гетманов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Рождественский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Морозовский 2-й": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Селивановская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Теплицкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малофедоровка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Холодный Плес": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Шрамко": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Вербочки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Александрово-Марково": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижнекамышинка": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Кутейников": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Колонка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Артемов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Юдин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Каменно-Андрианово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новопроциков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Трофимов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Перебойный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижневерхоломовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Серебряковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Туриловка": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Каменно-Бродский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Горный": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Скороход": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Херсоны": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Романовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кременской": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Широкий Лог": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Обливская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Грузинов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Разъезд Северный Донец": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Колесников": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малотокмацкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Рунный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новая Жизнь": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красный Луч": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Варламовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лесопитомник": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Редкодуб": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Дудкино": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Савельев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новокузнецов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижняя Таловка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Старопесчаный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Краснянка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Чекунов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Общий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Образцов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Интернациональный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Терновый": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Скачки-Малюгин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кривов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Старозолотовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Широко-Атамановский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красный Бумажник": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Беляевск": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гурин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Коммуна": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Богоявленская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Красный Сулин": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Петрополье": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Веселая Бахмутовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Курмоярский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Авило-Федоровка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Дудки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нифонтов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Коминтерн": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Греково-Тимофеевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Залужный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Правда": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Чистые Пруды": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Балка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Рябиновка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новая Бахмутовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхнекамышинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Приазовский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кондаков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхняя Ковалевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новоандреевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Талалаевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мокрый Лог": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гапкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Старопетровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Стрепетов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Большая Федоровка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новостроенка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Беляев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Паршин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малое Зверево": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новоприморский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Керчик": {
+        "location_type": "Станция",
+        "options": []
+    },
+    "Степанов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Большая Хлоповая": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Комиссаровка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Северный Сад": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижнежуравский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Черников": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Некрасова Балка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Трухин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Быстрый": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Успенский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новокадамово": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сусол": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Самохин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Базки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Широкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Киреев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Большое Зверево": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Латоново": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Анастасиевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Запрудный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ермаков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Белянский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Левченко": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ведерников": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гундоровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Чернецов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кзыл-Аул": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Деркачева": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нестеркин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Богненко": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Крепянка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кухтачев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Самарский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Володарский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Средний Чир": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новострепетный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чернозубов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сарматский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Авилов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Соколовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чабрецы": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красный Сал": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Черновский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Комарьков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Вифлянцев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лесостепь": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Николаевская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Грязновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Раздорский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Четырехъярский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сеньшин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхнеширокинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Горский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Константиновск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Лакедемоновка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Синяпкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Авило-Успенка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Камышный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Крутоярский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Каменная Балка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Холмистый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Центральный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Едуш": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ковыльный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Пригородный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Котломин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кислицкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Обухов N7": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Типчаковый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Иваново-Ясиновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Глухомановский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Стычновский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лагерный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ковыленский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Киселево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чапаева": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ермилов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малокирсановка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Вишнянский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Черкесский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Бокачевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Маныч": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "КГУ-1": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красная Горка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гривенная": {
+        "location_type": "Станция",
+        "options": []
+    },
+    "Шаповаловка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сальск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Отноженский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пролетарка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Грунтовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Солонецкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сеятель Северный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Личный Труд": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Машинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Шапошниково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Суворов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гигант": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новоселый 1-й": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Духов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Пухов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Белоковыльный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тацин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сиволобов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кастырский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сальский Беслан": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пушкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Пролетарск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Бобров": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Корсаки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхнекалинов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Супрун": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Яново-Петровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Каштановский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хрящевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сухой": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Белозерный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Углеродовский": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Клены": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Варламов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сосновый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Валуйский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красная Дубрава": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Рябовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Бараники": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мариинская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Табунщиково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ставиднянский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Конармейский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тальники": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Зайцевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Упраздно-Кагальницкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Уютный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новоярки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Слепихин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Усть-Грязновский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Старовязовский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Осиновский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новоровенецкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Наумовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Березовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Костино-Горский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новый Егорлык": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Одинцовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Низовой": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кирсалово": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нижнекалинов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Коренной": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тополевый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бровки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Исток": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нижнепотапов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новодонской": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кермек": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пичугин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Шаблиевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дольный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новобессергеневка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верхнепотапов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Крупский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Коврино": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Дубовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Соленый": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кузнецовский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Водин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Горская Порада": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Калинов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Пушкина": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Рыбасово": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Аржановский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижнеянинский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Васильевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Вербный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Русская": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Лужки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Полянки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Степной Курган": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Богдановка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Харьковский 2-й": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Холодные Родники": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Прохоровка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Маяк": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Чирский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Щедрый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новая Целина": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Приманычский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Большие Салы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Калач-Куртлак": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Смидовича": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Приречный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тарасово-Меловское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Розет": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Семикаракорск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Крученая": {
+        "location_type": "Станция",
+        "options": []
+    },
+    "Плодородное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Манычстрой": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бугры": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красный Скотовод": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мокрая Ельмута": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Чалтырь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Агаренский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Малые Озера": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Щебуняевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ленинаван": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Русско-Прохоровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новая Полтава": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кирсановка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Средняя Гусынка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новостепной": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шипилов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ключникова Балка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Поповский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Николаевский 2-й": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Зеленая Балка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Варваринский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сладкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новозолотовская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Целина": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Никольское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Опенки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Головановка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Зеленый Холм": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Калининский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Петрово": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Карпо-Николаевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "25 лет Военконезавода": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Васильево-Ханжоновка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хлеборобное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Буденновская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Крым": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Баевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Грязновский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижняя Ковалевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Глубокая Балка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Русаков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Копани": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Несветай": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кузнецовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Чуевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Благодарный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Конезавод имени Буденного": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Замчалово": {
+        "location_type": "Станция",
+        "options": []
+    },
+    "Чистяково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новый Маныч": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Пименово": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ходаковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сухая Ельмута": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ленинакан": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лиманный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Протоки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сандата": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Фроловский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Татнинов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Садки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Правоюловский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кадамов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Носово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Карла Либкнехта": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Андроповский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кошкино": {
+        "location_type": "Станция",
+        "options": []
+    },
+    "Хирный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Рябухин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Калмыково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гривенный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Костылевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Дударевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малокомаровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхнеянинский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Журавлевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сохрановка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Демин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Старокузнецовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Антоновский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Морской Чулек": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Осиково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Романовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Савченко": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красный Юг": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Дейнекин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новорябухин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Большемечетный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Логвиновский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Таловый": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Дудниковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новомоисеевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мокрый Чалтырь": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Майский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Советская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Кочетовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Хлебный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новоромановский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Пигаревский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Вершинный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Крученая Балка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Белая Балка (Зубрилинское с/п)": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Орджоникидзе": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Харьковский 1-й": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Черевково": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кундрюченский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Пудовой": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сингиновский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ясенево": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Малая Федоровка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Токмацкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малая Бургуста": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Широкие Нивы": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шаминка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лаврова Балка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ястребиновский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Хлебодарное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новозолотовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Вислый": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гудило": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чичерин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Полтава": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Солдатовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Тарасов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Розы Люксембург": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Пролетарский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Васецкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ганчуков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Киреевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Максимов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Быстрянский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Тамбовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Маньково-Калитвенское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Криушинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Чебачий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нагибин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Русский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Петрушино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Селим": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Александрова Коса": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верхнезундов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Рыбинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Образцовый": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Большая Бургуста": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лазарев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Деркачев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кружилинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхнетавричанский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижний Саловск": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Майорский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Арбузовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Благодатный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Покровское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ряска": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Меркуловский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Зеленая Горка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Правобережный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ходаков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Комаровка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Владикарс": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Поливной": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кобызевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Крутой": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Балабинка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сысоево-Александровское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Родионовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Львов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Курлацкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Юловский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхняя Кадамовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Рубежинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лозовой (Маньковское с/п)": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лиманский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Греков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красный Десант": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мельников": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ломакин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Бессергеневская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Родионово-Несветайская": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Нижнеталовый": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Белая Балка (Донское с/п)": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Бочковой": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Слободской": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Роща": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Терновской": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Беглица": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ольшанка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кривской": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Загорье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхневодяной": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новогригорьевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Анно-Ребриковская": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Задоно-Кагальницкая": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Маяки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Разъезд Забытый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Партизан": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Озерки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сетраки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Максаевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Андреево-Мелентьево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гребцово": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сеятель Южный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дарагановка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Алексеево-Лозовское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Волочаевский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Золотаревка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Филипповский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Русская Слободка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Андрианов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сладкая Балка": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Аграфеновка": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Бакланники": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мокросарматка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Краснознаменка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сухосарматка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Маломечетный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижнезундов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Яново-Грушевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Суховка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кунделекино": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Аюта": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Марьяны": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Топилин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Самбек": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Герасимовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новотроицкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Александровка 1-я": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Разъезд Куреный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Страхов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Чумаковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ребричанский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Богуны": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Жуков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Могилянский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Карла Маркса": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Шалгаков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ягодинка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Крымский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Жатва": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Шевченко": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Щедровка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Коммуна им. Ленина": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лозовой (Зубрилинское с/п)": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Барило-Крепинская": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Сусат": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Маркин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Марьево-Камышенский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лопанка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Алексеево-Тузловка": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Новоегорлыкский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Вороново": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Черни": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новопрохоровка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Подгорное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кочетовская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Казачьи Лагери": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новостепановский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Юдино": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новопривольный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дубрава": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Степное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нагорно-Тузловка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Курганный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Осиново": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Староковыльный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нижнеантоновский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ботановский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кривая Лука": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Бурбуки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Семено-Камышенская": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Керчик-Савров": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Тихий Лиман": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кадамовский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чертково": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Валуевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Красюковская": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Шептуховка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Цимлянск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Огиб": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Черкасский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхнегрушевский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Большое Ремонтное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нижнекундрюченская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Куцаевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Суворовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новоцимлянская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Балабино-Русский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Железнодорожный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Богородское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Донские Зори": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Камышевская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Большой Должик": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Виноградовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новозарянский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мостовой": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Краснопартизанский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Галдин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Коныгин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сосенки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Равнинный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Апаринский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ясиноватый": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Греково-Ульяновка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Саркел": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бородино": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Усть-Халань": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гераськин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Заповедное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Богатырев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новороссошанский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лесовой": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Аксенов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Керчикский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хорошевская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Синий Курган": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дымков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Маньковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кривянская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Ремонтное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сусатско-Донской": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Каменный Брод": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Быстрогорский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красноярская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Ещеулов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Паршиков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кормовое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Каменоломни": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Верхнекундрюченская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Новосуховый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Рынок-Каргальский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новоперсиановка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Маркинская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Маслов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Михайлово-Александровка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Вольный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ремизов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ермаковская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Персиановский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Греково-Степановка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Карнауховский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Усть-Донецкий": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Филинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Тихая Журавка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дубравный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Раздольный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мелиховская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Краснокомиссаровка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Атлантово": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кирбитово": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Усть-Быстрянская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Ломовцев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Киевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Малая Лозовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Херсонка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лозновская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Бронницкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Листопадов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Терновская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Денисовский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сидоровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Антонов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Чистополье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тереховский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Карповский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Курлаки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Раздорская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Греково-Балка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кумшацкая": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Бакай": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Исаевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Рынок-Романовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Выдел": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лозной": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Евсеевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Болдыревка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Веселовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Углегорский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Карпов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Шевченковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малокачалин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Атамано-Власовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Калининская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Лубяной": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Генеральское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гринев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Зарубин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кустоватов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Скосырская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Папчино": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Заливной": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Бунако-Соколовец": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Игнатенко": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новоегоровка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхнеобливский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Таврический N20": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Качалин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Надежевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Плато-Ивановка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новая Украина": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малая Мартыновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Хлебородный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Араканцев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Каршенно-Анненка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Солдатский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новосадковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Средний Егорлык": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Карпово-Обрывский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Павленков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кащеевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новая Палестина": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Большая Мартыновка": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Волго-Дон": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Пробуждение": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гок": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Малая Роща": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Комиссаров": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нива": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Красильников": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Рассыпное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кугульта": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мезенцев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Засальский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Михайлов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Большекрепинская": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Развильное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Майоро-Белашовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Летник": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тимский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Платонов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Глинки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхнекольцов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Раздельный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чумаков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Абрикосовый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Двойной": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малая Горка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Почтовый Яр": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Рубашкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Старченский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Арбузов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Матвеевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Персиановка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Обильный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Бабовня": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Верхнетокинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижнекольцов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Краснояровский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Дальнее Поле": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тихий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ващаевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Колундаевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Богородицкое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Калиновский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Быстрореченский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Поляков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Зеленовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мухин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Альшанский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Борисовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Поречье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Жуковское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Зубковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Поливянка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Пуличев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лазорики": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Луговой": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Затонский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Водянский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Песчанокопское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Плешаковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Жирнов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Белогорский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нагорный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нижнекривской": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Тацинская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Вешенская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Ковылкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Денисов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Захаро-Обливский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Базковская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Зеленолугский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Андропов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лосевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Крутобережный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Алифанов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Лебяженский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Зазерский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Молодой Сад": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Безбородовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Миронов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Громковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Чукаринский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ильинов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гороховский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Комаров": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новомартыновский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Антиповский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Стрижи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ушаковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Долгий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Моховской": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Еланская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Алимовский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гром-Гора": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Несмеяновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новоцелинный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сальский Кагальник": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Обливной": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малоорловский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Зубрилинский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Черемухи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Артамошкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Степной Маяк": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дячкино": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Звездное": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Лиховской": {
+        "location_type": "Микрорайон",
+        "options": []
+    },
+    "Майское": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Струг": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Верхнетарасовский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Текстильщик": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Горняк": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Трикотажник": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Юбилейное": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Волгодонск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Обувщик": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "20 лет РККа": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Войково": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Южанка": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Рыновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Каширин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Плотина": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Курно-Липовка": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Изумрудный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Маноцкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижнемакеевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Большинка": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Можаевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Смеловка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Егоро-Калитвенский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Прогной": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижнемитякин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Деркул": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Колушкино": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Мокроталовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Беляевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Чеботовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Донская Нива": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новоалексеевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Холмы": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Малое Полесье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхний Митякин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Липовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мартыновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нижняя Тарасовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Патроновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Шарпаевка": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Митякинская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Ерофеевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Весенний": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Логи": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Первое Мая": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ефремово-Степановка": {
+        "location_type": "Слобода",
+        "options": []
+    },
+    "Власовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гирино": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Елань": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ушаковка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Каюковка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Тарасовский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дубы": {
+        "location_type": "Хутор",
+        "options": []
+    }
+}

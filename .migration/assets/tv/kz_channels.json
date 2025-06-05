@@ -1,0 +1,135 @@
+{
+    "ТВ-СЕТЬ QAZAQSTAN": {
+        "audience": "All 6-54",
+        "round": 0.02,
+        "seller": "IMS/MN",
+        "sale_type": "GRP",
+        "union_details": "Qazsport, Qazaqstan"
+    },
+    "КТК": {
+        "audience": "All 18+",
+        "round": 0.1,
+        "seller": "TBM",
+        "sale_type": "GRP",
+        "union_details": null
+    },
+    "НТК": {
+        "audience": "All 6-54",
+        "round": 0.1,
+        "seller": "TBM",
+        "sale_type": "GRP",
+        "union_details": null
+    },
+    "ПЕРВЫЙ КАНАЛ ЕВРАЗИЯ": {
+        "audience": "All 18+",
+        "round": 0.1,
+        "seller": "IMS/MN",
+        "sale_type": "GRP",
+        "union_details": null
+    },
+    "31 КАНАЛ": {
+        "audience": "All 6-54",
+        "round": 0.1,
+        "seller": "VI",
+        "sale_type": "GRP",
+        "union_details": null
+    },
+    "ALMATY TV": {
+        "audience": "All 6-54",
+        "round": 0.01,
+        "seller": "IMS/MN",
+        "sale_type": "GRP",
+        "union_details": null
+    },
+    "АСТАНА": {
+        "audience": "All 6-54",
+        "round": 0.02,
+        "seller": "IMS/MN",
+        "sale_type": "GRP",
+        "union_details": null
+    },
+    "МИР": {
+        "audience": "All 18+",
+        "round": 0.0,
+        "seller": "VI",
+        "sale_type": "GRP",
+        "union_details": null
+    },
+    "СЕДЬМОЙ КАНАЛ": {
+        "audience": "All 18+",
+        "round": 0.02,
+        "seller": "IMS/MN",
+        "sale_type": "GRP",
+        "union_details": null
+    },
+    "ATAMEKEN BUSINESS": {
+        "audience": "All 18+",
+        "round": 0.0,
+        "seller": null,
+        "sale_type": "MIN",
+        "union_details": null
+    },
+    "BALAPAN": {
+        "audience": "All 6-54",
+        "round": 0.02,
+        "seller": "IMS/MN",
+        "sale_type": "GRP",
+        "union_details": null
+    },
+    "JIBEK JOLY": {
+        "audience": "All 18+",
+        "round": 0.01,
+        "seller": "IMS/MN",
+        "sale_type": "GRP",
+        "union_details": null
+    },
+    "ТВ-СЕТЬ MEDIA NOVA": {
+        "audience": "All 6-54",
+        "round": 0.01,
+        "seller": "IMS/MN",
+        "sale_type": "GRP",
+        "union_details": "Gakku, Turan, Той Думан"
+    },
+    "ТВ-СЕТЬ ХАБАР": {
+        "audience": "All 6-54",
+        "round": 0.02,
+        "seller": "IMS/MN",
+        "sale_type": "GRP",
+        "union_details": "El Arna, Хабар"
+    },
+    "24 KZ": {
+        "audience": "All 18+",
+        "round": 0.01,
+        "seller": "IMS/MN",
+        "sale_type": "GRP",
+        "union_details": null
+    },
+    "ТВ-СЕТЬ TVMA": {
+        "audience": "All 12+",
+        "round": 0.005,
+        "seller": "TBM",
+        "sale_type": "GRP",
+        "union_details": "ALATAU TV, KTK, TURKISTAN, НТК"
+    },
+    "ТВ-СЕТЬ РТВ": {
+        "audience": "All 6-45",
+        "round": 0.02,
+        "seller": "VI",
+        "sale_type": "GRP",
+        "union_details": "ТНТ, ПЯТНИЦА"
+    },
+    "ТВ-СЕТЬ ALEM": {
+        "audience": "All 18+",
+        "round": 0.01,
+        "seller": "VI",
+        "sale_type": "GRP",
+        "union_details": "Kino Alem1, Kino Alem2"
+    },
+    "ТВ-СЕТЬ IMS": {
+        "audience": "All 6+",
+        "round": 0.0,
+        "seller": "IMS/MN",
+        "sale_type": "GRP",
+        "union_details": "SHOW KZ, КиноБоевик, Коктем, Мировое Кино, Премиум Кино"
+    }
+}

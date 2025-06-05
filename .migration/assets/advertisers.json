@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "advertiser": "А101"
+    },
+    {
+        "id": 2,
+        "advertiser": "Дикси"
+    },
+    {
+        "id": 3,
+        "advertiser": "Домклик"
+    },
+    {
+        "id": 4,
+        "advertiser": "Магнит"
+    },
+    {
+        "id": 5,
+        "advertiser": "Магнит маркет"
+    },
+    {
+        "id": 6,
+        "advertiser": "МБ РУС"
+    },
+    {
+        "id": 7,
+        "advertiser": "Мега"
+    },
+    {
+        "id": 8,
+        "advertiser": "Национальная лотерея"
+    },
+    {
+        "id": 9,
+        "advertiser": "НСПК"
+    },
+    {
+        "id": 10,
+        "advertiser": "Перекресток"
+    },
+    {
+        "id": 11,
+        "advertiser": "Пятерочка"
+    },
+    {
+        "id": 12,
+        "advertiser": "Самолет плюс"
+    },
+    {
+        "id": 13,
+        "advertiser": "СБЕР"
+    },
+    {
+        "id": 14,
+        "advertiser": "Т-Банк"
+    },
+    {
+        "id": 15,
+        "advertiser": "ЦИАН"
+    },
+    {
+        "id": 16,
+        "advertiser": "Чижик"
+    },
+    {
+        "id": 17,
+        "advertiser": "AB InBev Efes"
+    },
+    {
+        "id": 18,
+        "advertiser": "Leroy Merlin"
+    },
+    {
+        "id": 19,
+        "advertiser": "Metro"
+    },
+    {
+        "id": 20,
+        "advertiser": "MR Group"
+    },
+    {
+        "id": 21,
+        "advertiser": "OBI"
+    },
+    {
+        "id": 22,
+        "advertiser": "OKKO"
+    },
+    {
+        "id": 23,
+        "advertiser": "Rostics"
+    },
+    {
+        "id": 24,
+        "advertiser": "Tutu.ru"
+    },
+    {
+        "id": 25,
+        "advertiser": "Valenta"
+    }
+]

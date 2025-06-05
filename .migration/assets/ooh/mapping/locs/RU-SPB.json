@@ -1,0 +1,138 @@
+{
+    "Санкт-Петербург": {
+        "location_type": "Город",
+        "options": [
+            "СПБ",
+            "СБП",
+            "Питер"
+        ]
+    },
+    "Ленинградская область": {
+        "location_type": "Область",
+        "options": [
+            "ЛО",
+            "Лен. область",
+            "Лен. обл."
+        ]
+    },
+    "Смолячково": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Репино": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Понтонный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тярлево": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Солнечное": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Петро-Славянка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Металлострой": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сестрорецк": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Лисий Нос": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Серово": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шушары": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Саперный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Александровская": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Белоостров": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Стрельна": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Парголово": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Песочный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Молодежное": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ушково": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Комарово": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Усть-Ижора": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ломоносов": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Павловск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Пушкин": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Петергоф": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Колпино": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Левашово": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красное Село": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Кронштадт": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Зеленогорск": {
+        "location_type": "Город",
+        "options": []
+    }
+}

@@ -1,0 +1,174 @@
+{
+    "Красное": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Выучейский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Волонга": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Индига": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Черная": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Тошвиска": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Несь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Куя": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Харьягинский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Белушье": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Щелино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пылемец": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Вижас": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Великовисочное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Оксино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Коткино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кия": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ома": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хорей-Вер": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Варнек": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лабожское": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Тельвиска": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Волоковая": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Харута": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нельмин-Нос": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чижа": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Амдерма": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Макарово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Нижняя Пеша": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Снопа": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шойна": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мгла": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Усть-Кара": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Андег": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бугрино": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхняя Пеша": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Осколково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Каратайка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Искателей": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Устье": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Каменка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Хонгурей": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нарьян-Мар": {
+        "location_type": "Город",
+        "options": []
+    }
+}

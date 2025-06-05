@@ -1,0 +1,449 @@
+{
+    "RU-ADY": {
+        "RU": "Республика Адыгея",
+        "TOP_OPERATORS": []
+    },
+    "RU-ALI": {
+        "RU": "Республика Алтай",
+        "TOP_OPERATORS": []
+    },
+    "RU-ALT": {
+        "RU": "Алтайский край",
+        "TOP_OPERATORS": []
+    },
+    "RU-AMU": {
+        "RU": "Амурская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-ARK": {
+        "RU": "Архангельская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-AST": {
+        "RU": "Астраханская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-BAS": {
+        "RU": "Республика Башкортостан",
+        "TOP_OPERATORS": [
+            "РИМ Медиа",
+            "MAER GROUP",
+            "General Media Group",
+            "Digital Outdoor",
+            "Ночной Проспект"
+        ]
+    },
+    "RU-BEL": {
+        "RU": "Белгородская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-BRY": {
+        "RU": "Брянская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-BUR": {
+        "RU": "Республика Бурятия",
+        "TOP_OPERATORS": []
+    },
+    "RU-CHA": {
+        "RU": "Чеченская Республика",
+        "TOP_OPERATORS": []
+    },
+    "RU-CHE": {
+        "RU": "Челябинская область",
+        "TOP_OPERATORS": [
+            "РИМ Медиа",
+            "Russ",
+            "MAER GROUP",
+            "Бизнес Медиа"
+        ]
+    },
+    "RU-CHU": {
+        "RU": "Чукотский автономный округ",
+        "TOP_OPERATORS": []
+    },
+    "RU-CHV": {
+        "RU": "Чувашская Республика - Чувашия",
+        "TOP_OPERATORS": []
+    },
+    "RU-DAG": {
+        "RU": "Республика Дагестан",
+        "TOP_OPERATORS": []
+    },
+    "RU-ING": {
+        "RU": "Республика Ингушетия",
+        "TOP_OPERATORS": []
+    },
+    "RU-IRK": {
+        "RU": "Иркутская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-IVA": {
+        "RU": "Ивановская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-JEW": {
+        "RU": "Еврейская автономная область",
+        "TOP_OPERATORS": []
+    },
+    "RU-KAB": {
+        "RU": "Кабардино-Балкарская Республика",
+        "TOP_OPERATORS": []
+    },
+    "RU-KAG": {
+        "RU": "Калининградская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-KAI": {
+        "RU": "Республика Калмыкия",
+        "TOP_OPERATORS": []
+    },
+    "RU-KAL": {
+        "RU": "Калужская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-KAM": {
+        "RU": "Камчатский край",
+        "TOP_OPERATORS": []
+    },
+    "RU-KAO": {
+        "RU": "Карачаево-Черкесская Республика",
+        "TOP_OPERATORS": []
+    },
+    "RU-KAR": {
+        "RU": "Республика Карелия",
+        "TOP_OPERATORS": []
+    },
+    "RU-KEM": {
+        "RU": "Кемеровская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-KHA": {
+        "RU": "Хабаровский край",
+        "TOP_OPERATORS": []
+    },
+    "RU-KHK": {
+        "RU": "Республика Хакасия",
+        "TOP_OPERATORS": []
+    },
+    "RU-KHM": {
+        "RU": "Ханты-Мансийский АО - Югра",
+        "TOP_OPERATORS": []
+    },
+    "RU-KIR": {
+        "RU": "Кировская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-KOM": {
+        "RU": "Республика Коми",
+        "TOP_OPERATORS": []
+    },
+    "RU-KOS": {
+        "RU": "Костромская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-KRA": {
+        "RU": "Краснодарский край",
+        "TOP_OPERATORS": [
+            "Медиатрон",
+            "Артсайд",
+            "Russ",
+            "Пано-Юг",
+            "Красивый Город"
+        ]
+    },
+    "RU-KUG": {
+        "RU": "Курганская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-KUR": {
+        "RU": "Курская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-KYA": {
+        "RU": "Красноярский край",
+        "TOP_OPERATORS": [
+            "General Media Group",
+            "Илан",
+            "РИМ Медиа",
+            "Граната",
+            "Аляска"
+        ]
+    },
+    "RU-LEN": {
+        "RU": "Ленинградская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-LIP": {
+        "RU": "Липецкая область",
+        "TOP_OPERATORS": []
+    },
+    "RU-MAG": {
+        "RU": "Магаданская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-MAR": {
+        "RU": "Республика Марий Эл",
+        "TOP_OPERATORS": []
+    },
+    "RU-MOR": {
+        "RU": "Республика Мордовия",
+        "TOP_OPERATORS": []
+    },
+    "RU-MOS": {
+        "RU": "Московская область",
+        "TOP_OPERATORS": [
+            "Восток-Медиа",
+            "Мособлреклама"
+        ]
+    },
+    "RU-MOW": {
+        "RU": "Москва",
+        "TOP_OPERATORS": [
+            "Russ",
+            "MAER GROUP",
+            "Sunlight Outdoor",
+            "LBL",
+            "Rasvero"
+        ]
+    },
+    "RU-MUR": {
+        "RU": "Мурманская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-NEN": {
+        "RU": "Ненецкий автономный округ",
+        "TOP_OPERATORS": []
+    },
+    "RU-NGR": {
+        "RU": "Новгородская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-NIZ": {
+        "RU": "Нижегородская область",
+        "TOP_OPERATORS": [
+            "Перспектива",
+            "РИМ Медиа",
+            "Белый Лев",
+            "Прайм",
+            "Цвет"
+        ]
+    },
+    "RU-NOR": {
+        "RU": "Республика Северная Осетия - Алания",
+        "TOP_OPERATORS": []
+    },
+    "RU-NVS": {
+        "RU": "Новосибирская область",
+        "TOP_OPERATORS": [
+            "Перспектива",
+            "РИМ Медиа",
+            "Hollywood",
+            "MAER GROUP",
+            "General Media Group"
+        ]
+    },
+    "RU-OMS": {
+        "RU": "Омская область",
+        "TOP_OPERATORS": [
+            "Russ",
+            "General Media Group",
+            "Компаньон",
+            "Слово"
+        ]
+    },
+    "RU-ORE": {
+        "RU": "Оренбургская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-ORL": {
+        "RU": "Орловская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-PER": {
+        "RU": "Пермский край",
+        "TOP_OPERATORS": [
+            "РИМ Медиа",
+            "Mediastreet Group",
+            "Outdoor Star",
+            "Future Media",
+            "MAER GROUP"
+        ]
+    },
+    "RU-PNZ": {
+        "RU": "Пензенская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-PRI": {
+        "RU": "Приморский край",
+        "TOP_OPERATORS": []
+    },
+    "RU-PSK": {
+        "RU": "Псковская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-ROS": {
+        "RU": "Ростовская область",
+        "TOP_OPERATORS": [
+            "Russ",
+            "Альбион",
+            "Горизонт",
+            "ДРИМ",
+            "General Media Group"
+        ]
+    },
+    "RU-RYA": {
+        "RU": "Рязанская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-SAH": {
+        "RU": "Республика Саха (Якутия)",
+        "TOP_OPERATORS": []
+    },
+    "RU-SAK": {
+        "RU": "Сахалинская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-SAM": {
+        "RU": "Самарская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-SAR": {
+        "RU": "Саратовская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-SMO": {
+        "RU": "Смоленская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-SPB": {
+        "RU": "Санкт-Петербург",
+        "TOP_OPERATORS": [
+            "Russ",
+            "Реклама Центр",
+            "Дисплей",
+            "РИМ Медиа",
+            "Streetwall"
+        ]
+    },
+    "RU-STA": {
+        "RU": "Ставропольский край",
+        "TOP_OPERATORS": []
+    },
+    "RU-SVE": {
+        "RU": "Свердловская область",
+        "TOP_OPERATORS": [
+            "Хэттрик",
+            "Russ",
+            "Future Media",
+            "Перспектива",
+            "РИМ Медиа"
+        ]
+    },
+    "RU-TAM": {
+        "RU": "Тамбовская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-TAT": {
+        "RU": "Республика Татарстан (Татарстан)",
+        "TOP_OPERATORS": [
+            "РИМ Медиа",
+            "Лариса",
+            "3 Арт",
+            "Stuff Media",
+            "Mind Media"
+        ]
+    },
+    "RU-TOM": {
+        "RU": "Томская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-TUL": {
+        "RU": "Тульская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-TUV": {
+        "RU": "Республика Тыва",
+        "TOP_OPERATORS": []
+    },
+    "RU-TVE": {
+        "RU": "Тверская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-TYU": {
+        "RU": "Тюменская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-UDM": {
+        "RU": "Удмуртская Республика",
+        "TOP_OPERATORS": []
+    },
+    "RU-ULY": {
+        "RU": "Ульяновская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-VGG": {
+        "RU": "Волгоградская область",
+        "TOP_OPERATORS": [
+            "ДРИМ",
+            "Russ",
+            "MAER GROUP",
+            "Перспектива",
+            "Stuff Media"
+        ]
+    },
+    "RU-VLA": {
+        "RU": "Владимирская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-VLG": {
+        "RU": "Вологодская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-VOR": {
+        "RU": "Воронежская область",
+        "TOP_OPERATORS": [
+            "ДРИМ",
+            "Мегасайн",
+            "Russ",
+            "РИМ Медиа",
+            "Артфолио"
+        ]
+    },
+    "RU-YAN": {
+        "RU": "Ямало-Ненецкий автономный округ",
+        "TOP_OPERATORS": []
+    },
+    "RU-YAR": {
+        "RU": "Ярославская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-ZAB": {
+        "RU": "Забайкальский край",
+        "TOP_OPERATORS": []
+    },
+    "UA-43": {
+        "RU": "Республика Крым",
+        "TOP_OPERATORS": []
+    },
+    "UA-40": {
+        "RU": "Севастополь",
+        "TOP_OPERATORS": []
+    },
+    "RU-ZAP": {
+        "RU": "Запорожская область",
+        "TOP_OPERATORS": []
+    },
+    "RU-DNR": {
+        "RU": "Донецкая Народная Республика",
+        "TOP_OPERATORS": []
+    },
+    "RU-LNR": {
+        "RU": "Луганская Народная Республика",
+        "TOP_OPERATORS": []
+    },
+    "RU-KHE": {
+        "RU": "Херсонская область",
+        "TOP_OPERATORS": []
+    }
+}

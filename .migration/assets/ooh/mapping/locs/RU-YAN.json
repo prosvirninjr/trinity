@@ -1,0 +1,514 @@
+{
+    "Усть-Войкары": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "СМП-304": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Фарафонтьевская": {
+        "location_type": "Станция",
+        "options": []
+    },
+    "Ишвары": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Зеленый Яр": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Халасьпугор": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мужи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Вылпосл": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Горнокнязевск": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лохпотгорт": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сангымгорт": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Харампур": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ямбура": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Щучье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тильтим": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шурышкары": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Овгорт": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Горки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чапаевск": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Уренгой": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Пословы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ильягорт": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пурпе-1": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Питляр": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хашгорт деревня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Товопогол": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лаборовая": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Харсаим": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Аксарка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кутопьюган": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Белоярск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Катравож": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Правохеттинский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Заполярный": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Приозерный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нори": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лонгъюган": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "0 км": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Пангоды": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Ягельный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ямбург": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Киккиакки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ратта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Толька": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тарко-Сале": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Красноселькуп": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ныда": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Надым": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Пурпе": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "фактория Дровяной": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мыс-Каменный": {
+        "location_type": "Село",
+        "options": []
+    },
+    "ПСО-35": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Порц-Яха": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Компрессорная Станция-03": {
+        "location_type": "Станция",
+        "options": []
+    },
+    "Панаевск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мор-Сале": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Салемал": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Фактория Тарко-Сале": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Стартовый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сабетта": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Фактория Морды-Яха": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сеяха": {
+        "location_type": "Село",
+        "options": []
+    },
+    "метеостанция МарраСале": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ягенетта": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Фактория Усть-Юрибей": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новый Порт": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тамбей": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Сюнай-Сале": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Яптик-Сале": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пуровск": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Яр-Сале": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Харасавей": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Халясавэй": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бованенково": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ханымей": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Механизированная Колонна-55": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Площадка НГКХ": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Самбург": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тазовский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Матюй-Сале": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Фактория Мессо": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Фактория Напалково": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Антипаюта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тадебя-Яха": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Тибей-Сале": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Юрибей": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Газ-Сале": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Находка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гыда": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лабытнанги": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Муравленко": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Салехард": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Новый Уренгой": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Губкинский": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Ноябрьск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Старый Надым": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Карвожгорт": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Казым-Мыс": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Анжигорт": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ныдинский": {
+        "location_type": "Поселок при станции",
+        "options": []
+    },
+    "Овалынгорт": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Азовы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Евыргорт": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Вершина-Войкар": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ханты-Мужи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Восяхово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нымвожгорт": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лопхари": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хашгорт": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новый Киеват": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ямгорт": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Унсельгорт": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лимбяяха": {
+        "location_type": "Жилой район",
+        "options": []
+    },
+    "Вахтовый": {
+        "location_type": "Поселок при станции",
+        "options": []
+    },
+    "Коротчаево": {
+        "location_type": "Жилой район",
+        "options": []
+    },
+    "СУ-934": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Обской": {
+        "location_type": "Микрорайон",
+        "options": []
+    },
+    "Харп": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Головной": {
+        "location_type": "Поселок при станции",
+        "options": []
+    },
+    "Хасырейский": {
+        "location_type": "Поселок при станции",
+        "options": []
+    },
+    "Пельвож": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Октябрьский": {
+        "location_type": "Микрорайон",
+        "options": []
+    },
+    "107 км": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Обской причал": {
+        "location_type": "Микрорайон",
+        "options": []
+    },
+    "Лесной": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Югра": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Югра-2": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сывдарма": {
+        "location_type": "Село",
+        "options": []
+    }
+}

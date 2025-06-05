@@ -1,0 +1,1006 @@
+{
+    "Барун": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кануково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шарлджин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Листа": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Босхачи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхний Яшкуль": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Овата": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ар Нур": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хошеут": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мирный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Могата": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Уманцево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Джангар": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тугтун": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Большой Царын": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гашун-Бургуста": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кегульта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хонч Нур": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красномихайловское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бага Тугтун": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сладкое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Красный Маныч": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Яшалта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ики Чонос": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лиманный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Соленое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гюдик": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Манычский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шовгр Толга": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Матросово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Теегин Нур": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Догзмакин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Годжур": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кировский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Цаган Булг": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чомпот": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Эрдниевский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Долан": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Смушковое": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Степной": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бергин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Молодежный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Харба": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ниицян": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Первомайский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Цаган-Усн": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хар Усн": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хогн": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чагорта": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Октябрьский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кек-Нур": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дубравный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Улан Эрге": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Татал": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Заагин Сала": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Юста": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Эрмели": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Зегиста": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Цаган Аман": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Улан Зуух": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бор Нур": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Белоозерский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Вахтовый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Партизанский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чонта": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Северный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Коробкин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тавн Гашун": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ики-Чонос": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Троицкое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бургуста": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Келькеты": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гашун Булг": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Найнтахн": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тарата": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Вознесеновка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Джурак": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Аршан-Булг": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бага-Чонос": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Майский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хар-Булук": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ермолинский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Майхара": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чилгир": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ялмта": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Рыбачий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Прикумский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Меклета": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красинское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Буранное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Яковлево": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Артезиан": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Улан Хол": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Озерный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Джалыково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Северное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Теегин Герл": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лагань": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Сарул": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кек Усн": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Андратинский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мелиоратор": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чанта": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Булмукта": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Маныч": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Светлый Ерек": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чапчачи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нарын Худук": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Рогульский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Комсомольский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Буровой": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Халтрын-Бор": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шин Тег": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кумской": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ачинеры": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Цува": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Доценг": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бугу": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дружный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Манц": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Раздольный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Радужный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Левый Остров": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нарын": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нарта": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бурата": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ики Манлан": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Урожайный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Малые Дербеты": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ики-Бухус": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Южный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Песчаный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бага-Бурул": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Цветной": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Виноградное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Зурган": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Калининский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Воробьевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Адык": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ульдючины": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ахнуд": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шин Бядл": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Уралан": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ханата": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Приютное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бурул": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Модта": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Унгун Терячи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Розенталь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тундутово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кевюды": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пушкинское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Карантин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Соста": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Плодовитое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Балковский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шерет": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дорожный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лазаревский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хомутников": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Амур-Санан": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сараха": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Веселое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шар-Булг": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Большой Гок": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чкаловский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Магна": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Передовой": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бембишево": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чапаевское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Васильев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Амтя Уста": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Алцынхута": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Городовиковск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Манджикины": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Светлый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сарпа": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Байр": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Алтн Булг": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шатта": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Цегрг": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Интернациональный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ики-Бурул": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шин Мер": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Цаган Ташу": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хар Толга": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бургсун": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Джеджикины": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Цорос": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Оргакин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дашман": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дружное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шеернг": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Зюнгар": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Эсто-Алтай": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Эвдик": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хар-Зуха": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Олинг": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шорв": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Зерновое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гашун": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Утта": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кордон": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пролетарский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Харгата": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кетченеры": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чолун Хамур": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ревдольган": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Рассвет": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Низовый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ульяновское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бага Бурул": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ергенинский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красный Партизан": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Элвг": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новая Жизнь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ут Сала": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Привольный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Краснополье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шарва": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Манцин Кец": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Оран Булг": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шорвин Кец": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Яшкуль": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Березовское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Приманыческий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хулхута": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дунд Джалг": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Иджил": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Зунда Толга": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лиджин Худук": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Восход": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Каажихин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Арым": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Цаган-Нур": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Обильное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Садовое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чарлакта": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Эркетен": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Приманыч": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Аршань-Зельмень": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Заргакин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шарнут": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Салын-Тугтун": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Аршан": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Максимовка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Салын": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Элиста": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Лола": {
+        "location_type": "Поселок",
+        "options": []
+    }
+}

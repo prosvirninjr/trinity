@@ -1,0 +1,8926 @@
+{
+    "Большой Пьявицкий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Катичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ширяевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Березовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Холевичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красный Источник": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гремячее": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сидоровка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Осколково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гамовщина": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Клюков Мох": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бородино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Гладское": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дуброва": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ясенок": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Рожки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Нижняя Дуброва": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Садовый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Быковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Черемушки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дягово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ленинский Уголок": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Иванчиков": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Владимировка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Борщевка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Цинка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Колпачок": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Гриневка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Прогресс": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кабановка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Плоский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Несвоевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дедюки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Семки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Печки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Курганье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Журавка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Разрытое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Калиновка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Корунский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Скрябино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Приютово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Васильевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ковалевщина": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ягодное": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Артюшково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Полек": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Друговщина": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Мишковка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верещаки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бурчак": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новые Бобовичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Романовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Передовик": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Соколовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Занковка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рябчовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Червонный Яр": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Палужье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новое Место": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Зеленый Гай": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Репище": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Корна": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Буда-Корецкая": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Остроглядово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Малая Деременка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Грива": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Логоватое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Триголов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лайковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Замишево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Разгонов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новомлынка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Николаевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Мамонов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Обуховка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Малышкин": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Калининский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Скоробогатая Слобода": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пластовое": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Днепровка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Халимонки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Победа": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Журавлево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Рудня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Стайки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Рассуха": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Синий Колодец": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дедовский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новые Чешуйки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Стечна": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шитиков Лог": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ляды": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пашеньки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шкрябино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Высокое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Старые Бобовичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бушевщина": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Соколово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Красный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мостки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Гамалеевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Вознесенск": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гаврилково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Черноручье": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Барановский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Вормино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Камень": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красивое Подгорье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Клюковники": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Булдынка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Клинское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Истровка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ленинский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Упологи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новенький": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Тарасовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Помазовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Сытенки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Седки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Чубковичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Корчи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ясная Поляна": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Московский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Круглое": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сочилов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Слобода": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лосевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Садовая": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Вяльки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Речица": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хомутовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пурвинка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ляховка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Луговка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ковалево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Галая Лужа": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шершевичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лески": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Каменчуковка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Довжик": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пахарь": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Отрадное": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Балыкино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Думча": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Песчанка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Козорезовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Старые Чешуйки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шелудьки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Грозный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кукуевка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Михеенки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новая Жизнь": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Вихолка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Красная Ковалиха": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гатка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Титовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Субовичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Гарцево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верхняя Злобинка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Машкинский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Поляна": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сычовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Католино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Крымок": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Опытная станция": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сосновское": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Картушин": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дятлов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Молодьково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шняки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красноказацкий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Салтановка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мытничи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Горный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лопушь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Петьково": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Семеновка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Старая Романовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Липки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Рассадники": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Колодезки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рябцево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Калачово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Первомайский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бобровник": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ратный Ров": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мамай": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Озерное": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кожуровка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Галенск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новополье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мадеевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Грязивец": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Прудовка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Выгоничи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Литовня": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Морево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Гончаровка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бучки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Починок": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Медведьки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Борщов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Реуха": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Конопаковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Деремна": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бугаевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Харновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дохновичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Красный Гай": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кипти": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чернецкая Коста": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Прокоповка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Глинное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Жигалки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лукавица": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Прирубки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шутиловка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шеломы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Манюки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Пестриково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ястребец": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Синявка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шумарово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Галещина": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Зеленая Роща": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красногорки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Филоновка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бурачовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ревны": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кулики": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шеверды": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мирный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Санники": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пролысово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Михайловск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Глинки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гривка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Щегловка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Приваловка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Резуновщина": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Вздружное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Жданово": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Внуковичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новые Катичи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Деменка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Старый Вышков": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шимоновский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Макаровка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Черновица": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Вязовск": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Попелевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Петровка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Крапивна": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Полховка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Парфеновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Великая Дуброва": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Малый Кривец": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Нововасильевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Субботово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Крюков": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Старая Рудня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Писарево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Песчаный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Плоцкое": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Заречье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нижнее": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дружба": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Крутоберезка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новая Романовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Буденный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мохоновка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Борец": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Зимодровка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Беловодка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Стодолы": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дунаевщина": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дягель": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мякишево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Майский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Рогово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рагозино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Черноводка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красная Звезда": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нижняя Злобинка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Поперечное": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Белгород": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гавань": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Покослово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Белый Колодезь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Пугачовка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Вельжичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Коровченка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Валуец": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Суходолье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Алексеевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Заяружье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Карбовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Вьюнка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Решетки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Старый Кривец": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Каташин": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сергеевск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Васильки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пятовск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Девичье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Случок": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Перевоз": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Войтовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ильбово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Трусовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дубровка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Зубовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Коста": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Дареевичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Величка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Нетяговка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шабловка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дедов": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гололобово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Киселевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чеховка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сновское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тростань": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Желанный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Перекоп": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Андреевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Корчминка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сельцо": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Брянск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Дорожово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новозыбков": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Теменичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Клинцы": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Розново": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Фокино": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Антоновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Стародуб": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Займище": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Курнявцево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бело-Бережский санаторий турбаза": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Свень": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Большое Полпино": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Любвин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Козелкино": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Радица-Крыловка": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Успенский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дарковичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ардонь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Малое Полпино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Белые Берега": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Южная Развязка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Зайцев Двор": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Толмачево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Колтово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чернец": {
+        "location_type": "Железнодорожная станция",
+        "options": []
+    },
+    "Санаторий Снежка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Севрюково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Смольянь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Веселый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Супонево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тиганово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Хотылево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ново-Отрадное": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Трубчино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Елисеевичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Фокинское Лесничество": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ивановка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гороховка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чемодурово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "355 км и 356 км автотрассы Москва-Киев": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Новый": {
+        "location_type": "Микрорайон",
+        "options": []
+    },
+    "Брянск-4": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Старые Умысличи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Добрунь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Жучок": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Староселье": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Гремучее": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Деберка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хотеева": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Опахань": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рясное": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пожар": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Маковье": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Путь Ленина": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ковшовское Лесничество": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Балымово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "112 км автотрассы Брянск-Орел": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Шемякино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ивановский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Наливной пункт Брянск": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Коммунар": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мирковы Уты": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Большевик": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Саврасовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новопокровский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нежча": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Воронов Лог": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Малфа": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тешенечи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Поконь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Хрипкова": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кузнецы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Барышье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Майский Жук": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Павловка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Творишино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Прусаковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Телятниково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Пятилетка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хмелево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Май": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Хармынка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Забелизна": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Березовая Роща": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Холмечь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "152 км автодороги Брянск-Смоленск": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Прилепы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Михайловский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ждановка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Староновицкая": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Городец": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Сосновое Болото": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Туреевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новоселье": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Репье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Стеклянная Радица": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Сеща": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новомихайловский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Журиничи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Коробкина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Жабово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Коллективист": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Старь": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Батагово": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кропотово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Казанский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Зимницкая Слобода": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Сосновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Залиповье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дубрава": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чистяково": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Платовый Дуб": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тушево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Денисовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Турищево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ямное": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Свень-Транспортная": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Локоть": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Михеевка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Удельные Уты": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мусинский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Молотино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Комаровка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Путевка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Фоменок": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бобровня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дуковский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Стяжное": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Любегощь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Суслова": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Балдыж": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Грибовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Погребы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пильшино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Глинищево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чугуновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Госома": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Понизовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Сныткино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Клеверный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новый Добрик": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Крючки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Большая Островня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ивановичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Верхний Городец": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Демьяничи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Водоглядовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Покровка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Рассошка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Глаженка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Афонино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Звезда": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бакшеево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верхнее": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тютчева Слобода": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "104 км автотрассы Брянск-Орел": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Сергеева": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Савчино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Липовка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хотомиричи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чистополянский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Щепятина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чернятичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Большой Угол": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тенешево": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хизовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новоселки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Александровское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Алешня": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Городище 1-е": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Слободище": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мосток": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бобылево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Потрясовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Богачевка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хитров": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Большая Дубрава": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Любимовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Малая Жукова": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Заря": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Белоглавая": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Каменка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Петуховка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шапкино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Хотня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Вынчебесы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Загорье": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Слободской": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Стаево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Березино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Буда": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Казенное-Узкое": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шамордино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ивот": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Петроселье": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Вилейский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Октябрьский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Немеричи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Соболево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Похвальный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Троицконикольский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Толбино": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Небольсинский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чепеничи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новониколаевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Веребск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Толвинка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Андрынки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Большая Жукова": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ввозы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "129 км автотрассы Брянск-Рославль": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Старая Рубча": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ким": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Екатериновка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шушерово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дубовец": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бежань": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сума": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новый Свет": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Глоднево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Малыгин": {
+        "location_type": "Железнодорожная станция",
+        "options": []
+    },
+    "Голубея": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Жилая зона химзавода": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Рековичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Краснополье": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Военного лесничества": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пеклино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Верный Путь": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Есино": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Смолигово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ольховка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Хоробровичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Латышовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кочева": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Меркульево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новое": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бочары": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Саково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Казинка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пупково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бетово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Черкасская Алешня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Овстуг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Добрик": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лесозавод": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Серпеевский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ивочкины Дворы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шевякина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Радичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красный Колодец": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Жуково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Семиполозы": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Клинок": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новые Дарковичи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Алексино": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Харабочи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Коростель": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чернетово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Неверь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Березовичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Петрилово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Немерь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Рублино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кашово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ветряк": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Любышь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Пальцо": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Савлуково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Калошичье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ручей": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пашково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Сеславль": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чернечек": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Псурский Хутор": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Сети": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Столбы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Герасимовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Октябрьское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Городище 2-е": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лужецкая": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Домашово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ольшаница": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Болотня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Косачи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Жуковщина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Воскресенский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Садовичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лесное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Перескоки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Зеленино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Михайловка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Стругова Буда": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верещовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Нижнее Городище": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Зикеево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кузьмино": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Беляева": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кожаны": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Желтоводье": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Крещенский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Царево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Холмецкий Хутор": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кабаличи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мирошки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Издежичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Завод-Корецкий": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Николаевский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Поляковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Мичуринский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бытошь": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Творишичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лузганки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Алексеева": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кленовский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Брасово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ожеги": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Колядчино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Орловские Дворики": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Старое Колышкино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Зверево": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ратное": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кретово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нетьинка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Горбачи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Емельянова": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Жуковка": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Щученка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Коммуна": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Усошки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Яковлева": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Женск": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Радица": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кучеево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Псурь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Нижний Городец": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Октябрь": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Быково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ипуть": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Доманово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Княвичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Берлевец": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Сачковичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лубенск": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Костихино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Любохна": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Зеленый Клин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лашунь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бересток": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Фоевичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Крупец": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Истопки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Будочки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Должанская Слобода": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Морачово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сугродовка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Глинка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Волкова": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Вежонка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Федоровка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Павловичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Гетманская Буда": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бражина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бубново": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Рубеж": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Муравьи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Родники": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Смяльч": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Летча": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Белизна": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Мазнева": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Соловской": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Осотское": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Рубча": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Жовнец": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бордянка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ильич": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чаянка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хацунь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пастушье": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Черетовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Горякина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Монастырский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бацкино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Столбово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Белица": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Большой Крупец": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кугучево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Зуево": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гастенка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Старое Каплино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Зобовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Сытая Буда": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Осиновые Дворики": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Фошня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Заречная": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красный Пахарь": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Уручье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Брахлов": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Медведовка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Байтичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Цурикова": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Холмовая": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Горицы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чернооково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ржаница": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Веселый Кут": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Колодня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Малиновка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Струговка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Деньгубовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Павличи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Норино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кочетов": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Загорка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бабинка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красное поле": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Могилевцы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тарасово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Малая Топаль": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сурновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красная": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Согласие": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Вага": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Синьково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бобыничи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кривошеина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пушкино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шаровка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Суханка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Озерище": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Оброчное": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ишово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сухопаровка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Удел": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Плетневка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Трубачи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Поповка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кареева": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Синявки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Косик": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Козловчик": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Маяк": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Козловский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новоновицкая": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новосоветский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Вербовый Выгор": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Болотихово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Мокрое": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новоалексеевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Казаново": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дохновы": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Остров": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Литовники": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Полипоновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Закочье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Рудня-Тереховка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Окоп": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чет": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Деснянский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лубошево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Старая Полона": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Синицкое": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Быковичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Старый Городок": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гощь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "9-й км Мамаевской ж/д Ветки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чекалина Слобода": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Рудня-Воробьевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новое Каплино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Холуповка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Цветники": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хутор-Бор": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лукьяновка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Перетин": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Подузово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Аксютина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Калинин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Серебрякова": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лакомая Буда": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верещовский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Андреевка-Печевая": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Троицкий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Скачек": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Некрасов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ганновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ломаков": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гладкий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Козлово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Малая Осиновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Надва": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красный Мост": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Задубравье": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Малоудебное": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красный Бор": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новая Мармазовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Колычово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Мареевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Захарово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бугры": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новые Месковичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Затестье": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Зиновкино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Алисовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Голубково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Плавна": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Вереща": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Рябчи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Станилов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Анохово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мощеное": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Никитенка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Никольский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новгородский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красная Пристань": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Петрова Буда": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лугань": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Медведово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Страшевичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Неготино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Прудки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Юрасово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Жирятино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новая Салынь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Евтиховский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Угость": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Злынка": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Дмитриевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Каменуха": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Девочкино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кашинка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Аркино": {
+        "location_type": "Железнодорожная станция",
+        "options": []
+    },
+    "Шейка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Свара": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Голота": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Леденево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Часовня": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Комары": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кокино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Карачев": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Старая Кочева": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Голицын": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Волна": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гордеевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Старый Ропск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Полубеевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Карповка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шустово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ягодка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шамры": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Набат": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Заустье": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Плужин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Солнце": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Велея": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бульшево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Павловский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Побойная": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кошкоданова": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кургановка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Гнезделичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Казаричи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Затишье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Горки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Марковщина": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новая Буда": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красная Гора": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Карлово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красный Рог": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Добропушкинский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Упорой": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новый Рассвет": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Старое Узкое": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Гигант": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Смелый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мичурино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Воронинка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Зерновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Любин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дубенец": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Гроза": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Княжичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Вишневка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Силеевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лукинка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Горень": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новая Москва": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кожановка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Черный Ручей": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красные Ляды": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Серпеевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Гукалинский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Соколья Слобода": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Хохловка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Увелье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Коробовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Засновье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Евдокимовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Трубченинова": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Свердловка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Савичка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Осиновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Гостиловка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Троян": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Туренев": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Колодное": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Уношево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Меловка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дорохово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Вельяминова": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кубань": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Соковнина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Августовский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Оптень": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Малые Щербиничи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Колыбели": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дятьковичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ермоленка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Мехово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Токаревщина": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гребельки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Асовица": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Еленка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Быстра": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мариничи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Старая Салынь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лозовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новоковалевка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шемятка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Большие Щербиничи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Крыжино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Великий Бор": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Раковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Смородинец": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Сетинка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Колпины": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Барсуки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Петраковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Верхличи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Добрынь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Власовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дедоводье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Софиевка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Логатинка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Нешковичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Хоромное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Киваи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тисленки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Барковичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Фроловский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Неделька": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Упрусы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Попкова": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Муравинка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Батуровка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Борятино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чернево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Колечье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Минаков": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ясеновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Мглинщина": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сергеевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Философов Завод": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Спиридонова Буда": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Первое Мая": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Макарово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Вяжновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Туличево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новый Мир": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Воронова Гута": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новое Узкое": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бережки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бобровка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Барановка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чуровичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кузнецовка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Северец": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Киров": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Любечане": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Занадвинский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гайдуковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Избичня": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Вишенки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхополье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бровничи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Светлый Луч": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лелятино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Важица": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Меловое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Узровье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Комягино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Нетеша": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Душкино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Красный Дворец": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Велюханы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Мордасово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Стибково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Рябиновка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Петрятинка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Война": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Воробейня": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Олсуфьево": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Коростовец": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Вышков": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Матреновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бережок": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Коршево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Заусье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тростная": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Вербовка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сусняг": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Вышковичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кульнево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тельча": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шагаровский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ущерпье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кутец": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Глыбочка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Круча": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бабка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Мельяковка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Большак": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Азаричи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Трыковка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бочарово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Белоголовль": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Давыдчи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Свисток": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кожухово": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лопандино": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хотен": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ходиловичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новолубошево": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Моисеева Гора": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чахов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Будвенец": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Свидерки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Добрынька": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Вольница 2-я": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чехов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Марьинка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Борозенщина": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Амозовский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красный Камень": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мостечня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Коробки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Свобода": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новобежков": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Комаричи": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Вилы": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Стражев": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Алешинка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Соловьевский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сосновый Бор": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красная Лоза": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Большие Подосинки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Рогов": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рекорд": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Близна": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ружное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Серовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Причиж": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шурубовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Коптилово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Зараманье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лагеревка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Гута": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Великая Топаль": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Знаменка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Карпиловка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Желунова": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Сенное": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Машкино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бутовск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Добродеевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Робское": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кузнец": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Денисковичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Угревище": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сопычи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Еловка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Коржовка-Голубовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Козинки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Добровольская": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Воровского": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Барки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Куприна": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Алешок": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лысые": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Авсеенков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Добричек": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Игрицкое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Марковск": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красная Криница": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Надельный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чемерна": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Исаевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лесничество": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Раскосы": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Каменец": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бердаши": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новолозовой": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Городище": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дровосеки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Малые Прудки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Андрейковичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Юрково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Белевица": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красный Клин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Песоцкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Алексеевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Корьма": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гриневочка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Буян": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Казиловка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новотроицкий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кирпичный": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Особцы": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Михновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красный Курган": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Боевик": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Веприн": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Алтухово": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Гута-Корецкая": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Балышовка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Свердлов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Белый Поруб": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новоречица": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Филатов Хутор": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лесновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Глубокие Лужи": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гудовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лядовка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Витемля": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Роговичи": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новоеленский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Борщово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Запесочье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Перегон": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Евдоколье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рудня-Голубовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лопатни": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чичково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Паниковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кипень-Ущерпский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Храповка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Селище": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красный Луч": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Писаревка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кольцовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Огородники": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Низы": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ветошки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кистер": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Партизанское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кожушье": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Граборовка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Новинский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дружная": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пчела": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Котовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кирковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Алексеевск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ужинец": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лукин": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Котелки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Борки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Подборье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Вадьковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Спасский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Синезерки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красная Туросна": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Курово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Зеленый Куст": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кувшиново": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дом Отдыха": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пролетарский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Супрягино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гулевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мирские": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Воловня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Почеп": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Щекотово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кневичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дымово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лабодино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Вольница 1-я": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Моховые Липки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нельжичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Семецкое Лесничество": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пруска": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Затростянье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новая Алексеевка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мглин": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Сетолово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Золотая Ветка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ольговка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Поталуевщина": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пристанционный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Громыки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дунец": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Синин": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Космово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Рукавичино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Честный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Василевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Хотеничи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Милечь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Курозново": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сотниково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Польники": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Вишневый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Яковлевичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Левдиков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Шелковский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бибики": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дунайский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ельники": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чопово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Короткие": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Луговой": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Козловка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красный Став": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красный Стяг": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Луговец": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Демьяново": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Степной": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Машково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бобрик": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бучнево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Колос": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Муравка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красный Октябрь": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Волохи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лычево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Будянский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Песчанки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Прохоровский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Вершань": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Джуровка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Студенец": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гетуновка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сергино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Малая Лутна": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Надинка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Стригово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шоховка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Подбелово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гринево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новая Милечь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Федоровское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Савостьяны": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Савинки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Погар": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Сусловка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Подлесный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чемерисовка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Королевка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Моисеевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бабичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Аксаментово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пятницкое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Краснознаменский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Орлия-Слободка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Голяковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Заречное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гапоновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Тарутино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Весенний": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лемешовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тюнино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Незеваевка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ворчаны": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Симонтовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Красная Слобода": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бяково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гошка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Путиловец": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кисляково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Стратива": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Халькино": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Трояновский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Невструево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Круглая Поляна": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Фроловка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Подгаев": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Старая Хуторь": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Юдиново": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Заполье": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Москали": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Светова": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бутре": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рожня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Клевень": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Раков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Селянка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новый Хутор": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пукосино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новая Улица": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Павловское": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Завалипути": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красный Угол": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Некислица": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Пацынь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Третьяки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Заболотье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Жары": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Колбасовка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ясное Солнце": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красномайская": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красная Роща": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пушкарная Слобода": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Рогнедино": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Ивачево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шешуево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Боюры": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ореховка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Октябрьское Лесничество": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Кудеяр": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Подковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Доманичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Навля": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Нечуи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Солова": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Волжино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Верхнее Бунево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Роща": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Первомайское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чубарово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ивашково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Щепет": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Покровский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Губостово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новый Синин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Милейково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Игрушино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красный Отпускник": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кожемяки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Троицкое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Старые Халеевичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Малая Витичь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ветлевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Сергеевский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дареевск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Соколий Бор": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Житня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Доброводье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Курчичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Межево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Баклань": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Щедрин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новый Раздел": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Озаренный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Леднев": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Поздняшовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рамасуха": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Фошное": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Русаново": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Западеньки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сосница": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дадоровка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шаулино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дубняки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Краснопавловка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Торкин": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Близницы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Рубаны": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Водославка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Преображенский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Корнево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Княгинино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Яменец": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Большая Лутна": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Щербаковка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Горислово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Липница": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Еловики": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Долгое": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Просвет": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Карпово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Перелазы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хлебороб": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Даниловка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Муравлевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Тщань": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лутицкий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Посудичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Алефин": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Летяхи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Литвиново": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Старокрасная Слобода": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Угорье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Казинки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Малое Староселье": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ломаковка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Золин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Косицы": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Труновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Телеговка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шаровичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Анишино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Азарово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Курносовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Восточная Заря": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Курковичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Пролетарск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хинель": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бологча": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Осовик": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гарцаевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Шведчики": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лапино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Семцы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гудковский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Огонек": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бельково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Приволье": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Двадцатные": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Войки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лобки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Желтоноговичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Воскресеновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Долботово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Луканичи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Иржач": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Тарасики": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Старопочепье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Старое Гатьково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Трудовик": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пчелки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Берновичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пенькозавод": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Игнатьево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Милашово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Крутояр": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Зеленин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Белевая": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Папсуевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Яцковичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дегтяревка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Случевск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Борисовский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Вороново": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шмотовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Запольские Халеевичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новая Деревня": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Васьковичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Синицкий": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гурин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Елионка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дряговка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Придачь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кочкарь": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Буковище": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тубольцы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Котляково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новая Кашовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чернея": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Беловск": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Юшина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чаков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Малинки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хацынь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кривцова": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Вольный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сухосеевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Полянка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новоямское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Байгары": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Рудницкий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шиичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дубовая Роща": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Суворово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Колесников": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тютюри": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Глазово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Татищево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чаусы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лозицы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Базская": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Клечатово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Иванов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бытня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Понуровка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мостище": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Абаринки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Максимовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шуморово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Красные Горки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Азаровка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чайкино": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Малая Ловча": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Нечаево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Коростелево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дубровинский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Влазовичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Телеши": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Петровский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Вора": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Гобики": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Молчаново": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Долбежи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бохоричи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Степок": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Любожичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Савенки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Рясник": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Витовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Юскова Слобода": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Жастково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Высокий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Копаль": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Першиков": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Зеленый Рог": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лужки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Почеп-2": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Евсеевский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Раздолье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гряда": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Яблонь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Любовня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Первомаевка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Водотище": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Рынский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Стречея": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ново-Николаевский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сибеки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Долотня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пашичи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хариново": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сенча": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Взголяжья Слобода": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Телец": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Голибисово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шленговка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Брусничный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тигинево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Толвино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Печня": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лавы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Мошки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нарость": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Борозднино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Удолье": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ормино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Старая Непорень": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пески": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Барыки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Молотьково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Товбозино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кирпичный Завод": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Павлова Слобода": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Балыки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Знобь": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ольховый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нижнее Бунево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Старая Кисловка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дмитрово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рябчевск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Алейниково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Вьюково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Рябцы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Снопоть": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хуркачевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Строгонов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Алешкин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пакиничи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бумажная Фабрика": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чемоданово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Огородня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дедовск": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Сагутьево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Гущино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Старое Хотмирово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Унеча": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Волотынь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Курманово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Миновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Човпня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Никольщина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Старая Кашовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Корневский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Василенки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Васенков": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Барбино": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Добрая Воля": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Голевск": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Левенка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дудовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Жлудки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Василевичи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мосточено": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Подборок": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Осинка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чухраи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Литовни": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Карташово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Алешковичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Низ": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Воронок": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Александровка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Высокий Ключ": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Княж": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Смелиж": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Себекин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кокот": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Березки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Летошники": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кавалеров": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Семеновский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Копылы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Грабовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Селиловичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ловша": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новая Погощь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Локня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новое Село": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Волна Революции": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ильюшино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Нерусса": {
+        "location_type": "Железнодорожная станция",
+        "options": []
+    },
+    "Свободный Труд": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новое Хотмирово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Макарзно": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Подыменка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новое Гатьково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Десятуха": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Теребиково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Крутая Буда": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Любец": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Струженка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ратовское": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Стуженка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Выстриково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пушкари": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лутовиновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Солька": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Именка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Добровольский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новоалександровка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Монастырище": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Жудилово": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Старая Погощь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кудрявцев": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Вьюнное": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Немчино": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Семячки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Согласный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Осинки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Суземка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Могорь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Каменск": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Жеча": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кучма": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Негино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Петровск": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бродок": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красновичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Берновичский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новая Кисловка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Хатуша": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ельня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ильинский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Анушино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Потапово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Улица": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Мереновка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Красная Поляна": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Войборово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бруев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Подгородняя Слобода": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Вишневое": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Севск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Найтоповичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Коробовщина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пикуринский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Волкустичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Басихин": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Большая Ловча": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кокоревка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Аксеновск": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Теребушка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Старые Ивайтенки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ратчино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Каменный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гусли": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Судынка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кулаги": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Выжеро-Восток": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кастырин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Арельск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Пантусов": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Щучье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Надежда": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Зеленый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Павлов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Подлесные Новоселки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ляличи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гудово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Белилово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Торлопово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лыщичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Плюсково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Марицкий хутор": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Холмечи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Липица": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Усох": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ракита": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лопазна": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Стрелецкая Слобода": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Фомчено": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ярцево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мацковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Зерново": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ломакино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Заречный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Рюхов": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Безготково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Саранчино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Белая Березка": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Челюскин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Демьянки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гордый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Девоцкий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тишино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ефимовичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чернятка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красиловка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Городцы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Меженики": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Гаськово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Газуки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Борисово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Алес": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Суховерхово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Гаврилова Гута": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красицкий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Слище": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Меленск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Долматово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кветунь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Витич": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Калиновский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Березовский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Теменский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лизогубовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Троебортное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Аленовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Острая Лука": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Щипонь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Хинельский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красный Завод": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Филиппово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Литовск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хвощовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рейтаровка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Радинск": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новенькое": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ужа": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новина": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Рословка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Горожанка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гапонова": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Невзорово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дубиновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Узлич": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пучковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Буда-Понуровская": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Еремин": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кукушкино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новые Далисичи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ходынь": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Андреевск": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Трубчевск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Сенчуры": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Курганка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Гриденки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Филипповичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Снежинка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Брянкустичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Щепетлево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Машина": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Грудская": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Невдольск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кирпичики": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дегтяново": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Александровский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Первый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Селечня": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Будимир": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Спиридоновка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ручеек": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шилинка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Груздово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Беляны": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Голышина": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Груздовцы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чернобабки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Печеники": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Калачевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Полевые Новоселки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Душатин": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Желтая Акация": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Воробьевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Заулье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Страчово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верховой": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхние Новоселки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новое Задубенье": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Земледелец": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Семеновск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чижовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Куровщина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бобовня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Зайцевский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Белогорщь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Белоголовичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лепешкина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Мельников": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гнилево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ивановск": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чемлыж": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кромово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чмыхово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дашино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Зеленый Листок": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сенькин Ров": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Юрово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Голубча": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Глуховка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Подывотье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Немолодва": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Паровичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Глинск": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Подзоричи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Рабочий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Далисичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Казащина": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гришанов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ильино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лиски": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красный Уголок": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новый Дроков": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лучки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ново-Николаевка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сдесловка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Орлия": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Калинки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Высоцкий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Каружа": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Георгиевский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Второй": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Костеничи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Емельяновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Юрасов Хутор": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Косичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нижние Новоселки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Теплый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гусаровка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Жерено": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сураж": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Красный Ручей": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хотьяновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Жемердеевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Рохманово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гуры": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Овчинец": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Горяны": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Старая Гута": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ильинка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Алешенка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новоандреевский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Яковск": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шевцов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Старый Дроков": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Горошково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Семешково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Острица": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Аладьино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дольск": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Коржовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ложки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лебедин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шулаковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Заводок": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лагутовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Нежданово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Путилин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Рогожня": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Врянцы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Заровье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Радутино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Слобода-Селецкая": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Аннино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Казенка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Малахов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Селец": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рожок": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Высокоселище": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чуркино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красная Знаменка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Уруково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Водвинка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ожигово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Нивное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Озерный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Копылино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Выползово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бородинка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Речное": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Манцурово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Белый Колодец": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новокрасный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шеменово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шапочка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Боршня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Рябовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шуклино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Яблонка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красное Приволье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Крым": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Березина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Труханово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чернижово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ново-Дубровск": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Робчик": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новая Рудня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дубровск": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новые Ивайтенки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Платково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Буда-Вовницкая": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Коробоничи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красноселье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дуброславичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Казариновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Приютино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Токарево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Латыши": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Косилово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Старое Лавшино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кончино": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Никольская Слобода": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Песочня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Логвани": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Сельцо-Рудное": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Балтика": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Старые Месковичи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Вщиж": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Орловка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Гришина Слобода": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Тросна": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Томиловичи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Зеленая Дубровка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красные Дворики": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Миголино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Рубежное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Криничное": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красные Косары": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Гуков": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Башкатов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Труд": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ново-Кирилловка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Строительная Слобода": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Скуратово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Никольск": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Вельяминовская": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Черемуха": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Паниковец": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Манев": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Алень": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Еловец": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Палужская Рудня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Затинная": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Малинник": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Заборье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Авраменков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Каменский Хутор": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ганюки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Макаричи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красное Знамя": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Яловка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Морозовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лутна": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Старые Юрковичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Городечня": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Костихина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красный Городок": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Прыща": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Рудня Цата": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Алымова": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Козенковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новая Дубровка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ольховики": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Русин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "8-й км Мамаевской ж/д Ветки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Малый Крупец": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кубовая": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Непряхино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Малаховка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кашковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Крутое": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новая Пестраковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лещовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Порошино": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чадица": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сумарокова": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Вязовое": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Тымайловка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новый Городец": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Заглодье": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Жиркины Дворы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новониколаевский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кирилловка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кибирщина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Орменка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лотаки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Архангельский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Погары": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Елисеевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красная Пересвица": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сурьянова": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Старая Мармазовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Петрова-Гута": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Богдановка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Погарь": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кочержинка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Великоудебное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ново-Сергеевка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Байкова": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Куршановичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Озерцо": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Залядка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Голубино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Куничев": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Переторги": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Харитоновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Зайцовка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Климово": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Ирпа": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Десна": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Клин": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Медведи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новый Ропск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Семиричи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Косенки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кустовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новая Осиновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бугровка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Соловьяновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Непобедимый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Добрая Корна": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Аксиньина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Черная Криница": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Царево Займище": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ольшанка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дубрежка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Крушинник": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Петрова": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Масловка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Колюды": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новотроицкое": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Сабурова": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Павлинки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Побожеевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Забрама": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чиграи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ширковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Северная Поляна": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ларневск": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Мужиново": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Корытенка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гремучий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Быхово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Любовшо": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Крыловка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новожеевка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Набережная": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Аринины Ляды": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Архиповка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красный Путь": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Обруб": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Грецковка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сеятель": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сальниково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Зарево": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дюкарева": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лужи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "4-й км Мамаевской ж/д Ветки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хомяковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Юпитер": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бавыкина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новые Юрковичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Светлый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Живой Ключ": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Петровая": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Теплое": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Клетня": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Козинка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Великогайский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Боровка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пестраковка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Мальтина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Широкая Лужа": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чернятино": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кадецк": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пасека": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Липовец": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Усожа": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гнилица": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Гридина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Зеленый Кут": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сушаны": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бабинец": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Струек": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чолхов": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рассвет": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новая Надва": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Хоружовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ольгино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бошино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Великие Пожни": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Прудище": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "7-й км Мамаевской ж/д Ветки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Портники": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шумиловка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дружный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шамовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Семич": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красный Ятвиж": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дарьина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Туросна": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Громыши": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бурный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ивановщина": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мылинка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Азарова": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Тростенчик": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Черноземный Городок": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Быстрянка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Глядино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Уборки": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красная Заря": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шарово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Уткина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Теремошка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Благовест": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Акуличи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Грибовы Дворы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Комаровский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Митьковка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бобров": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Долгий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Апажа": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Белая Криница": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лобановка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дунаевский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сметковщина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Овсеенков": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новый Варин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нечаева": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Камнев": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Починок-Алешок": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Подсосонки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Хлебтово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Подывановский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бочарки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мизиричи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Карнатное": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Радогощь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Соловьевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Синичина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Слободка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Задня": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Оболешево": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дивовка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Смолевичи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кокоты": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Рабочая Кадра": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мартьяновка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дерюгина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дятьково": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Дедня": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Дронова": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Смотрова Буда": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мальцевский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Благовещенский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сурецкий Муравей": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ляхова Поляна": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Одрина": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рожны": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Газеновка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Антоненков": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Тулуковщина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Литиж": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Якубовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пигарево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Березовец": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Соколовский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Василек": {
+        "location_type": "Поселок",
+        "options": []
+    }
+}

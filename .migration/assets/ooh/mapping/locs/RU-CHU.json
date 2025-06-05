@@ -1,0 +1,270 @@
+{
+    "Апапельгино": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Янранай": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бараниха": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Биллингс": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Красноармейский": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Певек": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Нешкан": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Инчоун": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Энурмино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лаврентия": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лорино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Уэлен": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кепервеем": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Анюйск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Островное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Весенний": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Встречный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Илирней": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дальний": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Омолон": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Алискерово": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Билибино": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Алькатваам": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хатырка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мейныпильгыно": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Угольные Копи 4-й": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Снежное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Беринговский": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Ламутское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Краснено": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Угольные Копи 3-й": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Марково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чуванское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ваеги": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Угольные Копи 2-й": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Угольные Копи": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Канчалан": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шахтерский": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Усть-Белая": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нунлигран": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Янракыннот": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Провидения 2-е": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сиреники": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Провидения": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Новое Чаплино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Энмелен": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ленотап ручей": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ушаковское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Пеньельхин ручей": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Конергино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тавайваам": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Полярный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Анадырь": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Уэлькаль": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Иультин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Амгуэма": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нутэпэльмен": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ванкарем": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рыркайпий": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мыс Шмидта": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Эгвекинот": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Ленинградский": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Айон": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Валькумей": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Быстрый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Комсомольский": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Рыткучи": {
+        "location_type": "Село",
+        "options": []
+    }
+}

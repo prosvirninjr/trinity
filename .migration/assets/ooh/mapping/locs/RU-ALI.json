@@ -1,0 +1,1374 @@
+{
+    "Сёйка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Карасук": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хабаровка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кебезень": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Беш-Озек": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верх-Черга": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Актел": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шыргайту": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Каспа": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Топучая": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кумалыр": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Улусчерга": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шебалино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Арбайта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Могута": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Барлак": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Каспинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Шыргайтинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Чергинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Улусчергинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Мало-Чергинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Камлакское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Ильинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Дъектиекское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Верх-Апшуяхтинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Беш-Озекское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Барагашское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Актельское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Шебалинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Кузя": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ынырга": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ускуч": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Советское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Красносельск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Большая Кузя": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кара-Торбок": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Паспаул": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Туньжа": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Эдиган": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Уймень": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усть-Сема": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Никольское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Красноярка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кастахта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сугул": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Соузар": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Узнезя": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Келей": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сухой Карасук": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Элекмонар": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Власьево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Каракокша": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кырлык": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Курдюм": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ишинск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усть-Мута": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верх-Анос": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Катанда": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ороктой": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гусевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Левинка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Салганда": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Киска": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сугаш": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сёйкинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Чемал": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Турата": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лебедское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ак-Коба": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ыныргинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Черный Ануй": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Удаловка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Турбаза Катунь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Козуль": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Уйменское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Чендек": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Озеро-Куреево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Талда": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кайсын": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нижний Куюм": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бийка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ябоган": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Паспаульское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Верх-Бийск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мендур-Соккон": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Замульта": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Аюла": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Талица": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Каракокшинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Владимировка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Каначак": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верх-Пьянковское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Маральник-2": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верх-Ябоган": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усть-Кумир": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кайтанак": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кордон Ежон": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Еланда": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мульта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чаныш": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верх-Мута": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шунарак": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Синий Яр": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тюнгур": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Белый Ануй": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Аскат": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Оро": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сюря": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Анос": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Маргала": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Каракол": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Заречье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Карагай": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верх-Ануй": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Толгоек": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чоя": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Артыбаш": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Озерное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Огневка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Горно-Алтайск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Коргон": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бешпельтир": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Абай": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усть-Кан": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Суранаш": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чойское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Чепош": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Огни": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Уожан": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тюдрала": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дмитриевка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Юстик": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Санаровка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Куюс": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Баштала": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Черноануйское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Чуйка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Куюсское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Яконурское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Курунда": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бешпельтирское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Ябоганское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Тондошка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Элекмонарское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Банное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усть-Мутинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Усть-Канское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Талицкое": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Чепошское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Нижний Уймон": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Яйлю": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Узнезинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Гагарка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Усть-Пыжа": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тихонькая": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мендур-Сокконское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Верх-Уймон": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тулой": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кырлыкское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Аносинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Яконур": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Теректа": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сахсабай": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Майск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Полеводка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Советский Байгол": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Октябрьское": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кордон Челюш": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Стретинка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Маральник-1": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усть-Кокса": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Промартель": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кучерла": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Березовка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Коргонское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Чемальское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Козульское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Камай": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усть-Коксинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Верх-Апшуяхта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Старый Кебезень": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Талдинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Кукуя": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Огневское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Кордон Чуря": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Ильинка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Катандинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Барагаш": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Карагайское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Каяшкан": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Черга": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Горбуновское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Верх-Уймонское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Кордон Байгазан": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Дъектиек": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чуйозы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Амурское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Мариинск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Иткуч": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кулада": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Курмач-Байгол": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тюгурюк": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Амур": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Санькин Аил": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мараловодка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Улужай": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Камлак": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чендекское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Турочак": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мухор-Черга": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Иогач": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ново-Троицк": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кордон Кокши": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Талон": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Теньга": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усть-Лебедь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бичикту-Боом": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бийкинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Малая Иня": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тондошенское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Иодро": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Озеро-Куреевское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Туекта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кураган": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Горбуново": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кордон Караташ": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Мыюта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Малая Черга": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дайбово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Купчегень": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ело": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Курмач-Байгольское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Каянча": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Онгудай": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кебезенское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Шашикман": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дмитриевское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Нефтебаза": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Большой Яломан": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Артыбашское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Бархатово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Турочакское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Улита": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Майское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Кара Кобы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кокоря": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Каярлык": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Беляши": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Майма": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Инегень": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Теленгит-Сортогой": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Средний Сайдыс": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нижняя Талда": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Алферово": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Малый Яломан": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кызыл-Таш": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бирюля": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ташанта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Боочи": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Подгорное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чибиля": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Барангол": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шиба": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кош-Агач": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Известковый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Акташ": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кара-Кудюр": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новый Бельтир": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Курота": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Соузга": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Беле": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Джазатор": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кызыл-Озек": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Иня": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Филиал": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мухор-Тархата": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кок-Паш": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Акбом": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Улалушка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Купчегенское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Чаган-Узун": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Коо": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Куладинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Тобелер": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Саратан": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Каракольское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Ортолык": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ининское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Паспарта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дубровка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бельтир": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Жана-Аул": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чибит": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Елинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Балыкча": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шашикманское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Актал": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Урлу-Аспак": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хабаровское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Балыктуюль": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Аркыт": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усть-Муны": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Теньгинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Курай": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Онгудайское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Улаган": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чаган-Узунское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Нижне-Талдинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Верх-Карагуж": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Теленгит-Сортогойское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Язула": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тобелерское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Ташантинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Чибитское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Ортолыкское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Мухор-Тархатинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Чибилинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Александровка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Курайское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Верхний Сайдыс": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кокоринское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Челушманское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Казахское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Улаганское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "т/б Юность": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кош-Агачское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Саратанское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Балыктуюльское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Черемшанка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Джазаторское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Акташское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Бельтирское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Карлушка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Рыбалка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Карым": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Манжерок": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Майминское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Усть-Мунинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Соузгинское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Манжерокское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Кызыл-Озекское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Верх-Карагужское": {
+        "location_type": "Сельское поселение",
+        "options": []
+    },
+    "Бирюлинское сельское поселение": {
+        "location_type": "Сельское поселение",
+        "options": []
+    }
+}

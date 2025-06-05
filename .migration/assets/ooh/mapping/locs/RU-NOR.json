@@ -1,0 +1,930 @@
+{
+    "Эльхотово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Иран": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Комсомольское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Карджин": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ставд-Дурт": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Змейская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Дарг-Кох": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Притеречный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Терская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Предгорное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мирный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ново-Георгиевское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Троицкое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дружба": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Малый Малгобек": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ново-Осетинская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Комарово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Осетинский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Елбаево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Садовый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хурикау": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Веселое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Моздок": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Советское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сурх-Дигора": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Моска": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лезгор": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ханаз": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нижний Задалеск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Одола": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хазнидон": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Фараската": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нижний Нар": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Донгарон": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ногкау": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ламардон": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дзивгис": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Махческ": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Старая Саниба": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Цамад": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Комгарон": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Згил": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Куртат": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Казахта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Урсдон": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Харисджин": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сунжа": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Карман-Синдзикау": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Средний Урух": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Регах": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кармадон": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мостиздах": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дунта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Николаевская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Тарское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ецина": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верхний Нар": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Майское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Цемса": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дур-Дур": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ир": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Стур-Дигора": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ногир": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ксурт": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кора-Урсдон": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кобан": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Цемзавод": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новый Урух": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Первомайский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дигора": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Цаликово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дзинага": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верхний Кани": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нижняя Саниба": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лисри": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Камата": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нижний Кани": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Задалеск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чермен": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кесатикау": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тменикау": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Слас": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Заманкул": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Архонская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Галиат": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Луар": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Камбилеевское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чикола": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Раздзог": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мацута": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Даргавс": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Цалык": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гулар": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лац": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верхняя Саниба": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новый Батако": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ахсарисар": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Джимара": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Фаснал": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Фазикау": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тагардон": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Батако": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Донифарс": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гизель": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хумалаг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Какадур": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Вакац": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Фарн": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Калнахта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Цми": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Брут": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Алханчурт": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ольгинское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Калух": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Зригатта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Михайловское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Куссу": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тибсли": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Беслан": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Дачное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верний Задалеск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ахсау": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Октябрьское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дзагепбарз": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Камунта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Барзикау": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сагол": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Зильги": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ход": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Толдзгун": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Цасем": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сахсат": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Биз": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нижний Згид": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхний Бирагзанг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мизур": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Галон": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Донисар": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Цмити": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хукали": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гусыра": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Варце": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Курайтта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Елгона": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нижний Цей": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Калак": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Худисан": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нижний Бирагзанг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Зегтикау": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рамоново": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сатат": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дзуарикау": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гули": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нижний Унал": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гори": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Камсхо": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верхний Цей": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бурон": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Холст": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Абайтикау": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верхний Унал": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тамиск": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Саубын": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Архон": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хидикус": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верхний Зарамаг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тоборза": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кусово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Урикау": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Л.Кондратенко": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красный Ход": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Черноярская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Советский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхний Згид": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Малгобек": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Моздок-2": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тапанкау": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Майрамадаг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Луковский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Даикау": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Раздольное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Виноградное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кодахджин": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Луковская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Дагом": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нарт": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Инджынта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Калининский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Фиагдон": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Красногор": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мичурино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Зарамаг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кизляр": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Садон": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тельмана": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Киевское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нузал": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кадгарон": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нижний Зарамаг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кирово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сухотское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тиб": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Рассвет": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Зинцар": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бекан": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Черноярский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Суадаг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Коста": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бад": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Павлодольская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Ардон": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Црау": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Алагир": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Редант 1-й": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Потыфаз": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хаталдон": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Даллагкау": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Карца": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кадат": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нар": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верхний Фиагдон": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Редант 2-й": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Лескен": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верхний Ларс": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Спутник": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Балта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нижний Ларс": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Эзми": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Заводской": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Чми": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Владикавказ": {
+        "location_type": "Город",
+        "options": []
+    }
+}

@@ -1,0 +1,278 @@
+{
+    "Карамкен": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Атка": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Широкий": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чайбуха": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Талая": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Ягодное": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Омсукчан": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Дукат": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "им. Горького": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Галимый": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Бурхала": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Верхний Балыгычан": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Синегорье": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Таскан": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дебин": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Эльген": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сеймчан": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Верхний Сеймчан": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Балыгычан": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Оротукан": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Магадан": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Тахтоямск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усть-Хакчан": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мой-Уруста": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Балаганное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кадыкчан": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Обо": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Талон": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Большевик": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Тауйск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Буркандья": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "им. Матросова": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Омчак": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мяунджа": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Холодный": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Мальдяк": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мадаун": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гарманда": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Эвенск": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Транспортный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ударник": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхний Парень": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кедровый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "им. Гастелло": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Аркагала": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Усть-Омчуг": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Беличан": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Гижига": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сусуман": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Клепка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Радужный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гадля": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Яна": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Армань": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ямск": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Янский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сокол": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Уптар": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Ола": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Сплавная": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Палатка": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Стекольный": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Полевой": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хасын": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Штурмовой": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сенокосный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхний Ат-Урях": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Стан Утиный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Меренга": {
+        "location_type": "Село",
+        "options": []
+    }
+}

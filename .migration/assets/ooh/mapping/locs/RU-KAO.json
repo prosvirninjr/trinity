@@ -1,0 +1,598 @@
+{
+    "Водовод": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новая Джегута": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Сары-Тюз": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Красногорская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Гюрюльдеук": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Кызыл-Кала": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Кубина": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Койдан": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Эльтаркач": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Джегута": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Усть-Джегута": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Медногорский": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Предгорное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Подскальное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Псемен": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Заречный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Водораздельный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Знаменка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кош-Хабль": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Малый Зеленчук": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Кызыл-Юрт": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Али-Бердуковский": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Зеюко": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Инжичишхо": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Эльбурган": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Бесленей": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Псаучье-Дахе": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Кумыш": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Инжич-Чукун": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Хабез": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Бавуко": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нижняя Мара": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Хумара": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Хурзук": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Жако": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Абазакт": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Ново-Хумаринский": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Белая Гора": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхний Учкулан": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Верхняя Мара": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "имени Коста Хетагурова": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Абаза-Хабль": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Икон-Халк": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Кара-Паго": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Мало-Абазинск": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Таллык": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Эркен-Юрт": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Новый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Счастливое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Родниковский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Евсеевский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Адиль-Халк": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Ново-Кувинск": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Холоднородниковское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Эркен-Шахар": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Садовое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Грушка": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Пригородное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Спарта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Апсуа": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Тапанта": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Дружба": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Эрсакон": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Солнечный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кызыл-Тогай": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Майский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Киево-Жураки": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Баралки": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Николаевское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Эркен-Халк": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Старо-Кувинск": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Кубан-Халк": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Вако-Жиле": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Адыге-Хабль": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Красивый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дубянский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Загедан": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Мара-Аягъы": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ударный": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Рожкао": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кызыл-Уруп": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Первомайский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Ильичевское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дамхурц": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Важное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Курджиново": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Азиатский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Терезе": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чапаевское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ершов": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Большевик": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Римгорское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Псыж": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Пхия": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хасаут": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Преградная": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Октябрьский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Элькуш": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кавказский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нижний Архыз": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Аксу": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кардоникская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Светлое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Зеленчукская": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Джага": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Пристань": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мичуринский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Маруха": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Красный Восток": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Привольное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Исправная": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Кызыл-Покун": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Даусуз": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Красный Курган": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лесо-Кяфарь": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Уруп": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кобу-Баши": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Первомайское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Фроловский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Сторожевая-2": {
+        "location_type": "Город-курорт",
+        "options": []
+    },
+    "Коммунстрой": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хасаут-Греческое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ново-Исправненский": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Орджоникидзевский": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Хуса-Кардоник": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кызыл-Октябрь": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Сторожевая": {
+        "location_type": "Станица",
+        "options": []
+    },
+    "Ильич": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Нижняя Ермоловка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Теберда": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Карачаевск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Черкесск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Малокурганный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Учкекен": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Архыз": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кичи-Балык": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верхняя Теберда": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Новый Карачай": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Нижняя Теберда": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Восток": {
+        "location_type": "Хутор",
+        "options": []
+    },
+    "Правокубанский": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Кубрань": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Учкулан": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Джингирик": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Новая Теберда": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Карт-Джурт": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Домбай": {
+        "location_type": "Курортный поселок",
+        "options": []
+    },
+    "Каменномост": {
+        "location_type": "Аул",
+        "options": []
+    },
+    "Эльбрусский": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    }
+}

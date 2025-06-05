@@ -1,0 +1,724 @@
+{
+    "ПЕРВЫЙ КАНАЛ": {
+        "id": {
+            "network": 1,
+            "orbital": 101
+        },
+        "name": {
+            "network": "Первый",
+            "orbital": "Первый - 0"
+        },
+        "audience": "All 14-59",
+        "round": {
+            "2024": {
+                "network": 0.2,
+                "orbital": 0.15
+            },
+            "2025": {
+                "network": 0.2,
+                "orbital": 0.15
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "РОССИЯ 1": {
+        "id": {
+            "network": 2,
+            "orbital": 102
+        },
+        "name": {
+            "network": "Россия 1",
+            "orbital": "Россия 1 - 0"
+        },
+        "audience": "All 18+",
+        "round": {
+            "2024": {
+                "network": 0.3,
+                "orbital": 0.1
+            },
+            "2025": {
+                "network": 0.3,
+                "orbital": 0.1
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "НТВ": {
+        "id": {
+            "network": 3,
+            "orbital": 103
+        },
+        "name": {
+            "network": "НТВ",
+            "orbital": "НТВ - 0"
+        },
+        "audience": "All 18+",
+        "round": {
+            "2024": {
+                "network": 0.2,
+                "orbital": 0.15
+            },
+            "2025": {
+                "network": 0.2,
+                "orbital": 0.15
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "ТНТ": {
+        "id": {
+            "network": 4,
+            "orbital": 104
+        },
+        "name": {
+            "network": "ТНТ",
+            "orbital": "ТНТ - 0"
+        },
+        "audience": "All 14-44",
+        "round": {
+            "2024": {
+                "network": 0.2,
+                "orbital": 0.1
+            },
+            "2025": {
+                "network": 0.2,
+                "orbital": 0.1
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "СТС": {
+        "id": {
+            "network": 5,
+            "orbital": 105
+        },
+        "name": {
+            "network": "СТС",
+            "orbital": "СТС - 0"
+        },
+        "audience": "All 10-45",
+        "round": {
+            "2024": {
+                "network": 0.2,
+                "orbital": 0.1
+            },
+            "2025": {
+                "network": 0.2,
+                "orbital": 0.1
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "ПЯТЫЙ КАНАЛ": {
+        "id": {
+            "network": 6,
+            "orbital": 106
+        },
+        "name": {
+            "network": "Пятый канал",
+            "orbital": "Пятый канал - 0"
+        },
+        "audience": "All 25-59",
+        "round": {
+            "2024": {
+                "network": 0.2,
+                "orbital": 0.1
+            },
+            "2025": {
+                "network": 0.2,
+                "orbital": 0.1
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "РЕН ТВ": {
+        "id": {
+            "network": 7,
+            "orbital": 107
+        },
+        "name": {
+            "network": "РЕН ТВ",
+            "orbital": "РЕН ТВ - 0"
+        },
+        "audience": "All 22-55",
+        "round": {
+            "2024": {
+                "network": 0.25,
+                "orbital": 0.15
+            },
+            "2025": {
+                "network": 0.3,
+                "orbital": 0.15
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "ДОМАШНИЙ": {
+        "id": {
+            "network": 8,
+            "orbital": 108
+        },
+        "name": {
+            "network": "Домашний",
+            "orbital": "Домашний - 0"
+        },
+        "audience": "W 25-59",
+        "round": {
+            "2024": {
+                "network": 0.1,
+                "orbital": 0.05
+            },
+            "2025": {
+                "network": 0.1,
+                "orbital": 0.05
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "ТВ-3": {
+        "id": {
+            "network": 9,
+            "orbital": 109
+        },
+        "name": {
+            "network": "ТВ-3",
+            "orbital": "ТВ-3 - 0"
+        },
+        "audience": "All 14-44",
+        "round": {
+            "2024": {
+                "network": 0.1,
+                "orbital": 0.05
+            },
+            "2025": {
+                "network": 0.1,
+                "orbital": 0.05
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "ПЯТНИЦА": {
+        "id": {
+            "network": 10,
+            "orbital": 110
+        },
+        "name": {
+            "network": "Пятница",
+            "orbital": "Пятница - 0"
+        },
+        "audience": "All 14-44",
+        "round": {
+            "2024": {
+                "network": 0.1,
+                "orbital": 0.05
+            },
+            "2025": {
+                "network": 0.1,
+                "orbital": 0.05
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "ЧЕ": {
+        "id": {
+            "network": 11,
+            "orbital": 111
+        },
+        "name": {
+            "network": "Че",
+            "orbital": "Че - 0"
+        },
+        "audience": "All 25-49",
+        "round": {
+            "2024": {
+                "network": 0.05,
+                "orbital": 0.02
+            },
+            "2025": {
+                "network": 0.05,
+                "orbital": 0.02
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "Ю": {
+        "id": {
+            "network": 12,
+            "orbital": 112
+        },
+        "name": {
+            "network": "Ю",
+            "orbital": "Ю - 0"
+        },
+        "audience": "W 14-44",
+        "round": {
+            "2024": {
+                "network": 0.05,
+                "orbital": 0.02
+            },
+            "2025": {
+                "network": 0.05,
+                "orbital": 0.02
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "ТВ ЦЕНТР": {
+        "id": {
+            "network": 13,
+            "orbital": 113
+        },
+        "name": {
+            "network": "ТВЦ",
+            "orbital": "ТВЦ - 0"
+        },
+        "audience": "All 18+",
+        "round": {
+            "2024": {
+                "network": 0.1,
+                "orbital": 0.05
+            },
+            "2025": {
+                "network": 0.1,
+                "orbital": 0.05
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "КАРУСЕЛЬ": {
+        "id": {
+            "network": 14
+        },
+        "name": {
+            "network": "Карусель"
+        },
+        "audience": "All 4-45",
+        "round": {
+            "2024": {
+                "network": 0.03
+            },
+            "2025": {
+                "network": 0.03
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "ЗВЕЗДА": {
+        "id": {
+            "network": 15,
+            "orbital": 114
+        },
+        "name": {
+            "network": "Звезда",
+            "orbital": "Звезда - 0"
+        },
+        "audience": "All 18+",
+        "round": {
+            "2024": {
+                "network": 0.1,
+                "orbital": 0.05
+            },
+            "2025": {
+                "network": 0.1,
+                "orbital": 0.05
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "РОССИЯ 24": {
+        "id": {
+            "network": 16
+        },
+        "name": {
+            "network": "Россия 24"
+        },
+        "audience": "All 18+",
+        "round": {
+            "2024": {
+                "network": 0.2
+            },
+            "2025": {
+                "network": 0.2
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "МАТЧ ТВ": {
+        "id": {
+            "network": 17,
+            "orbital": null
+        },
+        "name": {
+            "network": "Матч ТВ",
+            "orbital": null
+        },
+        "audience": "M 14-59",
+        "round": {
+            "2024": {
+                "network": 0.08,
+                "orbital": 0.02
+            },
+            "2025": {
+                "network": 0.08,
+                "orbital": 0.02
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "СОЛНЦЕ": {
+        "id": {
+            "network": 18,
+            "orbital": 115
+        },
+        "name": {
+            "network": "Солнце",
+            "orbital": "Солнце - 0"
+        },
+        "audience": "All 10-45",
+        "round": {
+            "2024": {
+                "network": 0.03,
+                "orbital": 0.02
+            },
+            "2025": {
+                "network": 0.03,
+                "orbital": 0.02
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "СТС LOVE": {
+        "id": {
+            "network": 19,
+            "orbital": 116
+        },
+        "name": {
+            "network": "СТС Love",
+            "orbital": "СТС Love - 0"
+        },
+        "audience": "All 11-34",
+        "round": {
+            "2024": {
+                "network": 0.03,
+                "orbital": 0.01
+            },
+            "2025": {
+                "network": 0.03,
+                "orbital": 0.01
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "ТНТ 4": {
+        "id": {
+            "network": 20,
+            "orbital": 117
+        },
+        "name": {
+            "network": "ТНТ 4",
+            "orbital": "ТНТ 4 - 0"
+        },
+        "audience": "All 14-44",
+        "round": {
+            "2024": {
+                "network": 0.05,
+                "orbital": 0.02
+            },
+            "2025": {
+                "network": 0.05,
+                "orbital": 0.02
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "МУЗ ТВ": {
+        "id": {
+            "network": 21
+        },
+        "name": {
+            "network": "Муз-ТВ"
+        },
+        "audience": "All 18-44",
+        "round": {
+            "2024": {
+                "network": 0.05
+            },
+            "2025": {
+                "network": 0.05
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "2X2": {
+        "id": {
+            "network": 22
+        },
+        "name": {
+            "network": "2х2"
+        },
+        "audience": "All 11-34",
+        "round": {
+            "2024": {
+                "network": 0.03
+            },
+            "2025": {
+                "network": 0.03
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "СУББОТА": {
+        "id": {
+            "network": 23,
+            "orbital": 118
+        },
+        "name": {
+            "network": "Суббота",
+            "orbital": "Суббота - 0"
+        },
+        "audience": "W 18-45",
+        "round": {
+            "2024": {
+                "network": 0.02,
+                "orbital": 0.01
+            },
+            "2025": {
+                "network": 0.03,
+                "orbital": 0.01
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "МИР": {
+        "id": {
+            "network": 24
+        },
+        "name": {
+            "network": "МИР"
+        },
+        "audience": "All 25-59",
+        "round": {
+            "2024": {
+                "network": 0.04
+            },
+            "2025": {
+                "network": 0.04
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "СПАС": {
+        "id": {
+            "network": 25
+        },
+        "name": {
+            "network": "СПАС"
+        },
+        "audience": "All 18+",
+        "round": {
+            "2024": {
+                "network": 0.01
+            },
+            "2025": {
+                "network": 0.01
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "ЕДИНЫЙ РЕКЛАМНЫЙ КАНАЛ": {
+        "id": {
+            "network": 201
+        },
+        "name": {
+            "network": "ЕРК"
+        },
+        "audience": "All 25-49",
+        "round": {
+            "2024": {
+                "network": 0.25
+            },
+            "2025": {
+                "network": 0.25
+            }
+        },
+        "type_": "ЕРК"
+    },
+    "МУЖСКОЙ РЕКЛАМНЫЙ КАНАЛ": {
+        "id": {
+            "network": 203
+        },
+        "name": {
+            "network": "МРК"
+        },
+        "audience": "M 25-49",
+        "round": {
+            "2024": {
+                "network": 0.25
+            },
+            "2025": {
+                "network": 0.25
+            }
+        },
+        "type_": "ЕРК"
+    },
+    "ЖЕНСКИЙ РЕКЛАМНЫЙ КАНАЛ": {
+        "id": {
+            "network": 202
+        },
+        "name": {
+            "network": "ЖРК"
+        },
+        "audience": "W 25-49",
+        "round": {
+            "2024": {
+                "network": 0.25
+            },
+            "2025": {
+                "network": 0.25
+            }
+        },
+        "type_": "ЕРК"
+    },
+    "ДЕТСКИЙ РЕКЛАМНЫЙ КАНАЛ": {
+        "id": {
+            "network": 204
+        },
+        "name": {
+            "network": "ДРК"
+        },
+        "audience": "All 4-40",
+        "round": {
+            "2024": {
+                "network": 0.01
+            },
+            "2025": {
+                "network": 0.01
+            }
+        },
+        "type_": "ЕРК"
+    },
+    "ДОМ КИНО": {
+        "id": {
+            "network": 205
+        },
+        "name": {
+            "network": "Дом Кино"
+        },
+        "audience": "All 25-55",
+        "round": {
+            "2024": {
+                "network": 0.03
+            },
+            "2025": {
+                "network": 0.03
+            }
+        },
+        "type_": "ЕРК"
+    },
+    "РЕКЛАМНЫЙ КАНАЛ ФЕНИКС": {
+        "id": {
+            "network": 210
+        },
+        "name": {
+            "network": "РК Феникс"
+        },
+        "audience": "All 18-59",
+        "round": {
+            "2024": null,
+            "2025": null
+        },
+        "type_": "ЦРК"
+    },
+    "МУЛЬТ": {
+        "id": {
+            "network": 208
+        },
+        "name": {
+            "network": "МУЛЬТ"
+        },
+        "audience": "All 4-45",
+        "round": {
+            "2024": null,
+            "2025": null
+        },
+        "type_": "НАЦ"
+    },
+    "ЦИФРОВОЙ РЕКЛАМНЫЙ КАНАЛ МУЛЬТ ПЛЮС": {
+        "id": {
+            "network": 209
+        },
+        "name": {
+            "network": "МУЛЬТ ПЛЮС"
+        },
+        "audience": "All 4-45",
+        "round": {
+            "2024": null,
+            "2025": null
+        },
+        "type_": "ЦРК"
+    },
+    "РЕКЛАМНЫЙ КАНАЛ 1ТВЧ": {
+        "id": {
+            "network": 211
+        },
+        "name": {
+            "network": "РК 1ТВЧ"
+        },
+        "audience": "All 18-59",
+        "round": {
+            "2024": {
+                "network": 0.03
+            },
+            "2025": {
+                "network": 0.03
+            }
+        },
+        "type_": "НАЦ"
+    },
+    "МОСФИЛЬМ. ЗОЛОТАЯ КОЛЛЕКЦИЯ": {
+        "id": {
+            "network": 206
+        },
+        "name": {
+            "network": "Мосфильм. Золотая коллекция"
+        },
+        "audience": "All 25-49",
+        "round": {
+            "2024": {
+                "network": 0.03
+            },
+            "2025": {
+                "network": 0.03
+            }
+        },
+        "type_": "ЕРК"
+    },
+    "ПОБЕДА": {
+        "id": {
+            "network": 207
+        },
+        "name": {
+            "network": "Победа"
+        },
+        "audience": "All 25-55",
+        "round": {
+            "2024": null,
+            "2025": null
+        },
+        "type_": "ЕРК"
+    },
+    "RU.TV": {
+        "id": {
+            "network": null
+        },
+        "name": {
+            "network": null
+        },
+        "audience": "минуты",
+        "round": {
+            "2024": null,
+            "2025": null
+        },
+        "type_": "ЕРК"
+    }
+}

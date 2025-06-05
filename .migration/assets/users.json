@@ -1,0 +1,47 @@
+[
+    {
+        "tg_id": 382013645,
+        "username": "Александр П.",
+        "is_admin": true
+    },
+    {
+        "tg_id": 537698915,
+        "username": "Азалия Г.",
+        "is_admin": false
+    },
+    {
+        "tg_id": 942536807,
+        "username": "Екатерина М.",
+        "is_admin": false
+    },
+    {
+        "tg_id": 869293012,
+        "username": "Екатерина Б.",
+        "is_admin": false
+    },
+    {
+        "tg_id": 349017459,
+        "username": "Александр Ш.",
+        "is_admin": false
+    },
+    {
+        "tg_id": 131707354,
+        "username": "Сергей К.",
+        "is_admin": false
+    },
+    {
+        "tg_id": 1748137364,
+        "username": "Роман Ф.",
+        "is_admin": false
+    },
+    {
+        "tg_id": 5490518067,
+        "username": "Людмила О.",
+        "is_admin": false
+    },
+    {
+        "tg_id": 156690807,
+        "username": "Екатерина К.",
+        "is_admin": false
+    }
+]

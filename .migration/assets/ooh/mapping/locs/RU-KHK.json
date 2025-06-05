@@ -1,0 +1,1102 @@
+{
+    "Черемушки": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Майна": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Сорский Подхоз": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ербинская": {
+        "location_type": "Поселок при станции",
+        "options": []
+    },
+    "Колтаров": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Богословка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Саяногорск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Абаза": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Черногорск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Абакан": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Сорск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Пригорск": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Усть-База": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Анчыл-Чон": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Усть-Хойза": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Верхняя База": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Усть-Есь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ханкуль": {
+        "location_type": "Поселок при станции",
+        "options": []
+    },
+    "Луговая": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Усть-Таштып": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Чертыковская": {
+        "location_type": "Поселок при станции",
+        "options": []
+    },
+    "Аскиз": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нанхчул": {
+        "location_type": "Поселок при станции",
+        "options": []
+    },
+    "Бискамжа": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Балыкса": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Отты": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Камышта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бырганов": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Чарыш": {
+        "location_type": "Поселок при станции",
+        "options": []
+    },
+    "Усть-Чуль": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верхняя Тея": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Улуг-Кичиг": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Казановка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бирикчуль": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Вершина Тёи": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Тюрт-Тас": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Казановская": {
+        "location_type": "Поселок при станции",
+        "options": []
+    },
+    "Николаевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Хабзас": {
+        "location_type": "Поселок при станции",
+        "options": []
+    },
+    "Илиморов": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Неожиданный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сабинка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Уйбат": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Усть-Табат": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ала Тау": {
+        "location_type": "Поселок при станции",
+        "options": []
+    },
+    "Чаптыков": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Бондарево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хоных": {
+        "location_type": "Поселок при станции",
+        "options": []
+    },
+    "Маткечик": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Политов": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Усть-Сос": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Казынет": {
+        "location_type": "Поселок при станции",
+        "options": []
+    },
+    "Усть-Абакан": {
+        "location_type": "Рабочий поселок",
+        "options": []
+    },
+    "Очуры": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новокурск": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кирово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усть-Киндирла": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Баинов": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Сыры": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Бейка": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Аршаново": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верх-Киндирла": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Заря": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Летник": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Новоенисейка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усть-Бюр": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усть-Камышта": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новороссийское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дехановка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кирба": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дмитриевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Смирновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Табат": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Камызяк": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пуланколь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новомихайловка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кызлас": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Зеленое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Койбалы": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Хызыл-Салда": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Анхаков": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Буденовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Березовка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Уйтак": {
+        "location_type": "Поселок при станции",
+        "options": []
+    },
+    "Московское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Лырсы": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Картузов": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Герасимово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Нижняя База": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Подсинее": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Катанов": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Изыхские Копи": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Оросительный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Большой Монок": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Краснополье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верх-Аскиз": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Малый Монок": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Тутатчиков": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Алтай": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новониколаевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Белый Яр": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сахарный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шалгинов": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Абрамов": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Лукьяновка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Трояков": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Богдановка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кайбалы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Полтаков": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Райков": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Апчинаев": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Тепличный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Уты": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Сартыков": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Ясная Поляна": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сартак": {
+        "location_type": "Поселок при станции",
+        "options": []
+    },
+    "Монастырка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Калы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Иничул": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ах-Хол": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Бея": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Аев": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Куйбышево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Расцвет": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сафьянов": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Шепчул": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Курганная": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красный Катамор": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бутрахты": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Анчул": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Калтас": {
+        "location_type": "Поселок при станции",
+        "options": []
+    },
+    "Верхний Имек": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красный Ключ": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Вершино-Биджа": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кызылсуг": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Тузуксу": {
+        "location_type": "Поселок при станции",
+        "options": []
+    },
+    "Малая Сея": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Капчалы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шора": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Гайдаровск": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхние Сиры": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Нижняя Тея": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Малый Анзас": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Югачи": {
+        "location_type": "Поселок при станции",
+        "options": []
+    },
+    "Харой": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Приисковое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Картоев": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Подкамень": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Верх-Таштып": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Перевозное": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Подлиственки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Карагай": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Таштып": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Июс": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сафронов": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Катюшкино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Малый Сютик": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красный Камень": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Печень": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Нижний Матур": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Копьево": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Борозда": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Тупик": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Имек": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Заречная": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кожухово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Конгарово": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Большая Ерба": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Монастырево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Жемчужный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сарала": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Большой Он": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Таежная": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Большой Сютик": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Старый Борец": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Арбаты": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Когунек": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Боград": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Большие Арбаты": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Красноозерное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Костино": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Джирим": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Карасук": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Имени Ильича": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Большой Бор": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Советская Хакасия": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тигей": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Матур": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усть-Тунгужуль": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Орджоникидзевское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Печегол": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Знаменка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Малый Кобежиков": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Ковыльная": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Малые Арбаты": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Толчея": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шира": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Агаскыр": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Мохов": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Нижний Курлугаш": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Устинкино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Коммунар": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Верх-Ерба": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Камышовая": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Верхний Курлугаш": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пушное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новомарьясово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Малый Спирин": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Ворота": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бородино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ташеба": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сонское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кобяково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чиланы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сон": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чарков": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Горюново": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Большая Сея": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Троицкое": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Белый Балахчин": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кагаево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кубайка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сапогов": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Ефремкино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Главстан": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхняя Сея": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Калинино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Белелик": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Нижние Сиры": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Абакано-Перевоз": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Харачул": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Туим": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Доможаков": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Бей-Булук": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Нижний Имек": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Усть-Ерба": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Салбык": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Целинное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Фыркал": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Базандаиха": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Майский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тисин": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Давыдково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чапаево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Мирный": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Цветногорск": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Весеннее": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Черное Озеро": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Первомайское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шурышев": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Чалгыстаг": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Черемушка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Солнечное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усть-Фыркал": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Полиндейка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Марчелгаш": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Сарагаш": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Власьево": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Климаниховский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхний Туим": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Соленоозерное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Туманное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Беренжак": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Талкин Ключ": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Мендоль": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Улень": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Колодезный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Малая Сыя": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гальджа": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Топанов": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Трошкин": {
+        "location_type": "Аал",
+        "options": []
+    },
+    "Чебаки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Борец": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бельтирское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Новотроицкое": {
+        "location_type": "Село",
+        "options": []
+    }
+}

@@ -1,0 +1,1262 @@
+{
+    "Тимкапауль": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Вампугол": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Былино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Зеленоборск": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Излучинск": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Соснина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пасол": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Зайцева Речка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Большетархово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "СУ-28": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "ПНМК-6": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "МО-15": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "ЦБПО СТКО": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Озерный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Леспромхоз": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "АБ-10": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нерохи": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ванзетур": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Анеева": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Сосьва": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Няксимволь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Саранпауль": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чантырья": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ягодный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Березово": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Теги": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Луговой": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Ясунт": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Чеускино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шаим": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Щекурья": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Куминский": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Каркатеевы": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Деминская": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Леуши": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усть-Манья": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Междуреченский": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Перегребное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усть-Юган": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Верхненильдина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Светлый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Талинка": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Кедровый": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "УМР ЮНСС": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "АТБ": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кормужиханка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сартынья": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Большой Камень": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ильичевка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Сивыс-Ях": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Устрем": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Спутник": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Комсомольский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пугоры": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Игрим": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Мулымья": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тайлакова": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шайтанка": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Половинка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чемаши": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Приобье": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Приполярный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Усть-Колекъеган": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шугур": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Андра": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Большой Ларьяк": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Хулимсунт": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Карым": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хурумпауль": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Верхнеказымский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "УМН": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ушья": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кимкьясуй": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Промышленная зона Пионерная": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Верхние Нарыкары": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пашторы": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лямина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Горнореченск": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Корлики": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Назарово": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тугияны": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тихое": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Сосновый Бор": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Кондинское": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Заречный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лесной": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ломбовож": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Старый Катыш": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Большие Леуши": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Юильск": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Юган": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Болчары": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сергино": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ямки": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Полноват": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Восточная зона": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Локосово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дальний": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нижние Нарыкары": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Лыхма": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пальяново": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Каменное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Никулкина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Хальмерью рудник": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ваховск": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нумто": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Шеркалы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Октябрьское": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Супра": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ванзеват": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Унъюган": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "2А": {
+        "location_type": "Микрорайон",
+        "options": []
+    },
+    "Лиственичный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сорум": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Юган ЛЗУ": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Малый Атлым": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Высокий": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Казым": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сотник": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Покур": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сосновка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "ЭОПТР": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тундрино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кама": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Варьеган": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Охтеурье": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мортка": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Мысовая": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "РЭБ Флота": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Национальный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "ЦРММ": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "11Б": {
+        "location_type": "Микрорайон",
+        "options": []
+    },
+    "Алтай": {
+        "location_type": "Село",
+        "options": []
+    },
+    "СУ СПТП": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Чехломей": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "ДНТ Феникс": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Вата": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Юмас": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Нижнесортымский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Звездный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Солнечный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "СУ-17": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Новоаганск": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "УКР ЭО": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "СВПЧ": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Западная зона": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "15-й": {
+        "location_type": "Микрорайон",
+        "options": []
+    },
+    "Аган": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ларьяк": {
+        "location_type": "Село",
+        "options": []
+    },
+    "НЗРА": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "ВМУ-1": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "МК-148": {
+        "location_type": "Микрорайон",
+        "options": []
+    },
+    "Ортъягун": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Высокий Мыс": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лунный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Советский": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Малиновский": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Угут": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Медвежья лапа": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Ромашка": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Белый Яр": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Тром-Аган": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "УТТ-1": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сытомино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "ЛЭПСЭМ": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "ЦБПО НПО": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Таурова": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Алябьевский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "УПНиКРС": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "СУ-45": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Аэропорт": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Кышик": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Гидромехтранс": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Зенково": {
+        "location_type": "Село",
+        "options": []
+    },
+    "СМУ-6": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Согом": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Прибрежная зона": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Реполово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Салым": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "СМНУ ЮНА": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сингапай": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Пырьях": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "БПТОиКО": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сентябрьский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Цингалы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кирпичный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Долгое Плесо": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Луговской": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Северо-Западная зона": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Дивный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лемпино": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Юность": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Куть-Ях": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "ПАТП": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Шапша": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "СМУ-26": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Нялина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Бобровский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "СУ-62": {
+        "location_type": "Город-курорт",
+        "options": []
+    },
+    "Елизарово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чембакчина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Горноправдинск": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лугофилинская": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "СУПТР-8": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ягурьях": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Промышленная зона Юго-Западная": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Троица": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Урманный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "5 км автодороги Нефтеюганск-Сургут": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Нялинское": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Селиярово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Западный промрайон": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Энтузиастов": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Красноленинский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Сибирский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Ярки": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Белогорье": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Пойковский": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Островная": {
+        "location_type": "Станция",
+        "options": []
+    },
+    "Юганская Обь": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "Выкатной": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Тюли": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Батово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Большой Атлым": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Карымкары": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Лянтор": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Малоюганский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Широково": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "ПСОК Заречное": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Горный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Белые Росы": {
+        "location_type": "Дачный поселок",
+        "options": []
+    },
+    "Сайгатина": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Русскинская": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "Ульт-Ягун": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Песчаный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Федоровский": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Банный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Каюкова": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "АСС ГПЗ": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Барсово": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Верхне-Мысовая": {
+        "location_type": "Деревня",
+        "options": []
+    },
+    "ТССУ": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "СУ НЮЭС": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "ВПУ": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "МУ-2": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "СУ-10": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Трест ЮНА": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "СУ-905": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "МК-113": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "ЦБПО СТиНО": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Южный": {
+        "location_type": "Микрорайон",
+        "options": []
+    },
+    "Взлетный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "СУ-968": {
+        "location_type": "Микрорайон",
+        "options": []
+    },
+    "АБЗ": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "МСМУ": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "НПС Остров": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Озерный 2": {
+        "location_type": "Микрорайон",
+        "options": []
+    },
+    "Прибрежный": {
+        "location_type": "Микрорайон",
+        "options": []
+    },
+    "Микрорайон 11В": {
+        "location_type": "Микрорайон",
+        "options": []
+    },
+    "Беловежский": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "АБ-5": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "УМ-5": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "СМП-553": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "ВМК": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Геофизиков": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "УПНПиКРС": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "МУ-15": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Хлебозавод": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "АБ-2": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Энергетиков": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "УБР-2": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "ССУ-1": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Магистраль": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "МО-69": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "СНА": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "УМР-1": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "НЦТБ": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "УТТ-4": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "МЖК": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "СУ-14": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "УТТ-2": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Дорожный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Покачи": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Ханты-Мансийск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Урай": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Белоярский": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Когалым": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Нефтеюганск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Мегион": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Нижневартовск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Сургут": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Лангепас": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Югорск": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Радужный": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Пыть-Ях": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Нягань": {
+        "location_type": "Город",
+        "options": []
+    },
+    "НПО ЖКХ": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "11А": {
+        "location_type": "Микрорайон",
+        "options": []
+    },
+    "Северо Восточная зона": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "СОТ Рябинушка": {
+        "location_type": "Населенный пункт",
+        "options": []
+    },
+    "СМУ-45": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Уральское СУ": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "РГТЭИ": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "22": {
+        "location_type": "Микрорайон",
+        "options": []
+    },
+    "НССУ": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "МП Тракт": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "ЮЭН": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "УПТК": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "МНУ": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "ВПЧ-2": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Коммунистический": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Агириш": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Юбилейный": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Таежный": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Пионерский": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    }
+}

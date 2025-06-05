@@ -1,0 +1,12 @@
+{
+    "Drive": [
+        "Да",
+        "Drive time",
+        "Drive"
+    ],
+    "Off Drive": [
+        "Нет",
+        "Off drive time",
+        "Off"
+    ]
+}

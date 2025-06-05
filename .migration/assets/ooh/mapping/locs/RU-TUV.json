@@ -1,0 +1,586 @@
+{
+    "Белдир-Чазы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Элдиг-Хем": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тал": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Оттук-Даш": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Эрзин": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ийи-Тал": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Нарын": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чодураа": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Качык": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Арыг-Бажы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Морен": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ырбан": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Каък": {
+        "location_type": "Арбан",
+        "options": []
+    },
+    "Торгалыг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Элегест": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сесерлиг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Арыскан": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чаа-Холь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Эйлиг-Хем": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чал-Кежиг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Арыг-Узю": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Суш": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хайыракан": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Адыр-Кежиг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Куран": {
+        "location_type": "Арбан",
+        "options": []
+    },
+    "Ленинка": {
+        "location_type": "Арбан",
+        "options": []
+    },
+    "Кочетово": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Холь-Оожу": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усть-Хадын": {
+        "location_type": "Арбан",
+        "options": []
+    },
+    "Хут": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Марачевка": {
+        "location_type": "Арбан",
+        "options": []
+    },
+    "Межегей": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Иштии-Хем": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дурген": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шуурмак": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шагонар": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Кызыл-Арыг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Холчук": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Севи": {
+        "location_type": "Арбан",
+        "options": []
+    },
+    "Ак-Эрик": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Булун-Терек": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сайлыг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ак-Тал": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ий": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тарлаг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Найырал": {
+        "location_type": "Арбан",
+        "options": []
+    },
+    "Аржаан": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чазылары": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хову-Аксы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Уюк": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ишкин": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Успенка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "О-Шынаа": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бай-Хаак": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Самагалтай": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сосновка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Краснояровка": {
+        "location_type": "Арбан",
+        "options": []
+    },
+    "Владимировка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Балгазын": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тоора-Хем": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бельдир-Арыг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сой": {
+        "location_type": "Арбан",
+        "options": []
+    },
+    "Берт-Даг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ак-Дуруг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Туран": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Чаа-Суур": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кызыл-Тайга": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Солчур": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шанчы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кара-Хаак": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Черби": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Терлиг-Хая": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ак-Даш": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бора-Тайга": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сукпак": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кунгуртуг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усть-Элегест": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Баян-Кол": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Каа-Хем": {
+        "location_type": "Поселок городского типа",
+        "options": []
+    },
+    "Ээрбек": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хадын": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Саглы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шамбалыг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Уш-Белдир": {
+        "location_type": "Арбан",
+        "options": []
+    },
+    "Алдан-Маадыр": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чадан": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Дус-Даг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Суг-Аксы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Билелиг": {
+        "location_type": "Арбан",
+        "options": []
+    },
+    "Бай-Даг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хандагайты": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ак-Чыраа": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Целинное": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Булун-Бажы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кара-Чыраа": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чкаловка": {
+        "location_type": "Арбан",
+        "options": []
+    },
+    "Тээли": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дружба": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сыстыг-Хем": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бажын-Алаак": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Аянгаты": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кирсарай": {
+        "location_type": "Поселок",
+        "options": []
+    },
+    "Бижиктиг-Хая": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шивилиг": {
+        "location_type": "Арбан",
+        "options": []
+    },
+    "Теве-Хая": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хонделен": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Катазы": {
+        "location_type": "Арбан",
+        "options": []
+    },
+    "Кок-Хаак": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Сарыг-Сеп": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Суг-Бажы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усть-Бурен": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бай-Соот": {
+        "location_type": "Арбан",
+        "options": []
+    },
+    "Эржей": {
+        "location_type": "Арбан",
+        "options": []
+    },
+    "Бурен-Бай-Хаак": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дон-Терезин": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кундустуг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бурен-Хем": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мерген": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хорум-Даг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бояровка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ийме": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Ильинка": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Авыйган": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Усть-Ужеп": {
+        "location_type": "Арбан",
+        "options": []
+    },
+    "Сизим": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Эрги-Барлык": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Дерзиг-Аксы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Тоолайлыг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Мугур-Аксы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кызыл-Хая": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кызыл-Мажалык": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Барлык": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чыргакы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шеми": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Чыраа-Бажы": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хондергей": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шекпээр": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Аксы-Барлык": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Баян-Тала": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кара-Холь": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Шуй": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кызыл-Даг": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Бай-Тал": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Хемчик": {
+        "location_type": "Село",
+        "options": []
+    },
+    "Кызыл": {
+        "location_type": "Город",
+        "options": []
+    },
+    "Ак-Довурак": {
+        "location_type": "Город",
+        "options": []
+    }
+}
