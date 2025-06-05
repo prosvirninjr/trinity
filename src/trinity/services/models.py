@@ -432,6 +432,42 @@ class IndoorTemplate:
 
         return v_template
 
+    def _parse_advertiser(self, template: pl.DataFrame) -> pl.DataFrame:
+        """Парсит столбец advertiser. Стандартизирует названия рекламодателей."""
+        template = template.with_columns(
+            pl.col('advertiser')
+            .map_elements(lambda x: MParser.parse_advertiser(x) or x, return_dtype=pl.String)
+            .alias('advertiser')
+        )
+
+        return template
+
+    def _parse_city(self, template: pl.DataFrame) -> pl.DataFrame:
+        """Парсит столбец city. Стандартизирует названия городов."""
+        template = template.with_columns(
+            pl.col('city').map_elements(lambda x: MParser.parse_city(x) or x, return_dtype=pl.String).alias('city')
+        )
+
+        return template
+
+    def _parse_format(self, template: pl.DataFrame) -> pl.DataFrame:
+        """Парсит столбец format. Стандартизирует форматы поверхностей."""
+        template = template.with_columns(
+            pl.col('format_')
+            .map_elements(lambda x: MParser.parse_format(x) or x, return_dtype=pl.String)
+            .alias('format_')
+        )
+
+        return template
+
+    def _parse_size(self, template: pl.DataFrame) -> pl.DataFrame:
+        """Парсит столбец size. Стандартизирует размеры конструкций."""
+        template = template.with_columns(
+            pl.col('size').map_elements(lambda x: MParser.parse_size(x) or x, return_dtype=pl.String).alias('size')
+        )
+
+        return template
+
     def _process_template(self, template: pl.DataFrame) -> pl.DataFrame:
         """
         Обрабатывает шаблон.
