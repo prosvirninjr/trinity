@@ -431,3 +431,37 @@ class IndoorTemplate:
         v_template = self._build_template(r_template)
 
         return v_template
+
+    def _process_template(self, template: pl.DataFrame) -> pl.DataFrame:
+        """
+        Обрабатывает шаблон.
+
+        Добавляет вычисляемые столбцы и парсит данные.
+
+        Требует наличия следующих столбцов:
+            - ...
+
+        Args:
+            template (pl.DataFrame): Исходный шаблон.
+
+        Returns:
+            pl.DataFrame: Обработанный шаблон в виде DataFrame.
+        """
+        pass
+
+        return template
+
+    def get_template(self, original: bool = False) -> pl.DataFrame:
+        """
+        Возвращает шаблон метро.
+
+        Args:
+            original (bool): Если True, возвращает оригинальный шаблон без обработки.
+
+        Returns:
+            pl.DataFrame: Шаблон метро в виде DataFrame.
+        """
+        if original:
+            return self.template
+
+        return self._process_template(self.template.clone())
